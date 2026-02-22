@@ -1,0 +1,51 @@
+name: Scrape Flats
+
+on:
+  # Run on schedule (every 4 hours)
+  schedule:
+    - cron: '0 */4 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+  
+  # Run on push to main (for testing)
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - '**.md'
+      - '.gitignore'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "latest"
+      
+      - name: Set up Python
+        run: uv python install 3.11
+      
+      - name: Install dependencies
+        run: uv sync
+      
+      - name: Run scraper
+        env:
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          uv run wohnung-scrape
+      
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraping-data
+          path: data/
+          retention-days: 30
