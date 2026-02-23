@@ -56,8 +56,8 @@ def generate_email_html(flats: list[Flat]) -> str:
     <div class="container">
 """
 
-    plural = "s" if len(flats) != 1 else ""
-    html += f"        <h1>🏠 {len(flats)} New Flat{plural} Found!</h1>\n"
+    plural = "en" if len(flats) != 1 else "e"
+    html += f"        <h1>🏠 {len(flats)} Neu{plural} Wohnung{plural} gefunden!</h1>\n"
 
     for flat in flats:
         markers_html = ""
@@ -76,18 +76,18 @@ def generate_email_html(flats: list[Flat]) -> str:
 """
 
         if flat.price:
-            html += f'                <span class="flat-detail"><strong>💰 Price:</strong> €{flat.price:.0f}</span>\n'
+            html += f'                <span class="flat-detail"><strong>💰 Preis:</strong> €{flat.price:.0f}</span>\n'
         if flat.size:
-            html += f'                <span class="flat-detail"><strong>📐 Size:</strong> {flat.size}m²</span>\n'
+            html += f'                <span class="flat-detail"><strong>📐 Größe:</strong> {flat.size}m²</span>\n'
         if flat.rooms:
-            html += f'                <span class="flat-detail"><strong>🚪 Rooms:</strong> {flat.rooms}</span>\n'
+            html += f'                <span class="flat-detail"><strong>🚪 Zimmer:</strong> {flat.rooms}</span>\n'
 
         html += f"""            </div>
-            <div class="flat-detail"><strong>📍 Location:</strong> {flat.location}</div>
+            <div class="flat-detail"><strong>📍 Standort:</strong> {flat.location}</div>
             {f'<p style="color: #666; margin-top: 12px;">{flat.description[:200]}...</p>' if flat.description else ''}
-            <a class="flat-link" href="{flat.url}" target="_blank">View Listing →</a>
+            <a class="flat-link" href="{flat.url}" target="_blank">Anzeige ansehen →</a>
             <div class="meta">
-                Source: {flat.source} | Found: {flat.found_at.strftime('%Y-%m-%d %H:%M')}
+                Quelle: {flat.source} | Gefunden: {flat.found_at.strftime('%d.%m.%Y %H:%M')}
             </div>
         </div>
 """
@@ -138,7 +138,7 @@ def send_email(flats: list[Flat], dry_run: bool = False) -> bool:
         raise RuntimeError("Resend package is not installed. Install with: pip install resend")
 
     plural = "s" if len(flats) != 1 else ""
-    subject = f"🏠 {len(flats)} New Flat{plural} Found!"
+    subject = f"🏠 {len(flats)} Neu{plural} Wohnung{plural} gefunden!"
     html_content = generate_email_html(flats)
 
     all_success = True
@@ -376,31 +376,33 @@ def _render_change_highlight(change: ApartmentChange) -> str:
         return ""
 
     html = '        <div class="change-highlight">\n'
-    html += "            <strong>📝 What Changed:</strong>\n"
+    html += "            <strong>📝 Was hat sich geändert:</strong>\n"
 
     for field, (old_val, new_val) in change.changes.items():
         if field == "price":
             html += '            <div class="change-item">'
-            html += f'💰 Price: <span class="old-value">€{old_val:.0f}</span>'
+            html += f'💰 Preis: <span class="old-value">€{old_val:.0f}</span>'
             html += '<span class="change-arrow">→</span>'
             html += f'<span class="new-value">€{new_val:.0f}</span>'
             html += "</div>\n"
         elif field == "size":
             html += '            <div class="change-item">'
-            html += f'📐 Size: <span class="old-value">{old_val}m²</span>'
+            html += f'📐 Größe: <span class="old-value">{old_val}m²</span>'
             html += '<span class="change-arrow">→</span>'
             html += f'<span class="new-value">{new_val}m²</span>'
             html += "</div>\n"
         elif field == "rooms":
             html += '            <div class="change-item">'
-            html += f'🚪 Rooms: <span class="old-value">{old_val}</span>'
+            html += f'🚪 Zimmer: <span class="old-value">{old_val}</span>'
             html += '<span class="change-arrow">→</span>'
             html += f'<span class="new-value">{new_val}</span>'
             html += "</div>\n"
         elif field == "title":
-            html += '            <div class="change-item">📝 Title was updated</div>\n'
+            html += '            <div class="change-item">📝 Titel wurde aktualisiert</div>\n'
         elif field == "description":
-            html += '            <div class="change-item">📄 Description was updated</div>\n'
+            html += (
+                '            <div class="change-item">📄 Beschreibung wurde aktualisiert</div>\n'
+            )
         else:
             html += f'            <div class="change-item">{field.title()}: '
             html += f'<span class="old-value">{old_val}</span>'
@@ -453,15 +455,15 @@ def _render_apartment_card(  # noqa: C901, PLR0912
     # Details
     html += '            <div class="flat-details">\n'
     if data.get("price"):
-        html += f'                <span class="flat-detail"><strong>💰 Price:</strong> €{data["price"]:.0f}</span>\n'
+        html += f'                <span class="flat-detail"><strong>💰 Preis:</strong> €{data["price"]:.0f}</span>\n'
     if data.get("size"):
-        html += f'                <span class="flat-detail"><strong>📐 Size:</strong> {data["size"]}m²</span>\n'
+        html += f'                <span class="flat-detail"><strong>📐 Größe:</strong> {data["size"]}m²</span>\n'
     if data.get("rooms"):
-        html += f'                <span class="flat-detail"><strong>🚪 Rooms:</strong> {data["rooms"]}</span>\n'
+        html += f'                <span class="flat-detail"><strong>🚪 Zimmer:</strong> {data["rooms"]}</span>\n'
     html += "            </div>\n"
 
     if data.get("location"):
-        html += f'            <div class="flat-detail"><strong>📍 Location:</strong> {data["location"]}</div>\n'
+        html += f'            <div class="flat-detail"><strong>📍 Standort:</strong> {data["location"]}</div>\n'
 
     # Description
     if data.get("description"):
@@ -470,13 +472,13 @@ def _render_apartment_card(  # noqa: C901, PLR0912
 
     # Link
     if data.get("url"):
-        html += f'            <a class="flat-link" href="{data["url"]}" target="_blank">View Listing →</a>\n'
+        html += f'            <a class="flat-link" href="{data["url"]}" target="_blank">Anzeige ansehen →</a>\n'
 
     # Meta
-    source = data.get("source", "Unknown")
-    timestamp = change.timestamp.strftime("%Y-%m-%d %H:%M")
+    source = data.get("source", "Unbekannt")
+    timestamp = change.timestamp.strftime("%d.%m.%Y %H:%M")
     html += '            <div class="meta">\n'
-    html += f"                Source: {source} | Detected: {timestamp}\n"
+    html += f"                Quelle: {source} | Erkannt: {timestamp}\n"
     html += "            </div>\n"
 
     html += "        </div>\n"
@@ -522,16 +524,16 @@ def generate_changes_email_html(  # noqa: C901, PLR0912
 
     # Title
     total = len(new_changes) + len(updated_changes)
-    html += f"        <h1>🏠 {total} Apartment Update{'s' if total != 1 else ''}</h1>\n"
+    html += f"        <h1>🏠 {total} Wohnungs-Update{'s' if total != 1 else ''}</h1>\n"
 
     # Summary
     html += '        <div class="summary">\n'
     if new_changes:
-        html += f'            <span class="summary-item">🆕 <strong>{len(new_changes)}</strong> New</span>\n'
+        html += f'            <span class="summary-item">🆕 <strong>{len(new_changes)}</strong> Neu</span>\n'
     if updated_changes:
-        html += f'            <span class="summary-item">📝 <strong>{len(updated_changes)}</strong> Updated</span>\n'
+        html += f'            <span class="summary-item">📝 <strong>{len(updated_changes)}</strong> Aktualisiert</span>\n'
     if removed_changes and include_removed:
-        html += f'            <span class="summary-item">🗑️ <strong>{len(removed_changes)}</strong> Removed</span>\n'
+        html += f'            <span class="summary-item">🗑️ <strong>{len(removed_changes)}</strong> Entfernt</span>\n'
     html += "        </div>\n"
 
     if group_by_site:
@@ -551,13 +553,13 @@ def generate_changes_email_html(  # noqa: C901, PLR0912
 
             # New apartments
             if site_new:
-                html += "            <h2>🆕 New Apartments</h2>\n"
+                html += "            <h2>🆕 Neue Wohnungen</h2>\n"
                 for change in site_new:
                     html += _render_apartment_card(change, show_changes=False)
 
             # Updated apartments
             if site_updated:
-                html += "            <h2>📝 Updated Apartments</h2>\n"
+                html += "            <h2>📝 Aktualisierte Wohnungen</h2>\n"
                 for change in site_updated:
                     html += _render_apartment_card(change, show_changes=True)
 
@@ -565,12 +567,12 @@ def generate_changes_email_html(  # noqa: C901, PLR0912
     else:
         # Render without grouping
         if new_changes:
-            html += "        <h2>🆕 New Apartments</h2>\n"
+            html += "        <h2>🆕 Neue Wohnungen</h2>\n"
             for change in new_changes:
                 html += _render_apartment_card(change, show_changes=False)
 
         if updated_changes:
-            html += "        <h2>📝 Updated Apartments</h2>\n"
+            html += "        <h2>📝 Aktualisierte Wohnungen</h2>\n"
             for change in updated_changes:
                 html += _render_apartment_card(change, show_changes=True)
 
@@ -636,11 +638,11 @@ def send_changes_email(
     # Generate subject
     parts = []
     if new_count:
-        parts.append(f"{new_count} new")
+        parts.append(f"{new_count} neue")
     if updated_count:
-        parts.append(f"{updated_count} updated")
+        parts.append(f"{updated_count} aktualisierte")
 
-    subject = f"🏠 {' and '.join(parts).title()} Apartment{'s' if len(significant) > 1 else ''}"
+    subject = f"🏠 {' und '.join(parts).capitalize()} Wohnung{'en' if len(significant) > 1 else ''}"
 
     # Generate HTML
     html_content = generate_changes_email_html(
