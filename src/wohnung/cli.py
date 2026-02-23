@@ -12,6 +12,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 
+from wohnung.apartment_search import ApartmentQuery, ApartmentSearcher, parse_relative_time
 from wohnung.marker_detector import MarkerDetector
 from wohnung.models import Flat
 from wohnung.site_config import SiteConfigLoader
@@ -35,6 +36,12 @@ site_app = typer.Typer(
     help="🌐 Manage site configurations",
 )
 app.add_typer(site_app, name="site")
+
+search_app = typer.Typer(
+    name="search",
+    help="🔍 Search and filter apartments",
+)
+app.add_typer(search_app, name="search")
 
 console = Console()
 
@@ -887,6 +894,149 @@ def scrape(
     run_command(cmd, f"Running scraper in {mode}")
 
 
+# Search and filter commands
+@search_app.command("find")
+def search_find(
+    site: Annotated[list[str] | None, typer.Option("--site", "-s", help="Filter by site(s)")] = None,
+    price_min: Annotated[float | None, typer.Option("--min-price", help="Minimum price")] = None,
+    price_max: Annotated[float | None, typer.Option("--max-price", help="Maximum price")] = None,
+    size_min: Annotated[float | None, typer.Option("--min-size", help="Minimum size in m²")] = None,
+    size_max: Annotated[float | None, typer.Option("--max-size", help="Maximum size in m²")]  = None,
+    rooms_min: Annotated[float | None, typer.Option("--min-rooms", help="Minimum rooms")] = None,
+    rooms_max: Annotated[float | None, typer.Option("--max-rooms", help="Maximum rooms")] = None,
+    marker: Annotated[list[str] | None, typer.Option("--marker", "-m", help="Filter by marker(s)")] = None,
+    location: Annotated[str | None, typer.Option("--location", "-l", help="Location contains")] = None,
+    new_since: Annotated[str | None, typer.Option("--new-since", help="Only new since (e.g., '2 days ago')")] = None,
+    sort_by: Annotated[str | None, typer.Option("--sort", help="Sort by: price, size, rooms, date")] = None,
+    sort_desc: Annotated[bool, typer.Option("--desc", help="Sort descending")] = False,
+    limit: Annotated[int | None, typer.Option("--limit", "-n", help="Limit results")] = None,
+    include_inactive: Annotated[bool, typer.Option("--include-inactive", help="Include removed apartments")] = False,
+    open_browser: Annotated[bool, typer.Option("--open", "-o", help="Open results in browser")] = False,
+) -> None:
+    """Search and filter stored apartments."""
+    storage = SiteStorage()
+    searcher = ApartmentSearcher(storage)
+
+    # Parse relative time if provided
+    new_since_dt = None
+    if new_since:
+        try:
+            new_since_dt = parse_relative_time(new_since)
+        except ValueError as e:
+            console.print(f"[red]Error parsing time:[/red] {e}")
+            raise typer.Exit(1) from e
+
+    # Build query
+    query = ApartmentQuery(
+        sites=site,
+        price_min=price_min,
+        price_max=price_max,
+        size_min=size_min,
+        size_max=size_max,
+        rooms_min=rooms_min,
+        rooms_max=rooms_max,
+        markers=marker,
+        location_contains=location,
+        new_since=new_since_dt,
+        active_only=not include_inactive,
+        sort_by=sort_by,  # type: ignore[arg-type]
+        sort_desc=sort_desc,
+        limit=limit,
+    )
+
+    # Execute search
+    results = searcher.search(query)
+
+    # Display results
+    if not results:
+        console.print("[yellow]No apartments found matching your criteria[/yellow]")
+        return
+
+    console.print(f"\n[green]Found {len(results)} apartment(s)[/green]\n")
+
+    table = Table(show_header=True, header_style="bold magenta")
+    table.add_column("Title", style="cyan", max_width=40)
+    table.add_column("Price", justify="right")
+    table.add_column("Size", justify="right")
+    table.add_column("Rooms", justify="right")
+    table.add_column("Location", max_width=20)
+    table.add_column("Site", style="dim")
+
+    for apt in results:
+        price_str = f"€{apt.price:,.0f}" if apt.price else "-"
+        size_str = f"{apt.size}m²" if apt.size else "-"
+        rooms_str = str(apt.rooms) if apt.rooms else "-"
+        location_str = apt.location or "-"
+
+        table.add_row(
+            apt.title[:37] + "..." if len(apt.title) > 40 else apt.title,
+            price_str,
+            size_str,
+            rooms_str,
+            location_str[:17] + "..." if len(location_str) > 20 else location_str,
+            apt.source,
+        )
+
+    console.print(table)
+
+    # Open in browser if requested
+    if open_browser and results:
+        import webbrowser
+
+        for apt in results[:5]:  # Open first 5 max
+            webbrowser.open(apt.url)
+        console.print(f"\n[green]Opened {min(len(results), 5)} apartment(s) in browser[/green]")
+
+
+@search_app.command("export")
+def search_export(
+    output: Annotated[Path, typer.Option("--output", "-o", help="Output file path")],
+    format: Annotated[str, typer.Option("--format", "-f", help="Format: json or csv")] = "json",
+    site: Annotated[list[str] | None, typer.Option("--site", "-s", help="Filter by site(s)")] = None,
+    price_min: Annotated[float | None, typer.Option("--min-price", help="Minimum price")] = None,
+    price_max: Annotated[float | None, typer.Option("--max-price", help="Maximum price")] = None,
+    size_min: Annotated[float | None, typer.Option("--min-size", help="Minimum size")] = None,
+    size_max: Annotated[float | None, typer.Option("--max-size", help="Maximum size")] = None,
+    marker: Annotated[list[str] | None, typer.Option("--marker", "-m", help="Filter by marker")] = None,
+    location: Annotated[str | None, typer.Option("--location", "-l", help="Location contains")] = None,
+    include_inactive: Annotated[bool, typer.Option("--include-inactive", help="Include removed")] = False,
+) -> None:
+    """Export filtered apartments to JSON or CSV."""
+    if format not in ["json", "csv"]:
+        console.print("[red]Format must be 'json' or 'csv'[/red]")
+        raise typer.Exit(1)
+
+    storage = SiteStorage()
+    searcher = ApartmentSearcher(storage)
+
+    # Build query
+    query = ApartmentQuery(
+        sites=site,
+        price_min=price_min,
+        price_max=price_max,
+        size_min=size_min,
+        size_max=size_max,
+        markers=marker,
+        location_contains=location,
+        active_only=not include_inactive,
+    )
+
+    # Execute search
+    results = searcher.search(query)
+
+    # Export results
+    try:
+        if format == "json":
+            searcher.export_json(results, output)
+        else:  # csv
+            searcher.export_csv(results, output)
+
+        console.print(f"[green]✓[/green] Exported {len(results)} apartment(s) to {output}")
+    except Exception as e:
+        console.print(f"[red]Error exporting:[/red] {e}")
+        raise typer.Exit(1) from e
+
+
 @app.command()
 def info() -> None:
     """Show project information and available commands."""
@@ -921,6 +1071,10 @@ def info() -> None:
     table.add_row(
         "Site Config",
         "site list\nsite new NAME [--url URL]\nsite validate FILE\nsite info SITE\nsite test SITE\nsite test-markers SITE [--limit N]",
+    )
+    table.add_row(
+        "Search & Filter",
+        "search find [filters]\nsearch export --output FILE [--format json|csv] [filters]",
     )
 
     console.print(table)
