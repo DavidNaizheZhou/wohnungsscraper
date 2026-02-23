@@ -7,12 +7,12 @@ from wohnung.config import settings
 from wohnung.models import Flat
 
 try:
-    from resend import Resend  # type: ignore[attr-defined]
+    import resend  # type: ignore[import-untyped]
 
     RESEND_AVAILABLE = True
 except ImportError:
     RESEND_AVAILABLE = False
-    Resend = None  # type: ignore[assignment]
+    resend = None  # type: ignore[assignment]
 
 
 def generate_email_html(flats: list[Flat]) -> str:
@@ -103,12 +103,16 @@ def send_email(flats: list[Flat], dry_run: bool = False) -> bool:
     """
     Send email notification for new flats.
 
+    Supports multiple Resend accounts:
+    - Single account: RESEND_API_KEY + EMAIL_TO
+    - Multiple accounts: RESEND_API_KEY_1 + EMAIL_TO_1, RESEND_API_KEY_2 + EMAIL_TO_2, etc.
+
     Args:
         flats: List of flats to send
         dry_run: If True, only print what would be sent
 
     Returns:
-        True if email was sent successfully
+        True if all emails were sent successfully
 
     Raises:
         RuntimeError: If Resend is not installed
@@ -118,40 +122,49 @@ def send_email(flats: list[Flat], dry_run: bool = False) -> bool:
         print("📭 No new flats to send")
         return True
 
+    accounts = settings.email_accounts
+    if not accounts:
+        raise ValueError(
+            "No email accounts configured. Set RESEND_API_KEY + EMAIL_TO or numbered pairs."
+        )
+
     if dry_run:
         print(
             f"📧 [DRY RUN] Would send email about {len(flats)} flats to: {settings.email_recipients}"
         )
         return True
 
-    if not RESEND_AVAILABLE or Resend is None:
+    if not RESEND_AVAILABLE or resend is None:
         raise RuntimeError("Resend package is not installed. Install with: pip install resend")
-
-    if not settings.resend_api_key:
-        raise ValueError("RESEND_API_KEY environment variable is not set")
-
-    resend = Resend(api_key=settings.resend_api_key)
 
     plural = "s" if len(flats) != 1 else ""
     subject = f"🏠 {len(flats)} New Flat{plural} Found!"
     html_content = generate_email_html(flats)
 
-    try:
-        params = {
-            "from": settings.email_from,
-            "to": settings.email_recipients,
-            "subject": subject,
-            "html": html_content,
-        }
+    all_success = True
 
-        response = resend.emails.send(params)
-        print(f"📧 Email sent successfully to {', '.join(settings.email_recipients)}")
-        print(f"📨 Email ID: {response.get('id', 'N/A')}")
-        return True
+    # Send email from each account to its registered email
+    for api_key, recipient_email in accounts:
+        try:
+            # Set API key for this account
+            resend.api_key = api_key
 
-    except Exception as e:
-        print(f"❌ Error sending email: {e}")
-        return False
+            params = {
+                "from": settings.email_from,
+                "to": [recipient_email],
+                "subject": subject,
+                "html": html_content,
+            }
+
+            response = resend.Emails.send(params)
+            print(f"📧 Email sent to {recipient_email}")
+            print(f"   Email ID: {response.get('id', 'N/A')}")
+
+        except Exception as e:
+            print(f"❌ Error sending email to {recipient_email}: {e}")
+            all_success = False
+
+    return all_success
 
 
 __all__ = [
@@ -577,6 +590,10 @@ def send_changes_email(
 ) -> bool:
     """Send email notification for apartment changes.
 
+    Supports multiple Resend accounts:
+    - Single account: RESEND_API_KEY + EMAIL_TO
+    - Multiple accounts: RESEND_API_KEY_1 + EMAIL_TO_1, RESEND_API_KEY_2 + EMAIL_TO_2, etc.
+
     Args:
         changes: List of apartment changes
         dry_run: If True, only print what would be sent
@@ -584,7 +601,7 @@ def send_changes_email(
         include_removed: Whether to include removed apartments
 
     Returns:
-        True if email was sent successfully
+        True if all emails were sent successfully
 
     Raises:
         RuntimeError: If Resend is not installed
@@ -600,6 +617,12 @@ def send_changes_email(
     new_count = len([c for c in significant if c.change_type == "new"])
     updated_count = len([c for c in significant if c.change_type == "updated"])
 
+    accounts = settings.email_accounts
+    if not accounts:
+        raise ValueError(
+            "No email accounts configured. Set RESEND_API_KEY + EMAIL_TO or numbered pairs."
+        )
+
     if dry_run:
         print(
             f"📧 [DRY RUN] Would send email about {new_count} new and {updated_count} updated apartments"
@@ -607,13 +630,8 @@ def send_changes_email(
         print(f"    Recipients: {settings.email_recipients}")
         return True
 
-    if not RESEND_AVAILABLE or Resend is None:
+    if not RESEND_AVAILABLE or resend is None:
         raise RuntimeError("Resend package is not installed. Install with: pip install resend")
-
-    if not settings.resend_api_key:
-        raise ValueError("RESEND_API_KEY environment variable is not set")
-
-    resend = Resend(api_key=settings.resend_api_key)
 
     # Generate subject
     parts = []
@@ -629,22 +647,30 @@ def send_changes_email(
         changes, group_by_site=group_by_site, include_removed=include_removed
     )
 
-    try:
-        params = {
-            "from": settings.email_from,
-            "to": settings.email_recipients,
-            "subject": subject,
-            "html": html_content,
-        }
+    all_success = True
 
-        response = resend.emails.send(params)
-        print(f"📧 Email sent successfully to {', '.join(settings.email_recipients)}")
-        print(f"📨 Email ID: {response.get('id', 'N/A')}")
-        return True
+    # Send email from each account to its registered email
+    for api_key, recipient_email in accounts:
+        try:
+            # Set API key for this account
+            resend.api_key = api_key
 
-    except Exception as e:
-        print(f"❌ Error sending email: {e}")
-        return False
+            params = {
+                "from": settings.email_from,
+                "to": [recipient_email],
+                "subject": subject,
+                "html": html_content,
+            }
+
+            response = resend.Emails.send(params)
+            print(f"📧 Email sent to {recipient_email}")
+            print(f"   Email ID: {response.get('id', 'N/A')}")
+
+        except Exception as e:
+            print(f"❌ Error sending email to {recipient_email}: {e}")
+            all_success = False
+
+    return all_success
 
 
 def preview_changes_email(

@@ -1,5 +1,6 @@
 """Configuration management using pydantic-settings."""
 
+import os
 from pathlib import Path
 
 from pydantic import Field, field_validator
@@ -16,11 +17,11 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    # Email configuration
+    # Email configuration (backward compatible - single account)
     resend_api_key: str | None = Field(None, description="Resend API key for sending emails")
     email_to: str = Field(
         default="test@example.com",
-        description="Comma-separated list of recipient emails",
+        description="Recipient email (for single account mode)",
     )
     email_from: str = Field(
         default="onboarding@resend.dev",
@@ -57,9 +58,41 @@ class Settings(BaseSettings):
         return path
 
     @property
+    def email_accounts(self) -> list[tuple[str, str]]:
+        """
+        Get list of (api_key, email) tuples for sending emails.
+
+        Supports two modes:
+        1. Single account: RESEND_API_KEY + EMAIL_TO
+        2. Multiple accounts: RESEND_API_KEY_1 + EMAIL_TO_1, RESEND_API_KEY_2 + EMAIL_TO_2, etc.
+
+        Returns:
+            List of (api_key, recipient_email) tuples
+        """
+        accounts = []
+
+        # Check for numbered accounts (RESEND_API_KEY_1, EMAIL_TO_1, etc.)
+        i = 1
+        while True:
+            api_key = os.getenv(f"RESEND_API_KEY_{i}")
+            email_to = os.getenv(f"EMAIL_TO_{i}")
+
+            if api_key and email_to:
+                accounts.append((api_key, email_to.strip()))
+                i += 1
+            else:
+                break
+
+        # If no numbered accounts, fall back to single account mode
+        if not accounts and self.resend_api_key and self.email_to:
+            accounts.append((self.resend_api_key, self.email_to.strip()))
+
+        return accounts
+
+    @property
     def email_recipients(self) -> list[str]:
-        """Get list of email recipients."""
-        return [email.strip() for email in self.email_to.split(",") if email.strip()]
+        """Get list of email recipients (for backward compatibility)."""
+        return [email for _, email in self.email_accounts]
 
 
 # Global settings instance
