@@ -18,6 +18,8 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow pushing changes back to repo
 
     steps:
       - name: Checkout code
