@@ -42,10 +42,10 @@ jobs:
         run: |
           uv run wohnung-scrape
 
-      - name: Upload artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: scraping-data
-          path: data/
-          retention-days: 30
+      - name: Commit data changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: update apartment data - $(date +'%Y-%m-%d %H:%M')"
+          git push

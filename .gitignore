@@ -59,10 +59,11 @@ dmypy.json
 .env.local
 
 # Output
-data/
+# data/  # Now tracked in git for historical data
 *.json
 *.csv
 !tests/fixtures/*.json
+!data/*.json
 
 # OS
 .DS_Store
