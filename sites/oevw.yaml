@@ -1,24 +1,28 @@
-# OEVW - Österreichisches Siedlungswerk
+# OEVW - Österreichische Volkswohnungsbauvereinigung
 # Configuration for https://www.oevw.at/projekte
+#
+# NOTE: This site embeds project data in JavaScript (var projects = [...])
+# The OEVW scraper extracts data from the JSON variable, not HTML selectors.
+# Selectors below are kept for reference but are not used.
 
 name: oevw
-display_name: "OEVW - Österreichisches Siedlungswerk"
+display_name: "OEVW - Österreichische Volkswohnungsbauvereinigung"
 base_url: "https://www.oevw.at/projekte"
 enabled: true
 
 selectors:
-  # Required selectors - adjust after inspecting actual HTML
-  listing: ".project-item, .projekt-item, article.project"
-  title: "h2, h3.project-title, .project-name"
-  url: "a.project-link, a[href*='/projekt/']"
-  location: ".location, .project-location, .standort"
+  # Note: Selectors not used - data extracted from JavaScript JSON
+  listing: "ul.thumblist li.thumblist__item"
+  title: "div.thumb__heading.big"
+  url: "a.stretched-link"
+  location: "ul.thumb__subheading__list li.thumb__subheading__item"
 
-  # Optional selectors
-  price: ".price, .preis, .kosten"
-  size: ".size, .groesse, .flaeche"
-  rooms: ".rooms, .zimmer"
-  description: ".description, .beschreibung, p.project-description"
-  image: "img.project-image, .project-img img"
+  # Not available in listing view
+  price: null
+  size: null
+  rooms: null
+  description: "div.thumb__text"
+  image: "img.thumb__image"
 
 # No pagination for now - can be added later
 pagination:

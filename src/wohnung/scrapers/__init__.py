@@ -3,10 +3,12 @@
 from wohnung.models import Flat, ScraperResult
 from wohnung.scrapers.base import BaseScraper
 from wohnung.scrapers.example import ExampleScraper
+from wohnung.scrapers.oevw import OEVWScraper
 
 # Register all scrapers here
 SCRAPERS: list[type[BaseScraper]] = [
     ExampleScraper,
+    OEVWScraper,
     # Add more scrapers as you implement them
 ]
 
