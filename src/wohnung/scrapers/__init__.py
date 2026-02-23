@@ -1,14 +1,40 @@
 """Scraper orchestration and management."""
 
 from wohnung.models import Flat, ScraperResult
+from wohnung.scrapers.arwag import ArwagScraper
+from wohnung.scrapers.athome import AthomeScraper
 from wohnung.scrapers.base import BaseScraper
+from wohnung.scrapers.bwsg import BwsgScraper
+from wohnung.scrapers.ebg import EbgScraper
+from wohnung.scrapers.egw import EgwScraper
 from wohnung.scrapers.example import ExampleScraper
+from wohnung.scrapers.familienwohnbau import FamilienwohnbauScraper
+from wohnung.scrapers.frieden import FriedenScraper
+from wohnung.scrapers.migra import MigraScraper
+from wohnung.scrapers.mischek import MischekScraper
+from wohnung.scrapers.nhg import NhgScraper
+from wohnung.scrapers.nordwestbahnhof import NordwestbahnhofScraper
+from wohnung.scrapers.oesw import OeswScraper
 from wohnung.scrapers.oevw import OEVWScraper
+from wohnung.scrapers.wohnberatung_wien import WohnberatungWienScraper
 
 # Register all scrapers here
 SCRAPERS: list[type[BaseScraper]] = [
     ExampleScraper,
     OEVWScraper,
+    WohnberatungWienScraper,
+    MigraScraper,
+    ArwagScraper,
+    EgwScraper,
+    BwsgScraper,
+    AthomeScraper,
+    MischekScraper,
+    NhgScraper,
+    FamilienwohnbauScraper,
+    FriedenScraper,
+    OeswScraper,
+    EbgScraper,
+    NordwestbahnhofScraper,
     # Add more scrapers as you implement them
 ]
 
@@ -28,7 +54,7 @@ def run_all_scrapers() -> list[ScraperResult]:
     Run all registered scrapers and collect results.
 
     Returns:
-        List of ScraperResult objects
+        List of ScraperResult objects with health status
     """
     results: list[ScraperResult] = []
 
@@ -38,12 +64,26 @@ def run_all_scrapers() -> list[ScraperResult]:
         try:
             with scraper:
                 flats = scraper.scrape()
-                print(f"✅ Found {len(flats)} flats from {scraper.name}")
+
+                # Check health of results
+                health_status, warnings = scraper.check_health(flats)
+
+                # Print status with appropriate emoji
+                if health_status == "healthy":
+                    print(f"✅ Found {len(flats)} flats from {scraper.name}")
+                elif health_status == "unhealthy":
+                    print(f"⚠️  Found {len(flats)} flats from {scraper.name} (needs attention)")
+                    for warning in warnings:
+                        print(f"    ⚠️  {warning}")
+                else:
+                    print(f"❌ Scraper {scraper.name} failed")
 
                 results.append(
                     ScraperResult(
                         flats=flats,
                         source=scraper.name,
+                        health_status=health_status,
+                        warnings=warnings,
                     )
                 )
         except Exception as e:
@@ -54,6 +94,7 @@ def run_all_scrapers() -> list[ScraperResult]:
                     flats=[],
                     source=scraper.name,
                     errors=[error_msg],
+                    health_status="failed",
                 )
             )
 

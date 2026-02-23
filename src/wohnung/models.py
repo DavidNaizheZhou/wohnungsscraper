@@ -40,8 +40,22 @@ class ScraperResult(BaseModel):
     source: str = Field(..., description="Scraper name")
     scraped_at: datetime = Field(default_factory=datetime.now, description="When scraping occurred")
     errors: list[str] = Field(default_factory=list, description="Any errors encountered")
+    warnings: list[str] = Field(default_factory=list, description="Non-critical issues")
+    health_status: str = Field(
+        default="unknown", description="Health status: healthy, unhealthy, failed"
+    )
 
     @property
     def success(self) -> bool:
         """Whether the scraping was successful."""
         return len(self.errors) == 0
+
+    @property
+    def is_healthy(self) -> bool:
+        """Whether the scraper is healthy (has results and no errors)."""
+        return self.health_status == "healthy"
+
+    @property
+    def needs_attention(self) -> bool:
+        """Whether the scraper needs attention (unhealthy or failed)."""
+        return self.health_status in ("unhealthy", "failed")

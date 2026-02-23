@@ -4,9 +4,8 @@ import sys
 from collections import defaultdict
 
 from wohnung.config import settings
-from wohnung.email import send_changes_email
 from wohnung.models import Flat
-from wohnung.scrapers import deduplicate_flats, run_all_scrapers
+from wohnung.scrapers import deduplicate_flats, get_scrapers, run_all_scrapers
 from wohnung.site_storage import SiteStorage
 
 
@@ -90,17 +89,103 @@ def main(dry_run: bool = False) -> int:
         print(f"   Total UPDATED: {updated_count}")
         print(f"   Total REMOVED: {removed_count}")
 
-        # Send enhanced email for changes
-        if new_count > 0 or updated_count > 0:
-            print("\n📧 Sending enhanced email notification...")
-            email_sent = send_changes_email(all_changes, dry_run=dry_run, group_by_site=True)
+        # Check scraper health
+        unhealthy_scrapers = [r for r in results if r.needs_attention]
+        healthy_scrapers = [r for r in results if r.is_healthy]
+
+        print("\n🏥 Scraper Health:")
+        print(f"   Healthy: {len(healthy_scrapers)}/{len(results)}")
+        if unhealthy_scrapers:
+            print(f"   ⚠️  Need attention: {len(unhealthy_scrapers)}")
+            for result in unhealthy_scrapers:
+                print(f"      - {result.source}: {result.health_status}")
+
+        # Separate changes and results by scraper type
+        # Special scrapers (like nordwestbahnhof) have custom email recipients
+        scrapers = get_scrapers()  # Get scraper instances to check email_recipients
+        special_changes = {}  # source -> changes
+        special_results = {}  # source -> result
+        regular_changes = []
+        regular_results = []
+
+        for scraper_instance in scrapers:
+            if scraper_instance.email_recipients is not None:
+                # Special scraper with custom email recipients
+                source = scraper_instance.name
+                source_changes = [c for c in all_changes if c.apartment.source == source]
+                source_result = next((r for r in results if r.source == source), None)
+
+                if source_changes or (source_result and source_result.needs_attention):
+                    special_changes[source] = source_changes
+                    if source_result:
+                        special_results[source] = source_result
+            else:
+                # Regular scraper - goes to consolidated email
+                source = scraper_instance.name
+                source_changes = [c for c in all_changes if c.apartment.source == source]
+                source_result = next((r for r in results if r.source == source), None)
+
+                regular_changes.extend(source_changes)
+                if source_result:
+                    regular_results.append(source_result)
+
+        # Send consolidated email for regular scrapers
+        regular_new = len([c for c in regular_changes if c.change_type == "new"])
+        regular_updated = len([c for c in regular_changes if c.change_type == "updated"])
+        regular_unhealthy = [r for r in regular_results if r.needs_attention]
+
+        if regular_new > 0 or regular_updated > 0 or regular_unhealthy:
+            print("\n📧 Sending consolidated email notification...")
+            from wohnung.email import send_consolidated_email
+
+            email_sent = send_consolidated_email(
+                changes=regular_changes,
+                scraper_results=regular_results,
+                dry_run=dry_run,
+            )
 
             if email_sent:
                 print("✅ Email sent successfully")
             else:
                 print("⚠️  Email sending failed")
-        else:
-            print("\n✅ No new or updated apartments found")
+
+        # Send separate emails for special scrapers
+        for source, source_changes in special_changes.items():
+            source_result = special_results.get(source)
+
+            print(f"\n📧 Sending special email for {source}...")
+            from wohnung.email import send_scraper_specific_email
+
+            # Get the scraper instance to get custom recipients
+            scraper_inst = next((s for s in scrapers if s.name == source), None)
+            if not scraper_inst:
+                print(f"⚠️  Could not find scraper instance for {source}")
+                continue
+
+            # Check if scraper has custom recipients
+            if not scraper_inst.email_recipients:
+                print(f"⚠️  No email recipients configured for {source}")
+                continue
+
+            # Check if we have result for this scraper
+            if not source_result:
+                print(f"⚠️  No result available for {source}")
+                continue
+
+            email_sent = send_scraper_specific_email(
+                scraper_name=source,
+                changes=source_changes,
+                scraper_result=source_result,
+                recipients=scraper_inst.email_recipients,
+                dry_run=dry_run,
+            )
+
+            if email_sent:
+                print(f"✅ Email sent to {', '.join(scraper_inst.email_recipients)}")
+            else:
+                print("⚠️  Email sending failed")
+
+        print("\n✅ No changes and all scrapers healthy")
 
         # Print stats per site
         print("\n📈 Storage stats:")

@@ -1,0 +1,49 @@
+# Nordwestbahnhof Bauprojekte Tracking
+# Configuration for https://www.gbstern.at/themen-projekte/stadtteilmanagement-in-neubaugebieten/stadtteilmanagement-nordwestbahnhof/bauprojekte/
+#
+# SPECIAL SCRAPER: This monitors construction project assignments (Bauplatz -> Bauträger)
+# Email notifications go ONLY to d.zhou@posteo.at (not to all configured accounts)
+#
+# NOTE: This is a monitoring/tracking scraper, not an apartment search scraper
+# It extracts which developer (Bauträger) has been assigned to which construction plot (Bauplatz)
+
+name: nordwestbahnhof
+display_name: "Nordwestbahnhof Bauprojekte"
+base_url: "https://www.gbstern.at/themen-projekte/stadtteilmanagement-in-neubaugebieten/stadtteilmanagement-nordwestbahnhof/bauprojekte/"
+enabled: true
+
+# Email recipients: ONLY d.zhou@posteo.at
+# This is enforced in the scraper code via email_recipients property
+email_recipients:
+  - d.zhou@posteo.at
+
+# Tracking details:
+# - Entwicklungsstufe (I, II, III, ...): Development phases
+# - Bauplatz X: Construction plot number
+# - Bauträger: Developer company assigned to the plot
+#
+# Example extracted data:
+# - Bauplatz 4 → Familienwohnbau
+# - Bauplatz 5 → ARWAG
+# - Bauplatz 10 → EGW
+
+selectors:
+  # This scraper uses custom parsing logic, not standard selectors
+  # It extracts text sections and parses Bauplatz assignments
+  listing: null
+  title: null
+  url: null
+  location: null
+  price: null
+  size: null
+  rooms: null
+  description: null
+  image: null
+
+pagination:
+  enabled: false
+
+# Expected results:
+# - Entwicklungsstufe I: 3 subsidized projects (Bauplatz 4, 5, 10)
+# - More phases will be added as development progresses
+minimum_expected_results: 3

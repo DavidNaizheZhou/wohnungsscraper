@@ -22,6 +22,16 @@ class ApartmentChange(BaseModel):
     )
     apartment_data: dict[str, Any] = Field(..., description="Current apartment data snapshot")
 
+    @property
+    def apartment(self) -> Flat:
+        """Convert apartment_data to Flat object."""
+        return Flat(**self.apartment_data)
+
+    @property
+    def changed_fields(self) -> list[str]:
+        """List of field names that changed."""
+        return list(self.changes.keys())
+
 
 class ChangeDetectorConfig(BaseModel):
     """Configuration for change detection."""

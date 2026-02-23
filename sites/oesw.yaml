@@ -1,0 +1,98 @@
+# OESW - Österreichisches Siedlungswerk
+# Configuration for https://www.oesw.at/projekt.html
+#
+# NOTE: This site lists completed housing projects
+# Individual project pages are scraped for detailed information
+# These are archive pages - availability is limited
+
+name: oesw
+display_name: "OESW - Österreichisches Siedlungswerk"
+base_url: "https://www.oesw.at/projekt.html"
+enabled: true
+
+selectors:
+  # Project list page
+  listing: "a[href*='/immobilienangebot/projektdetail/mhimmo/anzeigen/Wohnhaus/']"
+
+  # Project detail page (scraped individually)
+  title: "h1, h2"
+  url: "a[href*='maps.google.com']"
+  location: "a[href*='maps.google.com']"
+
+  # Not available on completed project pages
+  price: null
+  size: null
+  rooms: null
+
+  description: "p"
+  status: "text"  # FERTIGGESTELLT, IN BAU, etc.
+
+# No pagination - all projects on one page
+pagination:
+  enabled: false
+
+# Austrian housing-specific markers
+markers:
+  - name: completed
+    label: "Fertiggestellt"
+    patterns:
+      - "fertiggestellt"
+      - "fertig gestellt"
+    priority: high
+    search_in:
+      - title
+      - description
+      - status
+
+  - name: subsidized
+    label: "Gefördert"
+    patterns:
+      - "smart"
+      - "supergeförd"
+      - "geförd"
+      - "gefördert"
+    priority: high
+    search_in:
+      - title
+      - description
+
+  - name: accessible
+    label: "Barrierefrei"
+    patterns:
+      - "barrierefrei"
+      - "rollstuhlgerecht"
+      - "behindertengerecht"
+    priority: medium
+    search_in:
+      - description
+
+  - name: family_friendly
+    label: "Familienfreundlich"
+    patterns:
+      - "kindergarten"
+      - "spielplatz"
+      - "gemeinschaftsraum"
+      - "familien"
+    priority: medium
+    search_in:
+      - description
+
+  - name: rental
+    label: "Miete"
+    patterns:
+      - "miete"
+      - "mietwohnung"
+      - "mietwohnungen"
+    priority: high
+    search_in:
+      - title
+      - description
+
+notes: |
+  OESW lists completed projects. When apartments become available for rent,
+  they appear in the "Sofort wohnen" (Immediately Available) section.
+
+  This scraper archives completed projects for reference. For current availability,
+  users should check the main OESW rental search page.
+
+  Expected results: 100+ completed projects across Vienna and surrounding areas.

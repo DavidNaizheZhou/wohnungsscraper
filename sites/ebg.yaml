@@ -1,0 +1,120 @@
+# EBG - Gemeinnützige Ein- und Mehrfamilienhäuser Baugenossenschaft
+# Configuration for https://www.ebg-wohnen.at/in-planung/projekte
+#
+# NOTE: This site lists projects in planning phase
+# Individual project detail pages are scraped for full information
+
+name: ebg
+display_name: "EBG Wohnen"
+base_url: "https://www.ebg-wohnen.at/in-planung/projekte"
+enabled: true
+
+selectors:
+  # Project list page
+  listing: "a[href*='/in-planung/projekte/detail/']"
+
+  # Project detail page
+  title: "h1, h2, h3"
+  location: "text"  # Extracted via regex from page content
+
+  # Not available on project pages
+  price: null
+  size: null
+  rooms: null
+
+  description: "p"
+
+# No pagination - all projects on one page
+pagination:
+  enabled: false
+
+# Austrian housing-specific markers
+markers:
+  - name: in_planning
+    label: "In Planung"
+    patterns:
+      - "in planung"
+      - "geplant"
+    priority: high
+    search_in:
+      - title
+      - description
+
+  - name: rental
+    label: "Miete"
+    patterns:
+      - "miete"
+      - "mietwohnung"
+    priority: high
+    search_in:
+      - title
+      - description
+
+  - name: subsidized
+    label: "Gefördert"
+    patterns:
+      - "geförd"
+      - "gefördert"
+    priority: high
+    search_in:
+      - description
+
+  - name: free_financed
+    label: "Freifinanziert"
+    patterns:
+      - "freifinanziert"
+      - "frei finanziert"
+    priority: high
+    search_in:
+      - description
+
+  - name: vormerkung_possible
+    label: "Vormerkung möglich"
+    patterns:
+      - "vormerkung"
+      - "vormerken"
+      - "anmeld"
+    priority: high
+    search_in:
+      - description
+
+  - name: accessible
+    label: "Barrierefrei"
+    patterns:
+      - "barrierefrei"
+      - "rollstuhlgerecht"
+    priority: medium
+    search_in:
+      - description
+
+  - name: family_friendly
+    label: "Familienfreundlich"
+    patterns:
+      - "kindergarten"
+      - "spielplatz"
+      - "familien"
+    priority: medium
+    search_in:
+      - description
+
+  - name: sustainable
+    label: "Nachhaltig"
+    patterns:
+      - "nachhaltig"
+      - "energieeffizient"
+      - "energiespar"
+    priority: medium
+    search_in:
+      - description
+
+notes: |
+  EBG (Gemeinnützige Ein- und Mehrfamilienhäuser Baugenossenschaft) lists
+  projects currently in planning phase. These are future housing developments.
+
+  Projects include information about:
+  - Location (Vienna and surrounding areas)
+  - Number of units
+  - Planned completion dates
+  - Pre-registration (Vormerkung) availability
+
+  Expected results: 3-10 projects in planning phase at any given time.

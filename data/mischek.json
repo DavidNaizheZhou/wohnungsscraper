@@ -1,0 +1,223 @@
+{
+  "apartments": {
+    "mischek-4345c5268e2e0bfe": {
+      "apartment_id": "mischek-4345c5268e2e0bfe",
+      "data": {
+        "description": null,
+        "found_at": "2026-02-24T00:17:41.743394",
+        "id": "mischek-4345c5268e2e0bfe",
+        "image_url": null,
+        "location": "Am-Albert-Schultz-Park, 1220 Wien",
+        "markers": [
+          "neubau",
+          "for_sale"
+        ],
+        "price": 230.0,
+        "rooms": 3.5,
+        "size": 80.5,
+        "source": "mischek",
+        "title": "Hof am Park - 109 Wohnungen",
+        "url": "https://www.mischek.at/de/projekte/hof-am-park"
+      },
+      "first_seen": "2026-02-23T22:51:36.482296",
+      "last_seen": "2026-02-24T00:18:02.589998",
+      "last_updated": "2026-02-24T00:18:02.589998",
+      "status": "active"
+    },
+    "mischek-510cba7e1983742a": {
+      "apartment_id": "mischek-510cba7e1983742a",
+      "data": {
+        "description": null,
+        "found_at": "2026-02-24T00:17:41.743575",
+        "id": "mischek-510cba7e1983742a",
+        "image_url": null,
+        "location": "Czeikestraße, 1100 Wien",
+        "markers": [
+          "neubau",
+          "for_sale"
+        ],
+        "price": null,
+        "rooms": 3.0,
+        "size": 85.0,
+        "source": "mischek",
+        "title": "Laa Viola - 102 Wohnungen",
+        "url": "https://www.mischek.at/de/projekte/laa-viola"
+      },
+      "first_seen": "2026-02-23T22:51:36.482296",
+      "last_seen": "2026-02-24T00:18:02.589998",
+      "last_updated": "2026-02-24T00:18:02.589998",
+      "status": "active"
+    },
+    "mischek-648a287c6a3cdb38": {
+      "apartment_id": "mischek-648a287c6a3cdb38",
+      "data": {
+        "description": null,
+        "found_at": "2026-02-24T00:17:41.743421",
+        "id": "mischek-648a287c6a3cdb38",
+        "image_url": null,
+        "location": "Christine-Lavant-Gasse, 1220 Wien",
+        "markers": [
+          "neubau",
+          "for_sale",
+          "subsidized"
+        ],
+        "price": 223.895,
+        "rooms": 3.0,
+        "size": 68.0,
+        "source": "mischek",
+        "title": "Hellblauer Hof - 42 Wohnungen",
+        "url": "https://www.mischek.at/de/projekte/hellblauer-hof"
+      },
+      "first_seen": "2026-02-23T22:51:36.482296",
+      "last_seen": "2026-02-24T00:18:02.589998",
+      "last_updated": "2026-02-24T00:18:02.589998",
+      "status": "active"
+    },
+    "mischek-79202bcdcba5bc4a": {
+      "apartment_id": "mischek-79202bcdcba5bc4a",
+      "data": {
+        "description": null,
+        "found_at": "2026-02-24T00:17:41.743294",
+        "id": "mischek-79202bcdcba5bc4a",
+        "image_url": null,
+        "location": "Thürnlhofstraße, 1110 Wien",
+        "markers": [
+          "neubau",
+          "for_sale"
+        ],
+        "price": 255.5,
+        "rooms": 3.0,
+        "size": 89.5,
+        "source": "mischek",
+        "title": "Thürnlhofstraße - 2 Wohnungen",
+        "url": "https://www.mischek.at/de/projekte/thuernlhofstrasse"
+      },
+      "first_seen": "2026-02-23T22:51:36.482296",
+      "last_seen": "2026-02-24T00:18:02.589998",
+      "last_updated": "2026-02-24T00:18:02.589998",
+      "status": "active"
+    },
+    "mischek-81de4265cc774ea7": {
+      "apartment_id": "mischek-81de4265cc774ea7",
+      "data": {
+        "description": null,
+        "found_at": "2026-02-24T00:17:41.743324",
+        "id": "mischek-81de4265cc774ea7",
+        "image_url": null,
+        "location": "Podhagskygasse, 1220 Wien",
+        "markers": [
+          "neubau"
+        ],
+        "price": 50.742,
+        "rooms": 2.5,
+        "size": 64.5,
+        "source": "mischek",
+        "title": "Campo Breitenlee - Büros und Arztpraxis",
+        "url": "https://www.mischek.at/de/projekte/campo-breitenlee"
+      },
+      "first_seen": "2026-02-23T22:51:36.482296",
+      "last_seen": "2026-02-24T00:18:02.589998",
+      "last_updated": "2026-02-24T00:18:02.589998",
+      "status": "active"
+    },
+    "mischek-88fb02689e54ca8e": {
+      "apartment_id": "mischek-88fb02689e54ca8e",
+      "data": {
+        "description": null,
+        "found_at": "2026-02-24T00:17:41.743240",
+        "id": "mischek-88fb02689e54ca8e",
+        "image_url": null,
+        "location": "Hutterplatz, 1210 Wien",
+        "markers": [
+          "neubau",
+          "for_sale"
+        ],
+        "price": 224.0,
+        "rooms": 2.5,
+        "size": 76.5,
+        "source": "mischek",
+        "title": "NordGlück - 144 Wohnungen",
+        "url": "https://www.mischek.at/de/projekte/nordglueck"
+      },
+      "first_seen": "2026-02-23T22:51:36.482296",
+      "last_seen": "2026-02-24T00:18:02.589998",
+      "last_updated": "2026-02-24T00:18:02.589998",
+      "status": "active"
+    },
+    "mischek-9e051949e1b2e206": {
+      "apartment_id": "mischek-9e051949e1b2e206",
+      "data": {
+        "description": null,
+        "found_at": "2026-02-24T00:17:41.743598",
+        "id": "mischek-9e051949e1b2e206",
+        "image_url": null,
+        "location": "Essling, 1220 Wien",
+        "markers": [
+          "neubau",
+          "for_sale"
+        ],
+        "price": null,
+        "rooms": 3.0,
+        "size": 95.0,
+        "source": "mischek",
+        "title": "Stadt(rand)oase - 37 Reihenhäuser/Wohnungen",
+        "url": "https://www.mischek.at/de/projekte/stadt-rand-oase"
+      },
+      "first_seen": "2026-02-23T22:51:36.482296",
+      "last_seen": "2026-02-24T00:18:02.589998",
+      "last_updated": "2026-02-24T00:18:02.589998",
+      "status": "active"
+    },
+    "mischek-ba44acc7c149f725": {
+      "apartment_id": "mischek-ba44acc7c149f725",
+      "data": {
+        "description": null,
+        "found_at": "2026-02-24T00:17:41.743619",
+        "id": "mischek-ba44acc7c149f725",
+        "image_url": null,
+        "location": "Anton-Freunschlag-Gasse, 1230 Wien",
+        "markers": [
+          "neubau",
+          "for_sale"
+        ],
+        "price": null,
+        "rooms": 3.0,
+        "size": 80.0,
+        "source": "mischek",
+        "title": "Toni23 - 35 Wohnungen",
+        "url": "https://www.mischek.at/de/projekte/toni23"
+      },
+      "first_seen": "2026-02-23T22:51:36.482296",
+      "last_seen": "2026-02-24T00:18:02.589998",
+      "last_updated": "2026-02-24T00:18:02.589998",
+      "status": "active"
+    },
+    "mischek-d4b056c27edea795": {
+      "apartment_id": "mischek-d4b056c27edea795",
+      "data": {
+        "description": null,
+        "found_at": "2026-02-24T00:17:41.743727",
+        "id": "mischek-d4b056c27edea795",
+        "image_url": null,
+        "location": "Josepha-Auernhammer-Gasse, 1220 Wien",
+        "markers": [
+          "neubau",
+          "for_sale",
+          "subsidized"
+        ],
+        "price": 211.23,
+        "rooms": 3.0,
+        "size": 78.0,
+        "source": "mischek",
+        "title": "Gelber Hof - 55 Wohnungen",
+        "url": "https://www.mischek.at/de/projekte/gelber-hof"
+      },
+      "first_seen": "2026-02-23T22:51:36.482296",
+      "last_seen": "2026-02-24T00:18:02.589998",
+      "last_updated": "2026-02-24T00:18:02.589998",
+      "status": "active"
+    }
+  },
+  "last_scrape": "2026-02-24T00:18:02.589998",
+  "site": "mischek"
+}

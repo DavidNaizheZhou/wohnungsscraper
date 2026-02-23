@@ -1,6 +1,7 @@
 """Base scraper class and protocols."""
 
 import hashlib
+import logging
 import re
 from abc import ABC, abstractmethod
 
@@ -21,6 +22,60 @@ class BaseScraper(ABC):
             headers={"User-Agent": settings.user_agent},
             follow_redirects=True,
         )
+        self.logger = self._get_logger()
+
+    def _get_logger(self) -> logging.Logger:
+        """Get logger for this scraper."""
+        return logging.getLogger(f"wohnung.scrapers.{self.name}")
+
+    @property
+    def minimum_expected_results(self) -> int:
+        """Minimum number of results expected from a healthy scraper.
+
+        Override this in subclasses to set a reasonable threshold.
+        Default is 1 (at least one result expected).
+        """
+        return 1
+
+    @property
+    def email_recipients(self) -> list[str] | None:
+        """Custom email recipients for this scraper.
+
+        Override this in subclasses to send notifications to specific recipients.
+        Returns None to use default recipients (all configured accounts).
+        Returns list of email addresses for custom recipients.
+        """
+        return None
+
+    def check_health(self, results: list[Flat]) -> tuple[str, list[str]]:
+        """Check if scraping results are healthy.
+
+        Args:
+            results: List of scraped flats
+
+        Returns:
+            Tuple of (health_status, warnings)
+            health_status: "healthy", "unhealthy", or "failed"
+            warnings: List of warning messages
+        """
+        warnings = []
+
+        # No results at all
+        if len(results) == 0:
+            return "unhealthy", ["No results found - scraper may need updating"]
+
+        # Below minimum threshold
+        if len(results) < self.minimum_expected_results:
+            warnings.append(
+                f"Only {len(results)} result(s) found, expected at least {self.minimum_expected_results}"
+            )
+            return "unhealthy", warnings
+
+        # Check for suspicious patterns
+        if len(results) == 1:
+            warnings.append("Only 1 result found - unusually low")
+
+        return "healthy", warnings
 
     @property
     @abstractmethod
