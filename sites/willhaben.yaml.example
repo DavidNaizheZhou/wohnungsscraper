@@ -1,0 +1,118 @@
+# Willhaben.at Configuration
+# Configuration for Austria's largest marketplace
+# Example: https://www.willhaben.at/iad/immobilien/mietwohnungen/wien
+
+name: willhaben
+display_name: "Willhaben.at"
+base_url: "https://www.willhaben.at/iad/immobilien/mietwohnungen/wien"
+enabled: false  # Disabled by default
+
+selectors:
+  # Required selectors
+  listing: "article.Box"  # Each listing card
+  title: "h3[data-testid='ad-title']"  # Apartment title
+  url: "a[data-testid='ad-link']"  # Link to detail page
+  location: "span[data-testid='address']"  # Location
+
+  # Optional selectors
+  price: "span[data-testid='price']"  # Monthly rent
+  size: "span[data-testid='size']"  # Square meters
+  rooms: "span[data-testid='room-count']"  # Number of rooms
+  description: "div[data-testid='ad-description']"  # Description
+  image: "img[data-testid='image']"  # Main image
+
+# Pagination
+pagination:
+  enabled: true
+  max_pages: 5
+  url_pattern: "?page={page}"  # Willhaben pagination style
+
+# Austrian market-specific markers
+markers:
+  - name: vormerkung_possible
+    label: "Vormerkung möglich"
+    patterns:
+      - "vormerkung möglich"
+      - "vormerkung"
+      - "vormerken möglich"
+      - "interessentenliste"
+      - "wartelisteplatz"
+    priority: high
+    search_in:
+      - title
+      - description
+
+  - name: gefoerdert
+    label: "Gefördert"
+    patterns:
+      - "gefördert"
+      - "gefördertes objekt"
+      - "gemeindewohnung"
+      - "sozialmietwohnung"
+    priority: high
+    search_in:
+      - title
+      - description
+
+  - name: befristet
+    label: "Befristete Vermietung"
+    patterns:
+      - "befristet"
+      - "zeitlich begrenzt"
+      - "\\d+ jahre befristet"
+      - "befristeter mietvertrag"
+    priority: medium
+    search_in:
+      - title
+      - description
+
+  - name: altbau
+    label: "Altbau"
+    patterns:
+      - "altbau"
+      - "altbauwohnung"
+      - "gründerzeithaus"
+      - "jahrhundertwende"
+      - "historisches gebäude"
+    priority: low
+    search_in:
+      - title
+      - description
+
+  - name: neubau
+    label: "Neubau"
+    patterns:
+      - "neubau"
+      - "erstbezug"
+      - "neubauprojekt"
+      - "modernste bauweise"
+    priority: medium
+    search_in:
+      - title
+      - description
+
+  - name: lift
+    label: "Lift/Aufzug"
+    patterns:
+      - "lift"
+      - "aufzug"
+      - "personenaufzug"
+      - "mit lift"
+    priority: low
+    search_in:
+      - description
+
+  - name: smart_home
+    label: "Smart Home"
+    patterns:
+      - "smart home"
+      - "hausautomation"
+      - "intelligente steuerung"
+      - "vernetzt"
+    priority: low
+    search_in:
+      - description
+
+# Performance settings
+request_timeout: 30
+rate_limit_delay: 1.5  # Be respectful with Willhaben's servers

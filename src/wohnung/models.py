@@ -1,6 +1,7 @@
 """Data models for the scraper."""
 
 from datetime import datetime
+from typing import ClassVar
 
 from pydantic import BaseModel, Field, HttpUrl
 
@@ -18,12 +19,15 @@ class Flat(BaseModel):
     description: str | None = Field(None, description="Full description")
     image_url: HttpUrl | None = Field(None, description="Main image URL")
     source: str = Field(..., description="Source scraper name")
+    markers: list[str] = Field(
+        default_factory=list, description="Detected markers (e.g., 'vormerkung_possible')"
+    )
     found_at: datetime = Field(default_factory=datetime.now, description="When the flat was found")
 
     class Config:
         """Pydantic config."""
 
-        json_encoders = {
+        json_encoders: ClassVar[dict[type, object]] = {
             datetime: lambda v: v.isoformat(),
             HttpUrl: lambda v: str(v),
         }

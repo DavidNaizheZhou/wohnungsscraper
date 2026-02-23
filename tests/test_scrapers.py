@@ -166,7 +166,7 @@ class TestScraperOrchestration:
     def test_deduplicate_flats(self, sample_flats: list[Flat]) -> None:
         """Test deduplication removes duplicates."""
         # Create list with duplicates
-        flats_with_dupes = sample_flats + [sample_flats[0]]  # Add duplicate
+        flats_with_dupes = [*sample_flats, sample_flats[0]]  # Add duplicate
 
         result = deduplicate_flats(flats_with_dupes)
 

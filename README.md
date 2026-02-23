@@ -28,8 +28,8 @@ cd wohnung
 # Install uv (if not already installed)
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# Install dependencies
-uv sync --all-extras
+# Install dependencies and setup dev environment
+uv run wohnung install
 
 # This creates a virtual environment automatically in .venv/
 ```
@@ -47,9 +47,12 @@ Get your Resend API key from [resend.com](https://resend.com) (free tier include
 
 ```bash
 # Run scraper
-uv run wohnung-scrape
+uv run wohnung scrape
 
 # Dry run (no email)
+uv run wohnung scrape --dry-run
+
+# Or use the legacy command
 uv run wohnung-scrape --dry-run
 ```
 
@@ -63,6 +66,30 @@ uv run wohnung-scrape --dry-run
    - `RESEND_API_KEY`: Your Resend API key
 
 The scraper will now run automatically every 4 hours!
+
+### 5. Project Board (Optional)
+
+Set up GitHub CLI for easy issue/backlog management:
+
+```bash
+# Install GitHub CLI (choose your OS)
+# macOS
+brew install gh
+
+# Linux (Debian/Ubuntu)
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo apt update && sudo apt install gh
+
+# Windows
+winget install GitHub.cli
+
+# Authenticate
+gh auth login
+
+# Verify setup
+uv run wohnung board setup-check
+```
 
 ## 📁 Project Structure
 
@@ -96,101 +123,223 @@ wohnung/
 └── README.md
 ```
 
-## 🧩 Adding New Scrapers
+## 🌐 Site Management
 
-1. Create a new scraper class in `src/wohnung/scrapers/`:
+The scraper uses YAML-based site configurations for easy extensibility. Add new sites without writing code!
 
-```python
-from wohnung.models import Flat
-from wohnung.scrapers.base import BaseScraper
+### Quick Start: Adding a New Site
 
-class ImmoscoutScraper(BaseScraper):
-    @property
-    def name(self) -> str:
-        return "immoscout"
-    
-    @property
-    def base_url(self) -> str:
-        return "https://www.immobilienscout24.de/..."
-    
-    def scrape(self) -> list[Flat]:
-        soup = self.fetch_html(self.base_url)
-        flats = []
-        
-        for listing in soup.select(".listing-selector"):
-            flat = Flat(
-                id=self.generate_id(url),
-                title=listing.select_one(".title").text,
-                url=listing.select_one("a")["href"],
-                price=self.parse_price(listing.select_one(".price").text),
-                # ... more fields
-                location="...",
-                source=self.name,
-            )
-            flats.append(flat)
-        
-        return flats
+```bash
+# 1. Generate a template
+uv run wohnung site new immoscout24 --url "https://www.immobilienscout24.de/..."
+
+# 2. Edit the configuration
+vim sites/immoscout24.yaml
+
+# 3. Validate your config
+uv run wohnung site validate sites/immoscout24.yaml
+
+# 4. Test scraping (dry-run)
+uv run wohnung site test immoscout24 --max-pages 1
+
+# 5. Enable the site
+# Set enabled: true in sites/immoscout24.yaml
+
+# 6. Run the scraper
+uv run wohnung scrape
 ```
 
-2. Register it in `src/wohnung/scrapers/__init__.py`:
+### Site Configuration Structure
 
-```python
-from wohnung.scrapers.immoscout import ImmoscoutScraper
+```yaml
+name: immoscout24
+display_name: "ImmobilienScout24"
+base_url: "https://www.immobilienscout24.de/..."
+enabled: true
 
-SCRAPERS: list[type[BaseScraper]] = [
-    ExampleScraper,
-    ImmoscoutScraper,  # Add here
-]
+selectors:
+  listing: "article.result-list-entry"  # Container for each apartment
+  title: "h5.title"                     # Apartment title
+  url: "a.link"                         # Link to detail page
+  location: "div.address"               # Location
+  price: "dd.price"                     # Monthly rent (optional)
+  size: "dd.size"                       # Size in m² (optional)
+  rooms: "dd.rooms"                     # Number of rooms (optional)
+  description: "p.description"          # Description (optional)
+  image: "img.main-image"               # Main image (optional)
+
+# Optional: Pagination
+pagination:
+  enabled: true
+  max_pages: 5
+  url_pattern: "?page={page}"  # or use next_selector
+
+# Optional: Markers for special keywords
+markers:
+  - name: vormerkung_possible
+    label: "Vormerkung möglich"
+    patterns: ["vormerkung möglich", "vormerken"]
+    priority: high
+    search_in: [title, description]
+
+request_timeout: 30
+rate_limit_delay: 1.0
 ```
 
-3. Write tests in `tests/test_scrapers.py`:
+### Site Commands
 
-```python
-def test_immoscout_scraper(httpx_mock: HTTPXMock):
-    httpx_mock.add_response(
-        url="https://www.immobilienscout24.de/...",
-        text=mock_html,
-    )
-    
-    scraper = ImmoscoutScraper()
-    flats = scraper.scrape()
-    
-    assert len(flats) > 0
+```bash
+# List all configured sites
+uv run wohnung site list
+
+# View site details
+uv run wohnung site info immoscout24
+
+# Test marker detection
+uv run wohnung site test-markers oevw --limit 20
+
+# Validate configuration
+uv run wohnung site validate sites/mysite.yaml
 ```
+
+### Example Configurations
+
+The project includes ready-to-use examples:
+
+- **[immoscout24.yaml.example](sites/immoscout24.yaml.example)** - ImmobilienScout24
+- **[wg-gesucht.yaml.example](sites/wg-gesucht.yaml.example)** - WG-Gesucht.de
+- **[ebay-kleinanzeigen.yaml.example](sites/ebay-kleinanzeigen.yaml.example)** - eBay Kleinanzeigen
+- **[immowelt.yaml.example](sites/immowelt.yaml.example)** - Immowelt
+- **[willhaben.yaml.example](sites/willhaben.yaml.example)** - Willhaben.at (Austria)
+
+Copy any example, adjust selectors for your needs, and you're ready to go!
+
+### Detailed Guide
+
+For a comprehensive step-by-step guide, see **[docs/adding-sites.md]( docs/adding-sites.md)**:
+
+- How to inspect websites and find selectors
+- Selector reference and CSS tips
+- Marker configuration guide
+- Pagination setup
+- Troubleshooting common issues
+- Best practices
 
 ## 🧪 Development
 
-### Run Tests
+The project includes a comprehensive Typer CLI for all development tasks:
 
 ```bash
-# Run all tests with coverage
-uv run pytest
+# Show all available commands
+uv run wohnung --help
+uv run wohnung info
 
-# Run specific test file
-uv run pytest tests/test_scrapers.py
+# Setup and installation
+uv run wohnung install              # Install deps + pre-commit hooks
+uv run wohnung install --skip-hooks # Skip pre-commit installation
 
-# Run with verbose output
-uv run pytest -v
+# Testing
+uv run wohnung test                 # Run tests with coverage
+uv run wohnung test --no-coverage   # Fast tests without coverage
+uv run wohnung test -v              # Verbose output
+uv run wohnung test -x              # Stop on first failure
 
-# Run only fast tests (skip slow/integration)
-uv run pytest -m "not slow"
+# Code quality
+uv run wohnung lint                 # Check linting
+uv run wohnung lint --fix           # Auto-fix issues
+uv run wohnung lint --complexity    # Show complexity only
+uv run wohnung format               # Format code
+uv run wohnung format --check       # Check formatting only
+uv run wohnung type-check           # Run mypy
+uv run wohnung pre-commit           # Run pre-commit hooks
+uv run wohnung check                # Run all checks (lint + format + type)
+uv run wohnung all                  # Run checks + tests
+
+# Scraping
+uv run wohnung scrape               # Run scraper
+uv run wohnung scrape --dry-run     # Test without emails
+
+# Project board & issue management (requires gh CLI)
+uv run wohnung board setup-check    # Check if gh is installed
+uv run wohnung board templates      # Show available templates
+uv run wohnung board create "Title" # Create basic issue
+uv run wohnung board create "Bug title" -t bug           # Bug report
+uv run wohnung board create "Feature title" -t feature   # Feature request
+uv run wohnung board create "Site name" -t scraper       # Scraper task
+uv run wohnung board list           # List open issues
+uv run wohnung board list --state closed  # List closed issues
+uv run wohnung board view 42        # View issue #42
+uv run wohnung board view 42 -w     # Open issue #42 in browser
+
+# Maintenance
+uv run wohnung clean                # Clean cache and artifacts
 ```
 
-### Code Quality
+## 📋 Project Management with GitHub Boards
+
+With GitHub Pro (free for public repos), you can use the board commands to manage your backlog:
+
+### Quick Start
 
 ```bash
-# Lint with ruff
-uv run ruff check src tests
+# 1. Check setup
+uv run wohnung board setup-check
 
-# Auto-fix issues
-uv run ruff check --fix src tests
+# 2. Create issues from templates
+uv run wohnung board create "Immoscout24 scraper" -t scraper
+uv run wohnung board create "Email styling broken" -t bug
+uv run wohnung board create "Add price alerts" -t feature
 
-# Format with black
-uv run black src tests
-
-# Type check with mypy
-uv run mypy src
+# 3. List and view
+uv run wohnung board list
+uv run wohnung board view 1
 ```
+
+### Issue Templates
+
+The CLI includes ready-to-use templates:
+
+- **`bug`** - Bug reports with reproduction steps
+- **`feature`** - Feature requests with motivation/solution
+- **`scraper`** - Scraper implementation tasks with checklist
+
+Each template:
+- Pre-fills structured content
+- Adds appropriate labels
+- Creates actionable checklist items
+
+### Link to GitHub Projects
+
+1. Create a Project board on GitHub (Settings → Projects)
+2. Enable workflow automation
+3. Link your repository
+4. Issues created via CLI will automatically appear in your board!
+
+### Enable Shell Completion (Optional)
+
+```bash
+# Bash
+uv run wohnung --install-completion bash
+
+# Zsh
+uv run wohnung --install-completion zsh
+
+# Fish
+uv run wohnung --install-completion fish
+```
+
+### Legacy Makefile Commands (Deprecated)
+
+The CLI replaces the old Makefile. If you prefer make-style commands, these are still available:
+- `make install` → `wohnung install`
+- `make test` → `wohnung test`
+### Legacy Makefile Commands (Deprecated)
+
+The CLI replaces the old Makefile. If you prefer make-style commands, these are still available:
+- `make install` → `wohnung install`
+- `make test` → `wohnung test`
+- `make lint` / `make lint-fix` → `wohnung lint [--fix]`
+- `make check` → `wohnung check`
 
 ### Testing with Mocked HTTP
 
@@ -204,10 +353,10 @@ def test_scraper(httpx_mock: HTTPXMock):
         text="<html>...</html>",
         status_code=200,
     )
-    
+
     scraper = ExampleScraper()
     flats = scraper.scrape()
-    
+
     assert len(flats) > 0
 ```
 
@@ -258,10 +407,10 @@ This project demonstrates:
 
 ### Why pytest for scrapers?
 
-✅ **Mocking HTTP requests** - Test scraper logic without hitting real sites  
-✅ **Fixtures** - Reusable test data and setup  
-✅ **Parametrized tests** - Test multiple scenarios easily  
-✅ **Coverage reporting** - Ensure all code is tested  
+✅ **Mocking HTTP requests** - Test scraper logic without hitting real sites
+✅ **Fixtures** - Reusable test data and setup
+✅ **Parametrized tests** - Test multiple scenarios easily
+✅ **Coverage reporting** - Ensure all code is tested
 ✅ **Fast execution** - No network calls = fast tests
 
 ### Test Structure

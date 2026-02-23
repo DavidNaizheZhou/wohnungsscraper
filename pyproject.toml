@@ -26,6 +26,9 @@ dependencies = [
     "pydantic>=2.6.0",
     "pydantic-settings>=2.1.0",
     "resend>=2.0.0",
+    "typer>=0.9.0",
+    "rich>=13.0.0",
+    "pyyaml>=6.0.0",
 ]
 
 [project.optional-dependencies]
@@ -38,10 +41,13 @@ dev = [
     "mypy>=1.8.0",
     "black>=24.1.0",
     "types-beautifulsoup4>=4.12.0",
+    "types-pyyaml>=6.0.0",
+    "pre-commit>=3.6.0",
 ]
 
 [project.scripts]
 wohnung-scrape = "wohnung.main:main"
+wohnung = "wohnung.cli:main"
 
 [build-system]
 requires = ["hatchling"]
@@ -88,7 +94,10 @@ max-statements = 50
 
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["F401"]  # unused imports in __init__.py
-"tests/**/*.py" = ["ARG"]  # unused arguments in tests
+"tests/**/*.py" = ["ARG", "PLR2004"]  # unused arguments and magic values in tests
+"src/wohnung/main.py" = ["PLC0415", "C901", "PLR0912", "PLR0915"]  # main function complexity
+"src/wohnung/models.py" = ["PLW0108"]  # lambda required for Pydantic json_encoders
+"src/wohnung/cli.py" = ["PLR2004"]  # magic values acceptable in CLI commands
 
 # Black configuration
 [tool.black]
@@ -170,4 +179,9 @@ exclude_lines = [
     "if __name__ == .__main__.:",
     "if TYPE_CHECKING:",
     "@abstractmethod",
+]
+
+[dependency-groups]
+dev = [
+    "types-pyyaml>=6.0.12.20250915",
 ]

@@ -8,6 +8,7 @@ help:  ## Show this help message
 
 install:  ## Install dependencies with uv
 	uv sync --all-extras
+	uv run pre-commit install
 
 test:  ## Run tests with coverage
 	uv run pytest --cov --cov-report=term-missing
@@ -33,6 +34,9 @@ type-check:  ## Run mypy type checker
 complexity:  ## Check code complexity with detailed report
 	@echo "Checking code complexity (max: 10)..."
 	uv run ruff check --select C90 src tests
+
+pre-commit:  ## Run pre-commit hooks on all files
+	uv run pre-commit run --all-files
 
 check: lint format-check type-check  ## Run all checks (lint, format, type)
 	@echo "✅ All checks passed!"

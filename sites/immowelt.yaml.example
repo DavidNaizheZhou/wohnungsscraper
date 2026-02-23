@@ -1,0 +1,99 @@
+# Immowelt Configuration
+# Configuration for https://www.immowelt.de/
+# Example search URL for Munich apartments
+
+name: immowelt
+display_name: "Immowelt"
+base_url: "https://www.immowelt.de/suche/muenchen/wohnungen/mieten"
+enabled: false  # Disabled by default, enable when ready
+
+selectors:
+  # Required selectors (based on typical Immowelt structure)
+  listing: "div.EstateItem"  # Main listing container
+  title: "h2.EstateItem-title"  # Apartment title
+  url: "a.EstateItem-link"  # Link to detail page
+  location: "div.EstateItem-address"  # Location info
+
+  # Optional selectors
+  price: "div.EstateItem-price"  # Rent price
+  size: "div.EstateItem-data:contains('m²')"  # Living space
+  rooms: "div.EstateItem-data:contains('Zimmer')"  # Room count
+  description: "div.EstateItem-text"  # Description snippet
+  image: "div.EstateItem-image img"  # Main image
+
+# Pagination
+pagination:
+  enabled: true
+  max_pages: 5
+  next_selector: "button.PaginationButton--next"  # Follow "next" button
+  # Alternative: url_pattern if pages use numbered URLs
+
+# Markers for Immowelt-specific features
+markers:
+  - name: new_build
+    label: "Neubau"
+    patterns:
+      - "neubau"
+      - "erstbezug"
+      - "neubauprojekt"
+      - "erstbezug nach sanierung"
+      - "kernsaniert"
+    priority: high
+    search_in:
+      - title
+      - description
+
+  - name: subsidized
+    label: "Geförderte Wohnung"
+    patterns:
+      - "gefördert"
+      - "gefördertes wohnen"
+      - "sozialwohnung"
+      - "wohnberechtigungsschein"
+      - "wbs erforderlich"
+    priority: high
+    search_in:
+      - title
+      - description
+
+  - name: senior_suitable
+    label: "Seniorengerecht"
+    patterns:
+      - "seniorengerecht"
+      - "altersgerecht"
+      - "barrierefrei"
+      - "rollstuhlgerecht"
+      - "betreutes wohnen"
+    priority: medium
+    search_in:
+      - title
+      - description
+
+  - name: parking_included
+    label: "Parkplatz/Garage"
+    patterns:
+      - "parkplatz"
+      - "stellplatz"
+      - "garage"
+      - "tiefgarage"
+      - "carport"
+    priority: low
+    search_in:
+      - description
+
+  - name: garden
+    label: "Garten"
+    patterns:
+      - "garten"
+      - "gartennutzung"
+      - "eigener garten"
+      - "gartenanteil"
+      - "grünfläche"
+    priority: low
+    search_in:
+      - title
+      - description
+
+# Performance tuning
+request_timeout: 30
+rate_limit_delay: 1.5

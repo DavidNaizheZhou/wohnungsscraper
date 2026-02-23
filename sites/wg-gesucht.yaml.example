@@ -1,0 +1,43 @@
+# WG-Gesucht.de Configuration
+# Configuration for https://www.wg-gesucht.de/
+
+name: wg-gesucht
+display_name: "WG-Gesucht.de"
+base_url: "https://www.wg-gesucht.de/wohnungen-in-Muenchen.90.2.1.0.html"
+enabled: false  # Disabled by default, enable when ready to use
+
+selectors:
+  # Required selectors (adjust based on actual HTML structure)
+  listing: "div.wgg_card"
+  title: "h3.headline"
+  url: "a.detailansicht"
+  location: "span.angebotstyp"
+
+  # Optional selectors
+  price: "div.wgg_card_header_price"
+  size: "span.detail-size-property-size"
+  rooms: "span.detail-size-property-rooms"
+  description: "p.wgg_card_body"
+  image: "img.wgg_card_image"
+
+# Pagination
+pagination:
+  enabled: true
+  max_pages: 5
+  url_pattern: "-{page}.html"  # WG-Gesucht style
+
+# Markers
+markers:
+  - name: wg_suitable
+    label: "WG-geeignet"
+    patterns:
+      - "wg-geeignet"
+      - "wg geeignet"
+      - "wohngemeinschaft"
+    priority: high
+    search_in:
+      - title
+      - description
+
+request_timeout: 30
+rate_limit_delay: 2.0  # Be nice to WG-Gesucht

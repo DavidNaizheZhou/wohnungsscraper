@@ -1,0 +1,85 @@
+# eBay Kleinanzeigen Configuration
+# Configuration for apartment search on eBay Kleinanzeigen
+# Example: https://www.kleinanzeigen.de/s-wohnung-mieten/c203
+
+name: ebay-kleinanzeigen
+display_name: "eBay Kleinanzeigen"
+base_url: "https://www.kleinanzeigen.de/s-wohnung-mieten/c203"
+enabled: false  # Disabled by default
+
+selectors:
+  # Required selectors
+  listing: "article.aditem"  # Each listing container
+  title: "a.ellipsis"  # Apartment title
+  url: "a.ellipsis"  # Link to listing (href)
+  location: "div.aditem-main--top--left"  # Location info
+
+  # Optional selectors
+  price: "p.aditem-main--middle--price-shipping--price"  # Price
+  size: "span.simpletag"  # Size might be in tags
+  rooms: "span.simpletag"  # Rooms might be in tags
+  description: "p.aditem-main--middle--description"  # Description text
+  image: "div.galleryimage-element img"  # Main image
+
+# Pagination configuration
+pagination:
+  enabled: true
+  max_pages: 5
+  url_pattern: "/seite:{page}"  # eBay Kleinanzeigen pagination style
+  # Example: /seite:2, /seite:3, etc.
+
+# Markers specific to eBay Kleinanzeigen listings
+markers:
+  - name: immediate_availability
+    label: "Sofort verfügbar"
+    patterns:
+      - "sofort verfügbar"
+      - "ab sofort"
+      - "sofortbezug"
+      - "ab jetzt"
+    priority: high
+    search_in:
+      - title
+      - description
+
+  - name: furnished
+    label: "Möbliert"
+    patterns:
+      - "möbliert"
+      - "möblierte"
+      - "voll möbliert"
+      - "teilmöbliert"
+      - "eingerichtet"
+    priority: medium
+    search_in:
+      - title
+      - description
+
+  - name: balcony_terrace
+    label: "Balkon/Terrasse"
+    patterns:
+      - "balkon"
+      - "terrasse"
+      - "loggia"
+      - "südbalkon"
+      - "dachterrasse"
+    priority: low
+    search_in:
+      - title
+      - description
+
+  - name: pets_allowed
+    label: "Haustiere erlaubt"
+    patterns:
+      - "haustiere erlaubt"
+      - "haustierfreundlich"
+      - "hund erlaubt"
+      - "katze erlaubt"
+      - "pets allowed"
+    priority: medium
+    search_in:
+      - description
+
+# Performance settings
+request_timeout: 30
+rate_limit_delay: 2.0  # Be respectful with request frequency

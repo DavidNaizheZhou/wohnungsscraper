@@ -1,0 +1,79 @@
+# Example Site Configuration
+# This is a template showing all available configuration options
+
+name: immoscout24
+display_name: "ImmobilienScout24"
+base_url: "https://www.immobilienscout24.de/Suche/de/wohnung-mieten"
+enabled: true
+
+selectors:
+  # Required selectors
+  listing: "article.result-list-entry"  # Container for each apartment
+  title: "h5.result-list-entry__brand-title"  # Apartment title
+  url: "a.result-list-entry__brand-title-container"  # Link to apartment (href attribute)
+  location: "div.result-list-entry__address"  # Location/address
+
+  # Optional selectors
+  price: "dd.result-list-entry__primary-criterion"  # Monthly rent
+  size: "dd.result-list-entry__secondary-criterion:nth-of-type(1)"  # Size in m²
+  rooms: "dd.result-list-entry__secondary-criterion:nth-of-type(2)"  # Number of rooms
+  description: "p.result-list-entry__criteria"  # Short description
+  image: "img.gallery-image"  # Main image (src attribute)
+
+# Optional: Pagination configuration
+pagination:
+  enabled: true
+  max_pages: 3
+  url_pattern: "?pagenumber={page}"  # Will be appended to base_url
+  # OR use next_selector to follow "next page" links
+  # next_selector: "a.next-page"
+
+# Optional: Special markers to detect
+markers:
+  - name: vormerkung_possible
+    label: "Vormerkung möglich"
+    patterns:
+      - "vormerkung möglich"
+      - "vormerken"
+      - "vormerkungsliste"
+    priority: high
+    search_in:
+      - title
+      - description
+
+  - name: in_planning
+    label: "In Planung"
+    patterns:
+      - "in planung"
+      - "bauphase"
+      - "geplant"
+      - "voraussichtlich"
+    priority: medium
+    search_in:
+      - title
+      - description
+
+  - name: available_soon
+    label: "Bald verfügbar"
+    patterns:
+      - "bald verfügbar"
+      - "demnächst"
+      - "ab \\d{1,2}\\.\\d{1,2}\\.\\d{4}"  # Date pattern
+    priority: medium
+    search_in:
+      - title
+
+  - name: new_build
+    label: "Neubau"
+    patterns:
+      - "neubau"
+      - "erstbezug"
+      - "neuwertig"
+    priority: low
+    search_in:
+      - title
+      - description
+
+# Optional: Performance tuning
+request_timeout: 30  # seconds (5-120)
+rate_limit_delay: 1.0  # seconds between requests (0.1-10.0)

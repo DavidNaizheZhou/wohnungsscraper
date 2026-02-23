@@ -1,0 +1,90 @@
+# OEVW - Österreichisches Siedlungswerk
+# Configuration for https://www.oevw.at/projekte
+
+name: oevw
+display_name: "OEVW - Österreichisches Siedlungswerk"
+base_url: "https://www.oevw.at/projekte"
+enabled: true
+
+selectors:
+  # Required selectors - adjust after inspecting actual HTML
+  listing: ".project-item, .projekt-item, article.project"
+  title: "h2, h3.project-title, .project-name"
+  url: "a.project-link, a[href*='/projekt/']"
+  location: ".location, .project-location, .standort"
+
+  # Optional selectors
+  price: ".price, .preis, .kosten"
+  size: ".size, .groesse, .flaeche"
+  rooms: ".rooms, .zimmer"
+  description: ".description, .beschreibung, p.project-description"
+  image: "img.project-image, .project-img img"
+
+# No pagination for now - can be added later
+pagination:
+  enabled: false
+
+# Austrian housing-specific markers
+markers:
+  - name: vormerkung_possible
+    label: "Vormerkung möglich"
+    patterns:
+      - "vormerkung möglich"
+      - "vormerken"
+      - "vormerkung"
+      - "interessentenliste"
+    priority: high
+    search_in:
+      - title
+      - description
+
+  - name: in_planning
+    label: "In Planung"
+    patterns:
+      - "in planung"
+      - "geplant"
+      - "bauphase"
+      - "baubeginn"
+      - "im bau"
+    priority: high
+    search_in:
+      - title
+      - description
+
+  - name: available_soon
+    label: "Demnächst verfügbar"
+    patterns:
+      - "demnächst"
+      - "bald verfügbar"
+      - "ab \\d{1,2}/\\d{4}"  # Date format: ab 03/2026
+      - "voraussichtlich"
+      - "geplante fertigstellung"
+    priority: medium
+    search_in:
+      - title
+      - description
+
+  - name: subsidized
+    label: "Gefördert"
+    patterns:
+      - "gefördert"
+      - "förderung"
+      - "sozialwohnung"
+    priority: medium
+    search_in:
+      - title
+      - description
+
+  - name: new_build
+    label: "Neubau"
+    patterns:
+      - "neubau"
+      - "erstbezug"
+      - "neubauprojekt"
+    priority: low
+    search_in:
+      - title
+      - description
+
+request_timeout: 30
+rate_limit_delay: 1.5
