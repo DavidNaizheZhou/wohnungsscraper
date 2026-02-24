@@ -4,7 +4,7 @@
       "apartment_id": "ebg-84dc8989f0f130c4",
       "data": {
         "description": "Geplanter Bezug: 3. Wohnen neu gedacht.Ihr neues Zuhause in Unterradlberg bei St. Pölten.Im beliebten Stadtteil Unterradlberg, nur wenige Minuten von der St. Pöltner Innenstadt entfernt, entsteht ein neues Wohnprojekt, das Wohnen im Grünen mit höchstem Komfort verbindet.100 freifinanzierte Zwei- bis Vier-Zimmer-Wohnungen bieten Raum zum Leben, ob für Familien, Paare oder Singles, die ein Zuhause mit Zukunft suchen.Kl",
-        "found_at": "2026-02-24T12:14:08.045290",
+        "found_at": "2026-02-24T14:46:23.736205",
         "id": "ebg-84dc8989f0f130c4",
         "image_url": null,
         "location": "3105 St. Pölten-Radlberg Dr. Hübscher Gasse 33-35",
@@ -22,15 +22,15 @@
         "url": "https://www.ebg-wohnen.at/in-planung/projekte/detail/367"
       },
       "first_seen": "2026-02-24T00:06:07.983861",
-      "last_seen": "2026-02-24T12:14:10.262995",
-      "last_updated": "2026-02-24T12:14:10.262995",
+      "last_seen": "2026-02-24T14:46:25.392756",
+      "last_updated": "2026-02-24T14:46:25.392756",
       "status": "active"
     },
     "ebg-e3b4717fb1c9af9a": {
       "apartment_id": "ebg-e3b4717fb1c9af9a",
       "data": {
         "description": "Geplanter Bezug: 1. Im Herzen des aufstrebenden 21. Wiener Gemeindebezirks entsteht ein modernes Wohnprojekt, das urbanes Lebensgefühl mit hoher Lebensqualität verbindet. In der Jedlersdorfer Straße 380 werden 35 freifinanzierte Wohnungen mit 22 PKW-Stellplätzen realisiert. Jede Wohnung verfügt über attraktive Freiflächen und bietet ein harmonisches Zusammenspiel aus durchdachter Architektur, hochwertiger Ausstattung",
-        "found_at": "2026-02-24T12:14:09.345066",
+        "found_at": "2026-02-24T14:46:24.785051",
         "id": "ebg-e3b4717fb1c9af9a",
         "image_url": null,
         "location": "1210 Wien Jedlersdorfer Straße 380",
@@ -47,15 +47,15 @@
         "url": "https://www.ebg-wohnen.at/in-planung/projekte/detail/370"
       },
       "first_seen": "2026-02-24T00:06:07.983861",
-      "last_seen": "2026-02-24T12:14:10.262995",
-      "last_updated": "2026-02-24T12:14:10.262995",
+      "last_seen": "2026-02-24T14:46:25.392756",
+      "last_updated": "2026-02-24T14:46:25.392756",
       "status": "active"
     },
     "ebg-fec36b0d85deaceb": {
       "apartment_id": "ebg-fec36b0d85deaceb",
       "data": {
         "description": "Wohnen mit Zukunft am Schrödingerplatz in 1220 Wien.Im Herzen der Donaustadt entsteht ein modernes Wohnprojekt, das Lebensqualität, Gemeinschaft und Nachhaltigkeit vereint. Die EBG errichtet gemeinsam mit der Wohnbau ein attraktives Neubauprojekt.Die 136 Wohnungen der EBG verfügen alle über eine private Freifläche und bieten so Raum für Rückzug und Erholung.Durchdachte Grundrisse, helle Räume und eine nachhaltige Bauweise sorgen für ein modernes, lebenswertes Zuhause für Menschen jeden Alters.Da",
-        "found_at": "2026-02-24T12:14:08.638608",
+        "found_at": "2026-02-24T14:46:24.277034",
         "id": "ebg-fec36b0d85deaceb",
         "image_url": null,
         "location": "1220 Wien Schrödingerplatz 1",
@@ -72,11 +72,11 @@
         "url": "https://www.ebg-wohnen.at/in-planung/projekte/detail/369"
       },
       "first_seen": "2026-02-24T00:06:07.983861",
-      "last_seen": "2026-02-24T12:14:10.262995",
-      "last_updated": "2026-02-24T12:14:10.262995",
+      "last_seen": "2026-02-24T14:46:25.392756",
+      "last_updated": "2026-02-24T14:46:25.392756",
       "status": "active"
     }
   },
-  "last_scrape": "2026-02-24T12:14:10.262995",
+  "last_scrape": "2026-02-24T14:46:25.392756",
   "site": "ebg"
 }
