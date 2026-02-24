@@ -15,6 +15,7 @@ from wohnung.scrapers.nhg import NhgScraper
 from wohnung.scrapers.nordwestbahnhof import NordwestbahnhofScraper
 from wohnung.scrapers.oesw import OeswScraper
 from wohnung.scrapers.oevw import OEVWScraper
+from wohnung.scrapers.sozialbau import SozialbauScraper
 from wohnung.scrapers.wohnberatung_wien import WohnberatungWienScraper
 
 # Register all scrapers here
@@ -33,6 +34,7 @@ SCRAPERS: list[type[BaseScraper]] = [
     OeswScraper,
     EbgScraper,
     NordwestbahnhofScraper,
+    SozialbauScraper,
     # Add more scrapers as you implement them
 ]
 
