@@ -7,7 +7,6 @@ from wohnung.scrapers.base import BaseScraper
 from wohnung.scrapers.bwsg import BwsgScraper
 from wohnung.scrapers.ebg import EbgScraper
 from wohnung.scrapers.egw import EgwScraper
-from wohnung.scrapers.example import ExampleScraper
 from wohnung.scrapers.familienwohnbau import FamilienwohnbauScraper
 from wohnung.scrapers.frieden import FriedenScraper
 from wohnung.scrapers.migra import MigraScraper
@@ -20,7 +19,6 @@ from wohnung.scrapers.wohnberatung_wien import WohnberatungWienScraper
 
 # Register all scrapers here
 SCRAPERS: list[type[BaseScraper]] = [
-    ExampleScraper,
     OEVWScraper,
     WohnberatungWienScraper,
     MigraScraper,

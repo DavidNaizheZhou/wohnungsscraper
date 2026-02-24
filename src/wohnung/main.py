@@ -130,11 +130,12 @@ def main(dry_run: bool = False) -> int:
                     regular_results.append(source_result)
 
         # Send consolidated email for regular scrapers
+        # Only send if there are actual apartment changes (new or updated)
         regular_new = len([c for c in regular_changes if c.change_type == "new"])
         regular_updated = len([c for c in regular_changes if c.change_type == "updated"])
         regular_unhealthy = [r for r in regular_results if r.needs_attention]
 
-        if regular_new > 0 or regular_updated > 0 or regular_unhealthy:
+        if regular_new > 0 or regular_updated > 0:
             print("\n📧 Sending consolidated email notification...")
             from wohnung.email import send_consolidated_email
 
@@ -148,10 +149,25 @@ def main(dry_run: bool = False) -> int:
                 print("✅ Email sent successfully")
             else:
                 print("⚠️  Email sending failed")
+        else:
+            print("\n✅ No changes detected, no email sent")
+            if regular_unhealthy:
+                print(
+                    f"   Note: {len(regular_unhealthy)} scraper(s) unhealthy but no apartment changes"
+                )
 
         # Send separate emails for special scrapers
+        # Only send if there are actual apartment changes
         for source, source_changes in special_changes.items():
             source_result = special_results.get(source)
+
+            # Check if there are any new or updated apartments
+            source_new = len([c for c in source_changes if c.change_type == "new"])
+            source_updated = len([c for c in source_changes if c.change_type == "updated"])
+
+            if source_new == 0 and source_updated == 0:
+                print(f"\n✅ {source}: No changes detected, no email sent")
+                continue
 
             print(f"\n📧 Sending special email for {source}...")
             from wohnung.email import send_scraper_specific_email
@@ -184,8 +200,6 @@ def main(dry_run: bool = False) -> int:
                 print(f"✅ Email sent to {', '.join(scraper_inst.email_recipients)}")
             else:
                 print("⚠️  Email sending failed")
-
-        print("\n✅ No changes and all scrapers healthy")
 
         # Print stats per site
         print("\n📈 Storage stats:")

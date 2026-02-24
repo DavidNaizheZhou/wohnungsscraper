@@ -1031,65 +1031,7 @@ def generate_consolidated_email_html(  # noqa: C901, PLR0912, PLR0915
         </div>
 """
 
-    # Scraper Health Section
-    html += """
-        <h2>📊 Scraper Status</h2>
-        <div class="scraper-health">
-"""
-
-    # Show failed scrapers first
-    if failed_scrapers:
-        html += "<h3>❌ Failed Scrapers (benötigen Update)</h3>"
-        for result in failed_scrapers:
-            error_msgs = "<br>".join(
-                f'<div class="error-message">• {e}</div>' for e in result.errors
-            )
-            html += f"""
-            <div class="scraper-item failed">
-                <div>
-                    <span class="scraper-name">{result.source}</span>
-                    <div class="scraper-count">0 Wohnungen gefunden</div>
-                    {error_msgs}
-                </div>
-                <span class="scraper-status failed">FAILED</span>
-            </div>
-"""
-
-    # Then unhealthy scrapers
-    if unhealthy_scrapers:
-        html += "<h3>⚠️ Unhealthy Scrapers (prüfen empfohlen)</h3>"
-        for result in unhealthy_scrapers:
-            warning_msgs = "<br>".join(
-                f'<div class="warning-message">• {w}</div>' for w in result.warnings
-            )
-            html += f"""
-            <div class="scraper-item unhealthy">
-                <div>
-                    <span class="scraper-name">{result.source}</span>
-                    <div class="scraper-count">{len(result.flats)} Wohnungen gefunden</div>
-                    {warning_msgs}
-                </div>
-                <span class="scraper-status unhealthy">UNHEALTHY</span>
-            </div>
-"""
-
-    # Finally healthy scrapers (collapsed view)
-    if healthy_scrapers:
-        html += "<h3>✅ Healthy Scrapers</h3>"
-        for result in healthy_scrapers:
-            html += f"""
-            <div class="scraper-item healthy">
-                <div>
-                    <span class="scraper-name">{result.source}</span>
-                    <div class="scraper-count">{len(result.flats)} Wohnungen gefunden</div>
-                </div>
-                <span class="scraper-status healthy">HEALTHY</span>
-            </div>
-"""
-
-    html += "</div>"  # Close scraper-health
-
-    # New apartments section
+    # New apartments section (moved to top)
     if new_changes:
         html += f"<h2>🆕 Neue Wohnungen ({len(new_changes)})</h2>"
 
@@ -1157,6 +1099,51 @@ def generate_consolidated_email_html(  # noqa: C901, PLR0912, PLR0915
                 <a href="{apt.url}" class="flat-link">Details ansehen →</a>
             </div>
 """
+
+    # Scraper Health Section (moved to bottom, only showing problems)
+    if failed_scrapers or unhealthy_scrapers:
+        html += """
+        <h2>📊 Scraper Status - Probleme</h2>
+        <div class="scraper-health">
+"""
+
+        # Show failed scrapers first
+        if failed_scrapers:
+            html += "<h3>❌ Failed Scrapers (benötigen Update)</h3>"
+            for result in failed_scrapers:
+                error_msgs = "<br>".join(
+                    f'<div class="error-message">• {e}</div>' for e in result.errors
+                )
+                html += f"""
+            <div class="scraper-item failed">
+                <div>
+                    <span class="scraper-name">{result.source}</span>
+                    <div class="scraper-count">0 Wohnungen gefunden</div>
+                    {error_msgs}
+                </div>
+                <span class="scraper-status failed">FAILED</span>
+            </div>
+"""
+
+        # Then unhealthy scrapers
+        if unhealthy_scrapers:
+            html += "<h3>⚠️ Unhealthy Scrapers (prüfen empfohlen)</h3>"
+            for result in unhealthy_scrapers:
+                warning_msgs = "<br>".join(
+                    f'<div class="warning-message">• {w}</div>' for w in result.warnings
+                )
+                html += f"""
+            <div class="scraper-item unhealthy">
+                <div>
+                    <span class="scraper-name">{result.source}</span>
+                    <div class="scraper-count">{len(result.flats)} Wohnungen gefunden</div>
+                    {warning_msgs}
+                </div>
+                <span class="scraper-status unhealthy">UNHEALTHY</span>
+            </div>
+"""
+
+        html += "</div>"  # Close scraper-health
 
     # Footer
     html += """
