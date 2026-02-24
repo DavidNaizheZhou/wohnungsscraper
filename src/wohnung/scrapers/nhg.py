@@ -1,6 +1,5 @@
 """Scraper for NHG - Neue Heimat."""
 
-import requests  # type: ignore[import-untyped]
 from bs4 import BeautifulSoup
 
 from wohnung.models import Flat
@@ -36,7 +35,7 @@ class NhgScraper(BaseScraper):
             url = f"{self.base_url}/immobilienangebot/{page_slug}/"
 
             try:
-                response = requests.get(url, timeout=30)
+                response = self.client.get(url)
                 response.raise_for_status()
 
                 soup = BeautifulSoup(response.text, "html.parser")
@@ -84,7 +83,7 @@ class NhgScraper(BaseScraper):
                         flats.append(flat)
 
             except Exception as e:
-                print(f"Error scraping {page_slug}: {e}")
+                self.logger.error(f"Error scraping {page_slug}: {e}")
                 continue
 
         return flats
