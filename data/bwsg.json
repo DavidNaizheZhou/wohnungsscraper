@@ -4,7 +4,7 @@
       "apartment_id": "5889-145700030",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.140329",
+        "found_at": "2026-02-25T10:50:29.369827",
         "id": "5889-145700030",
         "image_url": "https://storage.justimmo.at/thumb/fd32dffb9c8c68b0a90d5d7f1c4e85cc/fc_h1080_w1920/3gTGjnfrBMhMRqZ2LT6UmY.jpg",
         "location": "3110 Neidling",
@@ -20,15 +20,15 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-3-zimmer-wohnung-mit-balkon-in-neidling/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-151400790": {
       "apartment_id": "5889-151400790",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.139912",
+        "found_at": "2026-02-25T10:50:29.369403",
         "id": "5889-151400790",
         "image_url": "https://storage.justimmo.at/thumb/5e431fd3e54d6192f9d276e8c493023f/fc_h1080_w1920/vBsgBqLuLPp50MyMod7Rh.jpg",
         "location": "3100 St. Pölten",
@@ -44,15 +44,15 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-unbefristete-2-zimmer-wohnung-mit-loggia-in-st-poelten/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-151400800": {
       "apartment_id": "5889-151400800",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.140188",
+        "found_at": "2026-02-25T10:50:29.369688",
         "id": "5889-151400800",
         "image_url": "https://storage.justimmo.at/thumb/5959fe822ad00d8acdd8731fcee72cf6/fc_h1080_w1920/jxnBZJujadaZbbk6IPsvQ.jpg",
         "location": "3100 St. Pölten",
@@ -68,15 +68,15 @@
         "url": "https://www.bwsg.at/objekt/attraktive-2-zimmer-wohnung-mit-loggia-in-st-poelten/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-153500060": {
       "apartment_id": "5889-153500060",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.139764",
+        "found_at": "2026-02-25T10:50:29.369256",
         "id": "5889-153500060",
         "image_url": "https://storage.justimmo.at/thumb/754f2e2cc4f71d388e93bd7e6028b612/fc_h1080_w1920/5i7cVRrIaSZy4u1u4qJGlv.jpg",
         "location": "3340 Waidhofen an der Ybbs",
@@ -92,15 +92,15 @@
         "url": "https://www.bwsg.at/objekt/charmante-2-zimmer-wohnung-in-waidhofen-an-der-ybbs/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-154000240": {
       "apartment_id": "5889-154000240",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.139597",
+        "found_at": "2026-02-25T10:50:29.369122",
         "id": "5889-154000240",
         "image_url": "https://storage.justimmo.at/thumb/5106d08f90d1570d9e5b9c1d85c965e5/fc_h1080_w1920/26QkIwdtgNcC6nCLEGWZ2l.jpg",
         "location": "3150 Wilhelmsburg",
@@ -116,8 +116,8 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-3-zimmer-wohnung-mit-loggia-in-wilhelmsburg-2/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-154000270": {
@@ -148,7 +148,7 @@
       "apartment_id": "5889-161000490",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.139445",
+        "found_at": "2026-02-25T10:50:29.368977",
         "id": "5889-161000490",
         "image_url": "https://storage.justimmo.at/thumb/4418e3c093fcbe034025b07cf7dd10ee/fc_h1080_w1920/2EHmtQ4VPiPtdLNcjZkOfo.jpg",
         "location": "8020 Graz",
@@ -164,15 +164,15 @@
         "url": "https://www.bwsg.at/objekt/charmante-3-zimmer-wohnung-mit-balkon-in-graz-2/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-18761": {
       "apartment_id": "5889-18761",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.138529",
+        "found_at": "2026-02-25T10:50:29.368085",
         "id": "5889-18761",
         "image_url": "https://storage.justimmo.at/thumb/9d1d65ab21d5bf6b9581af84bef60661/fc_h1080_w1920/5rF2cpnuzphuXtKI9AfAYZ.jpg",
         "location": "5301 Eugendorf",
@@ -188,15 +188,15 @@
         "url": "https://www.bwsg.at/objekt/silberlocke-wohnen-in-eugendorf-im-flachgau/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-468100010": {
       "apartment_id": "5889-468100010",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.139165",
+        "found_at": "2026-02-25T10:50:29.368703",
         "id": "5889-468100010",
         "image_url": "https://storage.justimmo.at/thumb/be5f6ee268e3c0fd7522966f9b8e36e2/fc_h1080_w1920/1aibtXNcT27w1rRbiOYnkD.jpg",
         "location": "8720 Knittelfeld",
@@ -212,15 +212,15 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-1-zimmer-wohnung-in-knittelfeld/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-468100100": {
       "apartment_id": "5889-468100100",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.139307",
+        "found_at": "2026-02-25T10:50:29.368841",
         "id": "5889-468100100",
         "image_url": "https://storage.justimmo.at/thumb/be5f6ee268e3c0fd7522966f9b8e36e2/fc_h1080_w1920/1aibtXNcT27w1rRbiOYnkD.jpg",
         "location": "8720 Knittelfeld",
@@ -236,15 +236,15 @@
         "url": "https://www.bwsg.at/objekt/unbefristet-nette-25-zimmer-wohnung/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-468200010": {
       "apartment_id": "5889-468200010",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.139020",
+        "found_at": "2026-02-25T10:50:29.368544",
         "id": "5889-468200010",
         "image_url": "https://storage.justimmo.at/thumb/b364d86cf9adefcd37d1a9a92f9e77bf/fc_h1080_w1920/22mxztChSqkMu4KF7DmMe9.jpg",
         "location": "8720 Knittelfeld",
@@ -260,15 +260,15 @@
         "url": "https://www.bwsg.at/objekt/unbefristetes-wohnglueck-mit-separater-kueche-und-balkon/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-662400140": {
       "apartment_id": "5889-662400140",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.140050",
+        "found_at": "2026-02-25T10:50:29.369537",
         "id": "5889-662400140",
         "image_url": "https://storage.justimmo.at/thumb/3cb4ef8735ba349ded949d87d79de232/fc_h1080_w1920/2cq7RG6zylmMIEgeXQRsK9.jpg",
         "location": "8600 Bruck an der Mur",
@@ -284,15 +284,15 @@
         "url": "https://www.bwsg.at/objekt/nur-jetzt-3-monate-mietfrei-gemuetliche-und-unbefristete-3-zimmer-wohnung-mit-schoener-terrasse/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-662900200": {
       "apartment_id": "5889-662900200",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.138873",
+        "found_at": "2026-02-25T10:50:29.368400",
         "id": "5889-662900200",
         "image_url": "https://storage.justimmo.at/thumb/a0a4981ea483e00ef607043cb9755cd6/fc_h1080_w1920/2iEpN3Br6wl8nZmcZlypqQ.jpg",
         "location": "8020 Graz",
@@ -308,15 +308,15 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-3-zimmer-wohnung-mit-loggia-in-graz/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     },
     "5889-663000260": {
       "apartment_id": "5889-663000260",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T10:25:33.138715",
+        "found_at": "2026-02-25T10:50:29.368251",
         "id": "5889-663000260",
         "image_url": "https://storage.justimmo.at/thumb/587e4c7278ddb07c1381c0d4cf70e0e5/fc_h1080_w1920/3P60MjP0vTI8PS0NQHLNHG.jpg",
         "location": "8010 Graz",
@@ -332,11 +332,11 @@
         "url": "https://www.bwsg.at/objekt/froehlichgasse-81-14/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-02-25T10:27:26.344280",
-      "last_updated": "2026-02-25T10:27:26.344280",
+      "last_seen": "2026-02-25T10:52:29.501264",
+      "last_updated": "2026-02-25T10:52:29.501264",
       "status": "active"
     }
   },
-  "last_scrape": "2026-02-25T10:27:26.344280",
+  "last_scrape": "2026-02-25T10:52:29.501264",
   "site": "bwsg"
 }
