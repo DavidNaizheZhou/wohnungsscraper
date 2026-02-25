@@ -3,27 +3,27 @@
     "sozialbau-370d611cbbbaf65c": {
       "apartment_id": "sozialbau-370d611cbbbaf65c",
       "data": {
-        "description": "Miete: €297.79",
-        "found_at": "2026-02-25T11:49:35.106109",
+        "description": "Miete: €418.02",
+        "found_at": "2026-02-25T14:30:40.632213",
         "id": "sozialbau-370d611cbbbaf65c",
-        "image_url": "https://www.bewohner.at/data/StvOfferFlatPics/25/thumb_25611_1278114730.gif",
-        "location": "8010 GRAZ",
+        "image_url": null,
+        "location": "8605 KAPFENBERG",
         "markers": [
           "available_now",
           "rental",
           "subsidized"
         ],
-        "price": 297.79,
-        "rooms": 1.0,
-        "size": 40.0,
+        "price": 418.02,
+        "rooms": 2.0,
+        "size": 53.0,
         "source": "sozialbau",
-        "title": "40m² - 1 Zimmer - 8010 GRAZ, Dr. Robert Sieger-Str. 23//14",
+        "title": "53m² - 2 Zimmer - 8605 KAPFENBERG, Schinitzhof 9//9",
         "url": "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml#property-f1:j_idt128:6:j_idt130"
       },
       "first_seen": "2026-02-24T22:48:47.621811",
-      "last_seen": "2026-02-25T11:49:35.140065",
-      "last_updated": "2026-02-25T11:49:35.140065",
-      "status": "removed"
+      "last_seen": "2026-02-25T14:30:40.667537",
+      "last_updated": "2026-02-25T14:30:40.667537",
+      "status": "active"
     },
     "sozialbau-41891bcc754078a0": {
       "apartment_id": "sozialbau-41891bcc754078a0",
@@ -48,13 +48,13 @@
       "first_seen": "2026-02-24T21:52:45.718946",
       "last_seen": "2026-02-25T13:39:07.118622",
       "last_updated": "2026-02-25T13:39:07.118622",
-      "status": "active"
+      "status": "removed"
     },
     "sozialbau-54a877c4f151cfd7": {
       "apartment_id": "sozialbau-54a877c4f151cfd7",
       "data": {
-        "description": "Miete: €401.32",
-        "found_at": "2026-02-25T11:49:35.106300",
+        "description": "Miete: €455.22",
+        "found_at": "2026-02-25T14:30:40.632431",
         "id": "sozialbau-54a877c4f151cfd7",
         "image_url": null,
         "location": "8605 KAPFENBERG",
@@ -63,17 +63,17 @@
           "rental",
           "subsidized"
         ],
-        "price": 401.32,
+        "price": 455.22,
         "rooms": 2.0,
-        "size": 51.0,
+        "size": 58.0,
         "source": "sozialbau",
-        "title": "51m² - 2 Zimmer - 8605 KAPFENBERG, Schinitzhof 9//1",
+        "title": "58m² - 2 Zimmer - 8605 KAPFENBERG, Schinitzhof 8//10",
         "url": "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml#property-f1:j_idt128:7:j_idt130"
       },
       "first_seen": "2026-02-24T22:48:47.621811",
-      "last_seen": "2026-02-25T11:49:35.140065",
-      "last_updated": "2026-02-25T11:49:35.140065",
-      "status": "removed"
+      "last_seen": "2026-02-25T14:30:40.667537",
+      "last_updated": "2026-02-25T14:30:40.667537",
+      "status": "active"
     },
     "sozialbau-602d29e7e4f1212b": {
       "apartment_id": "sozialbau-602d29e7e4f1212b",
@@ -98,7 +98,7 @@
       "first_seen": "2026-02-24T21:52:45.718946",
       "last_seen": "2026-02-25T13:39:07.118622",
       "last_updated": "2026-02-25T13:39:07.118622",
-      "status": "active"
+      "status": "removed"
     },
     "sozialbau-64480db90b395ca6": {
       "apartment_id": "sozialbau-64480db90b395ca6",
@@ -123,13 +123,13 @@
       "first_seen": "2026-02-24T21:52:45.718946",
       "last_seen": "2026-02-25T13:39:07.118622",
       "last_updated": "2026-02-25T13:39:07.118622",
-      "status": "active"
+      "status": "removed"
     },
     "sozialbau-7d9e8f28a9edba41": {
       "apartment_id": "sozialbau-7d9e8f28a9edba41",
       "data": {
-        "description": "Miete · Bezug: August 2026 · Vormerkungen: 34644",
-        "found_at": "2026-02-25T11:49:33.794209",
+        "description": "Miete · Bezug: August 2026 · Vormerkungen: 34656",
+        "found_at": "2026-02-25T14:30:39.199966",
         "id": "sozialbau-7d9e8f28a9edba41",
         "image_url": null,
         "location": "1210 Wien",
@@ -145,9 +145,9 @@
         "url": "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml#property-f1:j_idt255:0:j_idt260"
       },
       "first_seen": "2026-02-24T22:48:47.621811",
-      "last_seen": "2026-02-25T11:49:35.140065",
-      "last_updated": "2026-02-25T11:49:35.140065",
-      "status": "removed"
+      "last_seen": "2026-02-25T14:30:40.667537",
+      "last_updated": "2026-02-25T14:30:40.667537",
+      "status": "active"
     },
     "sozialbau-86a33ecc61ac1bfc": {
       "apartment_id": "sozialbau-86a33ecc61ac1bfc",
@@ -172,7 +172,7 @@
       "first_seen": "2026-02-24T21:52:45.718946",
       "last_seen": "2026-02-25T13:39:07.118622",
       "last_updated": "2026-02-25T13:39:07.118622",
-      "status": "active"
+      "status": "removed"
     },
     "sozialbau-89ba789132f1e7be": {
       "apartment_id": "sozialbau-89ba789132f1e7be",
@@ -197,7 +197,7 @@
       "first_seen": "2026-02-24T21:52:45.718946",
       "last_seen": "2026-02-25T13:39:07.118622",
       "last_updated": "2026-02-25T13:39:07.118622",
-      "status": "active"
+      "status": "removed"
     },
     "sozialbau-92572f9ac65784c4": {
       "apartment_id": "sozialbau-92572f9ac65784c4",
@@ -222,7 +222,7 @@
       "first_seen": "2026-02-25T10:27:26.353498",
       "last_seen": "2026-02-25T13:39:07.118622",
       "last_updated": "2026-02-25T13:39:07.118622",
-      "status": "active"
+      "status": "removed"
     },
     "sozialbau-9d8a1673ea605c55": {
       "apartment_id": "sozialbau-9d8a1673ea605c55",
@@ -246,64 +246,39 @@
       "first_seen": "2026-02-24T21:52:45.718946",
       "last_seen": "2026-02-25T13:39:07.118622",
       "last_updated": "2026-02-25T13:39:07.118622",
-      "status": "active"
+      "status": "removed"
     },
     "sozialbau-a01361012b6bb3ea": {
       "apartment_id": "sozialbau-a01361012b6bb3ea",
       "data": {
-        "description": "Miete: €296.12",
-        "found_at": "2026-02-25T11:49:35.105929",
+        "description": "Miete: €401.32",
+        "found_at": "2026-02-25T14:30:40.632001",
         "id": "sozialbau-a01361012b6bb3ea",
         "image_url": null,
-        "location": "8010 GRAZ",
+        "location": "8605 KAPFENBERG",
         "markers": [
           "available_now",
           "rental",
           "subsidized"
         ],
-        "price": 296.12,
-        "rooms": 1.0,
-        "size": 39.0,
+        "price": 401.32,
+        "rooms": 2.0,
+        "size": 51.0,
         "source": "sozialbau",
-        "title": "39m² - 1 Zimmer - 8010 GRAZ, Dr. Robert Sieger-Str. 21//5",
+        "title": "51m² - 2 Zimmer - 8605 KAPFENBERG, Schinitzhof 9//1",
         "url": "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml#property-f1:j_idt128:5:j_idt130"
       },
       "first_seen": "2026-02-24T22:48:47.621811",
-      "last_seen": "2026-02-25T11:49:35.140065",
-      "last_updated": "2026-02-25T11:49:35.140065",
-      "status": "removed"
+      "last_seen": "2026-02-25T14:30:40.667537",
+      "last_updated": "2026-02-25T14:30:40.667537",
+      "status": "active"
     },
     "sozialbau-a4188b2f615aa3cb": {
       "apartment_id": "sozialbau-a4188b2f615aa3cb",
       "data": {
-        "description": "Miete: €524.91",
-        "found_at": "2026-02-25T11:49:35.105311",
-        "id": "sozialbau-a4188b2f615aa3cb",
-        "image_url": "https://www.bewohner.at/data/StvOfferFlatPics/27/thumb_27153_1278169633.gif",
-        "location": "1140 WIEN",
-        "markers": [
-          "available_now",
-          "rental",
-          "subsidized"
-        ],
-        "price": 524.91,
-        "rooms": 1.0,
-        "size": 43.0,
-        "source": "sozialbau",
-        "title": "43m² - 1 Zimmer - 1140 WIEN, Hütteldorfer Straße 347/1/13",
-        "url": "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml#property-f1:j_idt128:2:j_idt130"
-      },
-      "first_seen": "2026-02-24T22:48:47.621811",
-      "last_seen": "2026-02-25T11:49:35.140065",
-      "last_updated": "2026-02-25T11:49:35.140065",
-      "status": "removed"
-    },
-    "sozialbau-a802936a7ed9c2e6": {
-      "apartment_id": "sozialbau-a802936a7ed9c2e6",
-      "data": {
         "description": "Miete: €297.76",
-        "found_at": "2026-02-25T11:49:35.105544",
-        "id": "sozialbau-a802936a7ed9c2e6",
+        "found_at": "2026-02-25T14:30:40.631290",
+        "id": "sozialbau-a4188b2f615aa3cb",
         "image_url": null,
         "location": "8010 GRAZ",
         "markers": [
@@ -316,62 +291,87 @@
         "size": 40.0,
         "source": "sozialbau",
         "title": "40m² - 1 Zimmer - 8010 GRAZ, Dr. Robert Sieger-Str. 25//17",
+        "url": "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml#property-f1:j_idt128:2:j_idt130"
+      },
+      "first_seen": "2026-02-24T22:48:47.621811",
+      "last_seen": "2026-02-25T14:30:40.667537",
+      "last_updated": "2026-02-25T14:30:40.667537",
+      "status": "active"
+    },
+    "sozialbau-a802936a7ed9c2e6": {
+      "apartment_id": "sozialbau-a802936a7ed9c2e6",
+      "data": {
+        "description": "Miete: €453.00",
+        "found_at": "2026-02-25T14:30:40.631495",
+        "id": "sozialbau-a802936a7ed9c2e6",
+        "image_url": null,
+        "location": "8010 GRAZ",
+        "markers": [
+          "available_now",
+          "rental",
+          "subsidized"
+        ],
+        "price": 453.0,
+        "rooms": 2.0,
+        "size": 62.0,
+        "source": "sozialbau",
+        "title": "62m² - 2 Zimmer - 8010 GRAZ, Dr. Robert Sieger-Str. 21//4",
         "url": "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml#property-f1:j_idt128:3:j_idt130"
       },
       "first_seen": "2026-02-24T22:48:47.621811",
-      "last_seen": "2026-02-25T11:49:35.140065",
-      "last_updated": "2026-02-25T11:49:35.140065",
-      "status": "removed"
+      "last_seen": "2026-02-25T14:30:40.667537",
+      "last_updated": "2026-02-25T14:30:40.667537",
+      "status": "active"
     },
     "sozialbau-af02011c3d1a43d5": {
       "apartment_id": "sozialbau-af02011c3d1a43d5",
       "data": {
-        "description": "Miete: €394.41",
-        "found_at": "2026-02-25T11:49:35.105124",
+        "description": "Miete: €296.12",
+        "found_at": "2026-02-25T14:30:40.631089",
         "id": "sozialbau-af02011c3d1a43d5",
-        "image_url": "https://www.bewohner.at/data/StvOfferFlatPics/26/thumb_26096_1278139008.gif",
-        "location": "1130 WIEN",
+        "image_url": null,
+        "location": "8010 GRAZ",
         "markers": [
           "available_now",
           "rental",
           "subsidized"
         ],
-        "price": 394.41,
+        "price": 296.12,
         "rooms": 1.0,
         "size": 39.0,
         "source": "sozialbau",
-        "title": "39m² - 1 Zimmer - 1130 WIEN, Amalienstraße 34/3/10",
+        "title": "39m² - 1 Zimmer - 8010 GRAZ, Dr. Robert Sieger-Str. 21//5",
         "url": "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml#property-f1:j_idt128:1:j_idt130"
       },
       "first_seen": "2026-02-24T22:48:47.621811",
-      "last_seen": "2026-02-25T11:49:35.140065",
-      "last_updated": "2026-02-25T11:49:35.140065",
-      "status": "removed"
+      "last_seen": "2026-02-25T14:30:40.667537",
+      "last_updated": "2026-02-25T14:30:40.667537",
+      "status": "active"
     },
     "sozialbau-b6a011701debbd33": {
       "apartment_id": "sozialbau-b6a011701debbd33",
       "data": {
-        "description": "Miete: €556.88",
-        "found_at": "2026-02-25T11:49:35.104881",
+        "description": "Miete: €524.91",
+        "found_at": "2026-02-25T14:30:40.630848",
         "id": "sozialbau-b6a011701debbd33",
-        "image_url": "https://www.bewohner.at/data/StvOfferFlatPics/26/thumb_26908_1278147380.gif",
-        "location": "1120 WIEN",
+        "image_url": "https://www.bewohner.at/data/StvOfferFlatPics/27/thumb_27153_1278169633.gif",
+        "location": "1140 WIEN",
         "markers": [
           "available_now",
           "rental",
           "subsidized"
         ],
-        "price": 556.88,
-        "rooms": 2.0,
-        "size": 59.0,
+        "price": 524.91,
+        "rooms": 1.0,
+        "size": 43.0,
         "source": "sozialbau",
-        "title": "59m² - 2 Zimmer - 1120 WIEN, Altmannsdorfer Straße 95-99/3/13",
+        "title": "43m² - 1 Zimmer - 1140 WIEN, Hütteldorfer Straße 347/1/13",
         "url": "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml#property-f1:j_idt128:0:j_idt130"
       },
       "first_seen": "2026-02-24T22:48:47.621811",
-      "last_seen": "2026-02-25T11:49:35.140065",
-      "last_updated": "2026-02-25T11:49:35.140065",
-      "status": "removed"
+      "last_seen": "2026-02-25T14:30:40.667537",
+      "last_updated": "2026-02-25T14:30:40.667537",
+      "status": "active"
     },
     "sozialbau-c63a1ee2bdbdecca": {
       "apartment_id": "sozialbau-c63a1ee2bdbdecca",
@@ -396,7 +396,7 @@
       "first_seen": "2026-02-24T21:52:45.718946",
       "last_seen": "2026-02-25T13:39:07.118622",
       "last_updated": "2026-02-25T13:39:07.118622",
-      "status": "active"
+      "status": "removed"
     },
     "sozialbau-cc26b789d96b0459": {
       "apartment_id": "sozialbau-cc26b789d96b0459",
@@ -421,7 +421,7 @@
       "first_seen": "2026-02-24T21:52:45.718946",
       "last_seen": "2026-02-25T13:39:07.118622",
       "last_updated": "2026-02-25T13:39:07.118622",
-      "status": "active"
+      "status": "removed"
     },
     "sozialbau-d466c545e6c7f17f": {
       "apartment_id": "sozialbau-d466c545e6c7f17f",
@@ -446,13 +446,13 @@
       "first_seen": "2026-02-25T10:27:26.353498",
       "last_seen": "2026-02-25T13:39:07.118622",
       "last_updated": "2026-02-25T13:39:07.118622",
-      "status": "active"
+      "status": "removed"
     },
     "sozialbau-e5a851d736deb49a": {
       "apartment_id": "sozialbau-e5a851d736deb49a",
       "data": {
-        "description": "Miete: €418.02",
-        "found_at": "2026-02-25T11:49:35.106517",
+        "description": "Miete: €404.09",
+        "found_at": "2026-02-25T14:30:40.632618",
         "id": "sozialbau-e5a851d736deb49a",
         "image_url": null,
         "location": "8605 KAPFENBERG",
@@ -461,17 +461,17 @@
           "rental",
           "subsidized"
         ],
-        "price": 418.02,
+        "price": 404.09,
         "rooms": 2.0,
-        "size": 53.0,
+        "size": 51.0,
         "source": "sozialbau",
-        "title": "53m² - 2 Zimmer - 8605 KAPFENBERG, Schinitzhof 9//9",
+        "title": "51m² - 2 Zimmer - 8605 KAPFENBERG, Schinitzhof 8//6",
         "url": "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml#property-f1:j_idt128:8:j_idt130"
       },
       "first_seen": "2026-02-25T08:51:48.872084",
-      "last_seen": "2026-02-25T11:49:35.140065",
-      "last_updated": "2026-02-25T11:49:35.140065",
-      "status": "removed"
+      "last_seen": "2026-02-25T14:30:40.667537",
+      "last_updated": "2026-02-25T14:30:40.667537",
+      "status": "active"
     },
     "sozialbau-f1ebac8c5d8f33b6": {
       "apartment_id": "sozialbau-f1ebac8c5d8f33b6",
@@ -501,27 +501,27 @@
     "sozialbau-f5bcc89482e5789d": {
       "apartment_id": "sozialbau-f5bcc89482e5789d",
       "data": {
-        "description": "Miete: €453.00",
-        "found_at": "2026-02-25T11:49:35.105738",
+        "description": "Miete: €297.79",
+        "found_at": "2026-02-25T14:30:40.631699",
         "id": "sozialbau-f5bcc89482e5789d",
-        "image_url": null,
+        "image_url": "https://www.bewohner.at/data/StvOfferFlatPics/25/thumb_25611_1278114730.gif",
         "location": "8010 GRAZ",
         "markers": [
           "available_now",
           "rental",
           "subsidized"
         ],
-        "price": 453.0,
-        "rooms": 2.0,
-        "size": 62.0,
+        "price": 297.79,
+        "rooms": 1.0,
+        "size": 40.0,
         "source": "sozialbau",
-        "title": "62m² - 2 Zimmer - 8010 GRAZ, Dr. Robert Sieger-Str. 21//4",
+        "title": "40m² - 1 Zimmer - 8010 GRAZ, Dr. Robert Sieger-Str. 23//14",
         "url": "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml#property-f1:j_idt128:4:j_idt130"
       },
       "first_seen": "2026-02-24T22:48:47.621811",
-      "last_seen": "2026-02-25T11:49:35.140065",
-      "last_updated": "2026-02-25T11:49:35.140065",
-      "status": "removed"
+      "last_seen": "2026-02-25T14:30:40.667537",
+      "last_updated": "2026-02-25T14:30:40.667537",
+      "status": "active"
     },
     "sozialbau-f95ffbee88a6d05f": {
       "apartment_id": "sozialbau-f95ffbee88a6d05f",
@@ -546,9 +546,9 @@
       "first_seen": "2026-02-24T21:52:45.718946",
       "last_seen": "2026-02-25T13:39:07.118622",
       "last_updated": "2026-02-25T13:39:07.118622",
-      "status": "active"
+      "status": "removed"
     }
   },
-  "last_scrape": "2026-02-25T13:39:07.118622",
+  "last_scrape": "2026-02-25T14:30:40.667537",
   "site": "sozialbau"
 }
