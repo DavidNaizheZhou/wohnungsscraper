@@ -4,7 +4,7 @@
       "apartment_id": "arwag-03b66a8540ba150f",
       "data": {
         "description": "Miete, Oleandergasse 17",
-        "found_at": "2026-02-25T08:49:51.268987",
+        "found_at": "2026-02-25T09:25:32.477964",
         "id": "arwag-03b66a8540ba150f",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22125_8W1A5181__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=3c853bf759",
         "location": "1220 Wien",
@@ -19,15 +19,15 @@
         "url": "https://www.arwag.at/projekte/oleandergasse-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-054da3c41ea47b6b": {
       "apartment_id": "arwag-054da3c41ea47b6b",
       "data": {
         "description": "Miete, Schukowitzgasse 77",
-        "found_at": "2026-02-25T08:49:51.266382",
+        "found_at": "2026-02-25T09:25:32.475551",
         "id": "arwag-054da3c41ea47b6b",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22075_IMG_7812__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=25376c00f3",
         "location": "1220 Wien",
@@ -42,15 +42,15 @@
         "url": "https://www.arwag.at/projekte/wohnhaus-schukowitzgasse-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-08a0af86a7d6dbfb": {
       "apartment_id": "arwag-08a0af86a7d6dbfb",
       "data": {
         "description": "Miete, Murlingengasse 12",
-        "found_at": "2026-02-25T08:49:51.239121",
+        "found_at": "2026-02-25T09:25:32.449696",
         "id": "arwag-08a0af86a7d6dbfb",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/12045_IMG_8612__FocusFillWzk2MCw5NjAsInkiLDI0MF0.JPG?s=ac114d7c76",
         "location": "1120 Wien",
@@ -65,15 +65,15 @@
         "url": "https://www.arwag.at/projekte/murlingengasse-12-1120-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-0c89831a2d4c7040": {
       "apartment_id": "arwag-0c89831a2d4c7040",
       "data": {
         "description": "Miete, Anna",
-        "found_at": "2026-02-25T08:49:51.228024",
+        "found_at": "2026-02-25T09:25:32.439302",
         "id": "arwag-0c89831a2d4c7040",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/03095_Eurogate_1__FocusFillWzUxMCw1MTAsIngiLDg1XQ.jpg?s=fadeddab59",
         "location": "1030 Wien",
@@ -88,15 +88,15 @@
         "url": "https://www.arwag.at/projekte/eurogate-wohnpark-lissagasse-1030-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-0cb58daa85ff8957": {
       "apartment_id": "arwag-0cb58daa85ff8957",
       "data": {
         "description": "Miete, Stammersdorfer Straße 245",
-        "found_at": "2026-02-25T08:49:51.258145",
+        "found_at": "2026-02-25T09:25:32.467665",
         "id": "arwag-0cb58daa85ff8957",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21165_8W1A6234a__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=b789ef86ef",
         "location": "1210 Wien",
@@ -111,15 +111,15 @@
         "url": "https://www.arwag.at/projekte/stammersdorfer-strasse-245-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-0db0b4512a06f447": {
       "apartment_id": "arwag-0db0b4512a06f447",
       "data": {
         "description": "Miete, Rudolf",
-        "found_at": "2026-02-25T08:49:51.262074",
+        "found_at": "2026-02-25T09:25:32.471329",
         "id": "arwag-0db0b4512a06f447",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22017_MG_7419__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=852e9b2051",
         "location": "1220 Wien",
@@ -134,15 +134,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-neue-donau-stiege-1-8-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-1ac8df7729776850": {
       "apartment_id": "arwag-1ac8df7729776850",
       "data": {
         "description": "Miete, Stavangergasse 5",
-        "found_at": "2026-02-25T08:49:51.270928",
+        "found_at": "2026-02-25T09:25:32.479823",
         "id": "arwag-1ac8df7729776850",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22175_MG_2989__FocusFillWzk2MCw5NjAsIngiLDIxMl0.jpg?s=4918e63d5a",
         "location": "1220 Wien",
@@ -157,15 +157,15 @@
         "url": "https://www.arwag.at/projekte/stavangergasse-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-2069c955d51d3f51": {
       "apartment_id": "arwag-2069c955d51d3f51",
       "data": {
         "description": "Eigentum, Hauptstraße 113",
-        "found_at": "2026-02-25T08:49:51.243148",
+        "found_at": "2026-02-25T09:25:32.453704",
         "id": "arwag-2069c955d51d3f51",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/14096_WaldLeben113_Innenhof__FocusFillWzk2MCw5NjAsIngiLDM3M10.jpg?s=ee1540c0fa",
         "location": "1140 Wien",
@@ -180,15 +180,15 @@
         "url": "https://www.arwag.at/projekte/waldleben-113-1140-wien-eigentum/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-21f896445152d140": {
       "apartment_id": "arwag-21f896445152d140",
       "data": {
         "description": "Miete, Geibelgasse 20",
-        "found_at": "2026-02-25T08:49:51.244374",
+        "found_at": "2026-02-25T09:25:32.454878",
         "id": "arwag-21f896445152d140",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/15705_MG_8660__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=8138a0cfaf",
         "location": "1150 Wien",
@@ -203,15 +203,15 @@
         "url": "https://www.arwag.at/projekte/geibelgasse-18-20-1150-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-22066283b17531ba": {
       "apartment_id": "arwag-22066283b17531ba",
       "data": {
         "description": "Miete, Mautner",
-        "found_at": "2026-02-25T08:49:51.235957",
+        "found_at": "2026-02-25T09:25:32.446642",
         "id": "arwag-22066283b17531ba",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/11025_MG_0359__FocusFillWzk2MCw5NjAsIngiLDE1OV0.jpg?s=d0cc0c5b32",
         "location": "1110 Wien",
@@ -226,15 +226,15 @@
         "url": "https://www.arwag.at/projekte/mautner-markhof-gasse-9-1110-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-288024df1d0ad0ba": {
       "apartment_id": "arwag-288024df1d0ad0ba",
       "data": {
         "description": "Miete, Gallitzinstraße 12",
-        "found_at": "2026-02-25T08:49:51.247644",
+        "found_at": "2026-02-25T09:25:32.457912",
         "id": "arwag-288024df1d0ad0ba",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/16065_200717_581_cam02__FocusFillWzk2MCw5NjAsIngiLDIwNV0.jpg?s=10fad72f88",
         "location": "1160 Wien",
@@ -249,15 +249,15 @@
         "url": "https://www.arwag.at/projekte/leben-am-gallitzinberg-1160-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-2b39998a9afb30bc": {
       "apartment_id": "arwag-2b39998a9afb30bc",
       "data": {
         "description": "Miete, Trillergasse 2C",
-        "found_at": "2026-02-25T08:49:51.253620",
+        "found_at": "2026-02-25T09:25:32.463420",
         "id": "arwag-2b39998a9afb30bc",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21085_MG_0205__FocusFillWzk2MCw5NjAsIngiLDg0XQ.JPG?s=0319c62667",
         "location": "1210 Wien",
@@ -272,15 +272,15 @@
         "url": "https://www.arwag.at/projekte/trillerpark-sued-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-2ce0a4652e796170": {
       "apartment_id": "arwag-2ce0a4652e796170",
       "data": {
         "description": "Eigentum, Simone",
-        "found_at": "2026-02-25T08:49:51.255487",
+        "found_at": "2026-02-25T09:25:32.465177",
         "id": "arwag-2ce0a4652e796170",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21106_WohnWildnis_1210_Menschen__FocusFillWzk2MCw5NjAsIngiLDM3M10.jpg?s=5ce1e88718",
         "location": "1210 Wien",
@@ -295,15 +295,15 @@
         "url": "https://www.arwag.at/projekte/wohnwildnis1210-1210-wien-eigentum/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-2f72b29e722a336a": {
       "apartment_id": "arwag-2f72b29e722a336a",
       "data": {
         "description": "Miete, Kimmerlgasse 35",
-        "found_at": "2026-02-25T08:49:51.236557",
+        "found_at": "2026-02-25T09:25:32.447210",
         "id": "arwag-2f72b29e722a336a",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/11035_MG_8479__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=2a9f91e51f",
         "location": "1110 Wien",
@@ -318,15 +318,15 @@
         "url": "https://www.arwag.at/projekte/kimmerlgasse-35-37-1110-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-303878352fa544d2": {
       "apartment_id": "arwag-303878352fa544d2",
       "data": {
         "description": "Miete, Marischkapromenade 18",
-        "found_at": "2026-02-25T08:49:51.258804",
+        "found_at": "2026-02-25T09:25:32.468259",
         "id": "arwag-303878352fa544d2",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21175_8W1A1125__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=d3d490613b",
         "location": "1210 Wien",
@@ -341,15 +341,15 @@
         "url": "https://www.arwag.at/projekte/blickpunkt-21-leopold-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-306901e0c512519d": {
       "apartment_id": "arwag-306901e0c512519d",
       "data": {
         "description": "Miete, Muliarplatz 1",
-        "found_at": "2026-02-25T08:49:51.279875",
+        "found_at": "2026-02-25T09:25:32.488262",
         "id": "arwag-306901e0c512519d",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/23175_Aussenaufnahme__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=ccc90a8caa",
         "location": "1230 Wien",
@@ -364,15 +364,15 @@
         "url": "https://www.arwag.at/projekte/muliarplatz-1230-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-335ff2f7591acfc4": {
       "apartment_id": "arwag-335ff2f7591acfc4",
       "data": {
         "description": "Miete, Portnergasse 13",
-        "found_at": "2026-02-25T08:49:51.264448",
+        "found_at": "2026-02-25T09:25:32.473773",
         "id": "arwag-335ff2f7591acfc4",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22045_IMG_7877__FocusFillWzk2MCw5NjAsIngiLDExMV0.JPG?s=2d89662045",
         "location": "1220 Wien",
@@ -387,15 +387,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-erzherzog-carl-neubau-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-39b144f33661ef64": {
       "apartment_id": "arwag-39b144f33661ef64",
       "data": {
         "description": "Miete, Kirchfeldgasse 15",
-        "found_at": "2026-02-25T08:49:51.278013",
+        "found_at": "2026-02-25T09:25:32.486514",
         "id": "arwag-39b144f33661ef64",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/23045_IMG_7425__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=9d468363da",
         "location": "1230 Wien",
@@ -410,15 +410,15 @@
         "url": "https://www.arwag.at/projekte/reihenhaussiedlung-kirchfeldgasse-1230-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-3ef84a359f660a1f": {
       "apartment_id": "arwag-3ef84a359f660a1f",
       "data": {
         "description": "Miete, Wintzingerodestraße 21",
-        "found_at": "2026-02-25T08:49:51.265098",
+        "found_at": "2026-02-25T09:25:32.474395",
         "id": "arwag-3ef84a359f660a1f",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22056_8W1A2278__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=79cd6ec008",
         "location": "1220 Wien",
@@ -433,15 +433,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-erzherzog-carl-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-3ff36dabadbb4df0": {
       "apartment_id": "arwag-3ff36dabadbb4df0",
       "data": {
         "description": "Miete, Gumpendorfer Straße 139",
-        "found_at": "2026-02-25T08:49:51.230624",
+        "found_at": "2026-02-25T09:25:32.441788",
         "id": "arwag-3ff36dabadbb4df0",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/06015_100222-11__FocusFillWzk2MCw5NjAsIngiLDI5N10.jpg?s=5b72223144",
         "location": "1060 Wien",
@@ -456,15 +456,15 @@
         "url": "https://www.arwag.at/projekte/gumpendorfer-strasse-139-1060-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-4073172212b43841": {
       "apartment_id": "arwag-4073172212b43841",
       "data": {
         "description": "Miete, Hofjägerstraße 4",
-        "found_at": "2026-02-25T08:49:51.241104",
+        "found_at": "2026-02-25T09:25:32.451584",
         "id": "arwag-4073172212b43841",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/14075_DSC2997_DxO__FocusFillWzk2MCw5NjAsIngiLDI0Ml0.jpg?s=e461185bc8",
         "location": "1130 Wien",
@@ -479,15 +479,15 @@
         "url": "https://www.arwag.at/projekte/hofjaegerstrasse-4-1130-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-4217223d3d16d74f": {
       "apartment_id": "arwag-4217223d3d16d74f",
       "data": {
         "description": "Miete, Handelskai 78",
-        "found_at": "2026-02-25T08:49:51.250379",
+        "found_at": "2026-02-25T09:25:32.460349",
         "id": "arwag-4217223d3d16d74f",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/20035_8W1A0642__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=df79499d39",
         "location": "1200 Wien",
@@ -502,15 +502,15 @@
         "url": "https://www.arwag.at/projekte/wp-handelskai-i-1200-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-43395a62afdeffbd": {
       "apartment_id": "arwag-43395a62afdeffbd",
       "data": {
         "description": "Miete, Handelskai 102",
-        "found_at": "2026-02-25T08:49:51.251005",
+        "found_at": "2026-02-25T09:25:32.460954",
         "id": "arwag-43395a62afdeffbd",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/20045_8W1A0638__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=26cbe14b71",
         "location": "1200 Wien",
@@ -525,15 +525,15 @@
         "url": "https://www.arwag.at/projekte/wp-handelskai-ii-1200-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-454da1de2c9d3408": {
       "apartment_id": "arwag-454da1de2c9d3408",
       "data": {
         "description": "Miete, Rudolf",
-        "found_at": "2026-02-25T08:49:51.262729",
+        "found_at": "2026-02-25T09:25:32.471993",
         "id": "arwag-454da1de2c9d3408",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22018_MG_7405__FocusFillWzk2MCw5NjAsIngiLDE4OF0.JPG?s=3ba478aaac",
         "location": "1220 Wien",
@@ -548,15 +548,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-neue-donau-stiege-14-17-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-47eb50178f989074": {
       "apartment_id": "arwag-47eb50178f989074",
       "data": {
         "description": "Miete, Orasteig",
-        "found_at": "2026-02-25T08:49:51.260193",
+        "found_at": "2026-02-25T09:25:32.469576",
         "id": "arwag-47eb50178f989074",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21215_10_Rendering_BPL_21__FocusFillWzk2MCw5NjAsIngiLDM3M10._Orasteig.jpg?s=332ea6ea51",
         "location": "1210 Wien",
@@ -571,15 +571,15 @@
         "url": "https://www.arwag.at/projekte/wohnbaumprogramm-orasteig-1210-wien-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-4b311e4c6de404f8": {
       "apartment_id": "arwag-4b311e4c6de404f8",
       "data": {
         "description": "Miete, Bürgerspitalwiese 10",
-        "found_at": "2026-02-25T08:49:51.237177",
+        "found_at": "2026-02-25T09:25:32.447800",
         "id": "arwag-4b311e4c6de404f8",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/11055_FotoAnnABlaU-20211009_0056__FocusFillWzYwMSw2MDEsIngiLDE1MF0.jpg?s=779435e710",
         "location": "1110 Wien",
@@ -594,15 +594,15 @@
         "url": "https://www.arwag.at/projekte/eisteichterrasse-1110-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-4b35af1fa4033019": {
       "apartment_id": "arwag-4b35af1fa4033019",
       "data": {
         "description": "Miete, Mautner",
-        "found_at": "2026-02-25T08:49:51.280495",
+        "found_at": "2026-02-25T09:25:32.488871",
         "id": "arwag-4b35af1fa4033019",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/24825_8W1A5826__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=d54df07c0b",
         "location": "2320 Schwechat",
@@ -617,15 +617,15 @@
         "url": "https://www.arwag.at/projekte/mautner-markhof-strasse-6-2320-schwechat-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-5400d8478d271feb": {
       "apartment_id": "arwag-5400d8478d271feb",
       "data": {
         "description": "Miete, Leystraße 8",
-        "found_at": "2026-02-25T08:49:51.249741",
+        "found_at": "2026-02-25T09:25:32.459785",
         "id": "arwag-5400d8478d271feb",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/20025_IMG_6957__FocusFillWzk2MCw5NjAsIngiLDE2OF0.JPG?s=0e0371c824",
         "location": "1200 Wien",
@@ -640,15 +640,15 @@
         "url": "https://www.arwag.at/projekte/wp-kornhaeusel-miete-1200-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-553cc2637df3a4d7": {
       "apartment_id": "arwag-553cc2637df3a4d7",
       "data": {
         "description": "Miete, Erdbergstraße 52",
-        "found_at": "2026-02-25T08:49:51.227372",
+        "found_at": "2026-02-25T09:25:32.438716",
         "id": "arwag-553cc2637df3a4d7",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/03045_8W1A8248__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=82aeae55a7",
         "location": "1030 Wien",
@@ -663,15 +663,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-erdberg-1030-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-56b1bf06524d5487": {
       "apartment_id": "arwag-56b1bf06524d5487",
       "data": {
         "description": "Miete, Hardtmuthgasse 129",
-        "found_at": "2026-02-25T08:49:51.232577",
+        "found_at": "2026-02-25T09:25:32.443633",
         "id": "arwag-56b1bf06524d5487",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/10065_MG_8441__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=d7c57881ce",
         "location": "1100 Wien",
@@ -686,15 +686,15 @@
         "url": "https://www.arwag.at/projekte/wohnhausanlage-hardtmuthgasse-1100-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-59c939f772b58d51": {
       "apartment_id": "arwag-59c939f772b58d51",
       "data": {
         "description": "Miete, Pelargonienweg 25",
-        "found_at": "2026-02-25T08:49:51.269587",
+        "found_at": "2026-02-25T09:25:32.478539",
         "id": "arwag-59c939f772b58d51",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22135_8W1A4539__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=22b1f65f27",
         "location": "1220 Wien",
@@ -709,15 +709,15 @@
         "url": "https://www.arwag.at/projekte/pelargonienweg-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-5c27ffe191db92ea": {
       "apartment_id": "arwag-5c27ffe191db92ea",
       "data": {
         "description": "Miete, Trillergasse 2B",
-        "found_at": "2026-02-25T08:49:51.257520",
+        "found_at": "2026-02-25T09:25:32.467070",
         "id": "arwag-5c27ffe191db92ea",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21155_MG_38461__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=e44fb39df3",
         "location": "1210 Wien",
@@ -732,15 +732,15 @@
         "url": "https://www.arwag.at/projekte/trillerpark-west-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-5fc52e1306b37a23": {
       "apartment_id": "arwag-5fc52e1306b37a23",
       "data": {
         "description": "Eigentum, Preyergasse 4",
-        "found_at": "2026-02-25T08:49:51.239799",
+        "found_at": "2026-02-25T09:25:32.450343",
         "id": "arwag-5fc52e1306b37a23",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/13035_8W1A8269a__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=e992630b13",
         "location": "1130 Wien",
@@ -755,15 +755,15 @@
         "url": "https://www.arwag.at/projekte/das-noah-1130-wien-eigentum-2/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-60122601dda00ead": {
       "apartment_id": "arwag-60122601dda00ead",
       "data": {
         "description": "Miete, Fritz",
-        "found_at": "2026-02-25T08:49:51.252998",
+        "found_at": "2026-02-25T09:25:32.462821",
         "id": "arwag-60122601dda00ead",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21076_IMG_9362__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=2414637eca",
         "location": "1210 Wien",
@@ -778,15 +778,15 @@
         "url": "https://www.arwag.at/projekte/wohnhaus-muehlweg-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-6024ba3dd815ba44": {
       "apartment_id": "arwag-6024ba3dd815ba44",
       "data": {
         "description": "Miete, Breitenleer Straße 16",
-        "found_at": "2026-02-25T08:49:51.274001",
+        "found_at": "2026-02-25T09:25:32.482743",
         "id": "arwag-6024ba3dd815ba44",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22265_WHBREILE_Visualisierung_3_250131__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=ab7c7d6238",
         "location": "1220 Wien",
@@ -801,15 +801,15 @@
         "url": "https://www.arwag.at/projekte/leben-in-der-kagraner-flur-bpl-b-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-612e4198f675976e": {
       "apartment_id": "arwag-612e4198f675976e",
       "data": {
         "description": "Miete, Adolf",
-        "found_at": "2026-02-25T08:49:51.230018",
+        "found_at": "2026-02-25T09:25:32.441200",
         "id": "arwag-612e4198f675976e",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/03135_FotoAnnABlaU-20250621_6105__FocusFillWzk2MCw5NjAsIngiLDIzOV0.jpg?s=2a149d4b74",
         "location": "1030 Wien",
@@ -824,15 +824,15 @@
         "url": "https://www.arwag.at/projekte/stadtregal-village-im-dritten-1030-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-61fef28d67e21c77": {
       "apartment_id": "arwag-61fef28d67e21c77",
       "data": {
         "description": "Miete, Gregorygasse 10A",
-        "found_at": "2026-02-25T08:49:51.279250",
+        "found_at": "2026-02-25T09:25:32.487687",
         "id": "arwag-61fef28d67e21c77",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/23145_8W1A6904__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=b474aad032",
         "location": "1230 Wien",
@@ -847,15 +847,15 @@
         "url": "https://www.arwag.at/projekte/wohnhaus-gregorygasse-1230-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-67cc1db0ffec6b00": {
       "apartment_id": "arwag-67cc1db0ffec6b00",
       "data": {
         "description": "Miete, Rauchfangkehrergasse 35",
-        "found_at": "2026-02-25T08:49:51.246336",
+        "found_at": "2026-02-25T09:25:32.456762",
         "id": "arwag-67cc1db0ffec6b00",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/15755_MG_8603__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=8492e1a63a",
         "location": "1150 Wien",
@@ -870,15 +870,15 @@
         "url": "https://www.arwag.at/projekte/rauchfangkehrergasse-1150-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-6a94a0b11a5d45c0": {
       "apartment_id": "arwag-6a94a0b11a5d45c0",
       "data": {
         "description": "Miete, Hofmoklgasse 1",
-        "found_at": "2026-02-25T08:49:51.245608",
+        "found_at": "2026-02-25T09:25:32.456069",
         "id": "arwag-6a94a0b11a5d45c0",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/15745_MG_8569__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=4a328da783",
         "location": "1150 Wien",
@@ -893,15 +893,15 @@
         "url": "https://www.arwag.at/projekte/hofmoklgasse-1150-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-6bf8f2949189e5f5": {
       "apartment_id": "arwag-6bf8f2949189e5f5",
       "data": {
         "description": "Eigentum, Breitenleer Straße 16",
-        "found_at": "2026-02-25T08:49:51.274746",
+        "found_at": "2026-02-25T09:25:32.483443",
         "id": "arwag-6bf8f2949189e5f5",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22266_WHBREILE_Visualisierung_2_250131__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=f5dbdcd14a",
         "location": "1220 Wien",
@@ -916,15 +916,15 @@
         "url": "https://www.arwag.at/projekte/leben-in-der-kagraner-flur-bpl-b-1220-wien-eigentum/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-6e07812802d5eac2": {
       "apartment_id": "arwag-6e07812802d5eac2",
       "data": {
         "description": "Miete, Gregorygasse 12",
-        "found_at": "2026-02-25T08:49:51.277265",
+        "found_at": "2026-02-25T09:25:32.485812",
         "id": "arwag-6e07812802d5eac2",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/23035_IMG_7386__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=f7027b0564",
         "location": "1230 Wien",
@@ -939,15 +939,15 @@
         "url": "https://www.arwag.at/projekte/wohnen-am-liesingbach-1230-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-737c8e82b6f74a4e": {
       "apartment_id": "arwag-737c8e82b6f74a4e",
       "data": {
         "description": "Miete, Stuwerstraße 27",
-        "found_at": "2026-02-25T08:49:51.224425",
+        "found_at": "2026-02-25T09:25:32.436013",
         "id": "arwag-737c8e82b6f74a4e",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/02035_Molkerei_1__FocusFillWzUxMCw1MTAsIngiLDg1XQ.jpg?s=d13a335eb9",
         "location": "1020 Wien",
@@ -962,15 +962,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-molkereistrasse-1020-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-74a1894b5a3d72de": {
       "apartment_id": "arwag-74a1894b5a3d72de",
       "data": {
         "description": "Miete, Gisela Legath",
-        "found_at": "2026-02-25T08:49:51.268368",
+        "found_at": "2026-02-25T09:25:32.477401",
         "id": "arwag-74a1894b5a3d72de",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22115_MG_39731__FocusFillWzk2MCw5NjAsIngiLDE4OF0.JPG?s=cbe904d84e",
         "location": "1220 Wien",
@@ -985,15 +985,15 @@
         "url": "https://www.arwag.at/projekte/gisela-legath-gasse-4-6-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-78492fe4375d1258": {
       "apartment_id": "arwag-78492fe4375d1258",
       "data": {
         "description": "Miete, Csokorgasse 8",
-        "found_at": "2026-02-25T08:49:51.237791",
+        "found_at": "2026-02-25T09:25:32.448383",
         "id": "arwag-78492fe4375d1258",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/11825_Titelbild_ohneOeVW-Logo__FocusFillWzgzMSw4MzEsIngiLDMzNV0.png?s=a16fc27d19",
         "location": "1110 Wien",
@@ -1008,15 +1008,15 @@
         "url": "https://www.arwag.at/projekte/csokorgasse-1110-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-83301b6280dcce22": {
       "apartment_id": "arwag-83301b6280dcce22",
       "data": {
         "description": "Miete, Meiselstraße 8",
-        "found_at": "2026-02-25T08:49:51.245002",
+        "found_at": "2026-02-25T09:25:32.455490",
         "id": "arwag-83301b6280dcce22",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/15735_8W1A8552__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=e3581583e8",
         "location": "1150 Wien",
@@ -1031,15 +1031,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-meiselstrasse-1150-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-83d41e380bb7f36a": {
       "apartment_id": "arwag-83d41e380bb7f36a",
       "data": {
         "description": "Miete, Braunhubergasse 26",
-        "found_at": "2026-02-25T08:49:51.235197",
+        "found_at": "2026-02-25T09:25:32.445958",
         "id": "arwag-83d41e380bb7f36a",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/11015_IMG_7896__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=abf1acaa2b",
         "location": "1110 Wien",
@@ -1054,15 +1054,15 @@
         "url": "https://www.arwag.at/projekte/wohnhaus-braunhubergasse-1110-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-8681087ece4acb4d": {
       "apartment_id": "arwag-8681087ece4acb4d",
       "data": {
         "description": "Miete, Seefeldergasse 58",
-        "found_at": "2026-02-25T08:49:51.267027",
+        "found_at": "2026-02-25T09:25:32.476129",
         "id": "arwag-8681087ece4acb4d",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22085_MG_7333__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=f8b1f3d196",
         "location": "1220 Wien",
@@ -1077,15 +1077,15 @@
         "url": "https://www.arwag.at/projekte/reihenhaeuser-beim-nationalpark-lobau-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-87c1ef3ed6d39ca3": {
       "apartment_id": "arwag-87c1ef3ed6d39ca3",
       "data": {
         "description": "Miete, Gödelgasse 8+9",
-        "found_at": "2026-02-25T08:49:51.233825",
+        "found_at": "2026-02-25T09:25:32.444807",
         "id": "arwag-87c1ef3ed6d39ca3",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/10105_8W1A8971_1__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=46c3cb5120",
         "location": "1100 Wien",
@@ -1100,15 +1100,15 @@
         "url": "https://www.arwag.at/projekte/biotope-city-wienerberg-1100-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-87cbe51d2adce872": {
       "apartment_id": "arwag-87cbe51d2adce872",
       "data": {
         "description": "Miete, Otto",
-        "found_at": "2026-02-25T08:49:51.234431",
+        "found_at": "2026-02-25T09:25:32.445395",
         "id": "arwag-87cbe51d2adce872",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/10723_MG_8347__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=858fa33c92",
         "location": "1100 Wien",
@@ -1123,15 +1123,15 @@
         "url": "https://www.arwag.at/projekte/otto-probst-strasse-36-38stg-2a-1100-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-88c1178501c9033d": {
       "apartment_id": "arwag-88c1178501c9033d",
       "data": {
         "description": "Eigentum, Jörgerstraße 20",
-        "found_at": "2026-02-25T08:49:51.248329",
+        "found_at": "2026-02-25T09:25:32.458510",
         "id": "arwag-88c1178501c9033d",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/17026_250226_Visualisierung_final_-_compress__FocusFillWzk2MCw5NjAsIngiLDM0MV0.jpg?s=3d985915b3",
         "location": "1170 Wien",
@@ -1146,15 +1146,15 @@
         "url": "https://www.arwag.at/projekte/exklusive-neubau-eigentumswohnungen-1170-wien-eigentum/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-8e898daa31cef481": {
       "apartment_id": "arwag-8e898daa31cef481",
       "data": {
         "description": "Miete, Grasbergergasse 15",
-        "found_at": "2026-02-25T08:49:51.229395",
+        "found_at": "2026-02-25T09:25:32.440623",
         "id": "arwag-8e898daa31cef481",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/03125_8W1A1966__FocusFillWzk2MCw5NjAsIngiLDM3M10.jpg?s=50b53d1eee",
         "location": "1030 Wien",
@@ -1169,15 +1169,15 @@
         "url": "https://www.arwag.at/projekte/gras-green-living-1030-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-90f009292a5b1265": {
       "apartment_id": "arwag-90f009292a5b1265",
       "data": {
         "description": "Miete, Klederinger Straße 68",
-        "found_at": "2026-02-25T08:49:51.233199",
+        "found_at": "2026-02-25T09:25:32.444219",
         "id": "arwag-90f009292a5b1265",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/10085_IMG_3030__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=f0f9152bfd",
         "location": "1100 Wien",
@@ -1192,15 +1192,15 @@
         "url": "https://www.arwag.at/projekte/wohnhaus-klederinger-strasse-1100-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-93a63fb65764a5b9": {
       "apartment_id": "arwag-93a63fb65764a5b9",
       "data": {
         "description": "Miete, Mühlhäufelgasse 45",
-        "found_at": "2026-02-25T08:49:51.267764",
+        "found_at": "2026-02-25T09:25:32.476822",
         "id": "arwag-93a63fb65764a5b9",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22105_Seefeldergasse__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=29f5055238",
         "location": "1220 Wien",
@@ -1215,15 +1215,15 @@
         "url": "https://www.arwag.at/projekte/reihenhaeuser-beim-nationalpark-lobau-1220-wien-miete-2/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-94788c1561e57ec1": {
       "apartment_id": "arwag-94788c1561e57ec1",
       "data": {
         "description": "Miete, Cumberlandstraße 60",
-        "found_at": "2026-02-25T08:49:51.242456",
+        "found_at": "2026-02-25T09:25:32.453007",
         "id": "arwag-94788c1561e57ec1",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/14065_MG_1439__FocusFillWzk2MCw5NjAsIngiLDE4MF0.jpg?s=8d16274902",
         "location": "1140 Wien",
@@ -1238,15 +1238,15 @@
         "url": "https://www.arwag.at/projekte/wohnhaus-cumberlandstrasse-1140-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-95f876d494eecf8d": {
       "apartment_id": "arwag-95f876d494eecf8d",
       "data": {
         "description": "Miete, Groß",
-        "found_at": "2026-02-25T08:49:51.270203",
+        "found_at": "2026-02-25T09:25:32.479115",
         "id": "arwag-95f876d494eecf8d",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22155_8W1A2405__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=2aa570c4b9",
         "location": "1220 Wien",
@@ -1261,15 +1261,15 @@
         "url": "https://www.arwag.at/projekte/gross-enzersdorfer-strasse-66-72-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-97d0ac2af86f24d4": {
       "apartment_id": "arwag-97d0ac2af86f24d4",
       "data": {
         "description": "Miete, Ziegelofenweg 23",
-        "found_at": "2026-02-25T08:49:51.256911",
+        "found_at": "2026-02-25T09:25:32.466489",
         "id": "arwag-97d0ac2af86f24d4",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21145_MG_2807__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=34c0e83cc9",
         "location": "1210 Wien",
@@ -1284,15 +1284,15 @@
         "url": "https://www.arwag.at/projekte/ziegelofenweg-23-25-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-9a346d7bc64bb15b": {
       "apartment_id": "arwag-9a346d7bc64bb15b",
       "data": {
         "description": "Eigentum, Lainzerstraße 172",
-        "found_at": "2026-02-25T08:49:51.240477",
+        "found_at": "2026-02-25T09:25:32.450998",
         "id": "arwag-9a346d7bc64bb15b",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/13046_Anflug_Ausschnitt__FocusFillWzgwMCw4MDAsIngiLDQxOV0.jpg?s=b1fbaeb1f1",
         "location": "1130 Wien",
@@ -1307,15 +1307,15 @@
         "url": "https://www.arwag.at/projekte/das-noah-1130-wien-eigentum/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-9de60be615240ca3": {
       "apartment_id": "arwag-9de60be615240ca3",
       "data": {
         "description": "Miete, Trillergasse 4",
-        "found_at": "2026-02-25T08:49:51.251619",
+        "found_at": "2026-02-25T09:25:32.461540",
         "id": "arwag-9de60be615240ca3",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21015_TP-I-Bild1__FocusFillWzUxMCw1MTAsIngiLDg1XQ.jpg?s=298f1fbc58",
         "location": "1210 Wien",
@@ -1330,15 +1330,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-trillergasse-4-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-9f25e1b20989b57d": {
       "apartment_id": "arwag-9f25e1b20989b57d",
       "data": {
         "description": "Miete, Aspernstraße 83",
-        "found_at": "2026-02-25T08:49:51.275386",
+        "found_at": "2026-02-25T09:25:32.484039",
         "id": "arwag-9f25e1b20989b57d",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22625_10_Rendering_BPL_22__FocusFillWzk2MCw5NjAsZmFsc2UsMF0._Aspernstasse.jpg?s=876f6d87e6",
         "location": "1220 Wien",
@@ -1353,15 +1353,15 @@
         "url": "https://www.arwag.at/projekte/wohnbaumprogramm-aspernstrasse-1220-wien-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-a1b38df0fa0b8998": {
       "apartment_id": "arwag-a1b38df0fa0b8998",
       "data": {
         "description": "Miete, Franklinstraße 25",
-        "found_at": "2026-02-25T08:49:51.254254",
+        "found_at": "2026-02-25T09:25:32.464011",
         "id": "arwag-a1b38df0fa0b8998",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21095_MG_6273__FocusFillWzk2MCw5NjAsIngiLDE0OV0.jpg?s=ff8a618bf3",
         "location": "1210 Wien",
@@ -1376,15 +1376,15 @@
         "url": "https://www.arwag.at/projekte/franklinstrasse-25-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-ae305d3b0ec20063": {
       "apartment_id": "arwag-ae305d3b0ec20063",
       "data": {
         "description": "Miete, Oberdorfstraße 9",
-        "found_at": "2026-02-25T08:49:51.265736",
+        "found_at": "2026-02-25T09:25:32.474975",
         "id": "arwag-ae305d3b0ec20063",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22065_IMG_7803__FocusFillWzk2MCw5NjAsIngiLDE1Nl0.JPG?s=17b2d1249f",
         "location": "1220 Wien",
@@ -1399,15 +1399,15 @@
         "url": "https://www.arwag.at/projekte/oberdorfstrasse-9-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-afb3dc1017759d42": {
       "apartment_id": "arwag-afb3dc1017759d42",
       "data": {
         "description": "Eigentum, Jörgerstraße 22",
-        "found_at": "2026-02-25T08:49:51.248998",
+        "found_at": "2026-02-25T09:25:32.459087",
         "id": "arwag-afb3dc1017759d42",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/17036_250226_Visualisierung_final_-_compress__FocusFillWzk2MCw5NjAsIngiLDM0MV0.jpg?s=3d985915b3",
         "location": "1170 Wien",
@@ -1422,15 +1422,15 @@
         "url": "https://www.arwag.at/projekte/eigentumswohnungen-mit-altbauflair-1170-wien-eigentum/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-b3e290597b3b09e2": {
       "apartment_id": "arwag-b3e290597b3b09e2",
       "data": {
         "description": "Miete, Adelheid",
-        "found_at": "2026-02-25T08:49:51.272146",
+        "found_at": "2026-02-25T09:25:32.480975",
         "id": "arwag-b3e290597b3b09e2",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22195_pmp213_F1611-007__FocusFillWzk2MCw5NjAsInkiLDIzOF0.jpg?s=17a5495812",
         "location": "1220 Wien",
@@ -1445,15 +1445,15 @@
         "url": "https://www.arwag.at/projekte/wohnquartier-oase-22-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-b7e33eb1c770029b": {
       "apartment_id": "arwag-b7e33eb1c770029b",
       "data": {
         "description": "Miete, Favoritenstraße 211",
-        "found_at": "2026-02-25T08:49:51.231868",
+        "found_at": "2026-02-25T09:25:32.442937",
         "id": "arwag-b7e33eb1c770029b",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/10035_IMG_7368__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=41e6c5fc27",
         "location": "1100 Wien",
@@ -1468,15 +1468,15 @@
         "url": "https://www.arwag.at/projekte/wohnhaus-favoritenstrasse-1100-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-c18cd3b53c2729e3": {
       "apartment_id": "arwag-c18cd3b53c2729e3",
       "data": {
         "description": "Miete, Giselhergasse 1",
-        "found_at": "2026-02-25T08:49:51.243779",
+        "found_at": "2026-02-25T09:25:32.454292",
         "id": "arwag-c18cd3b53c2729e3",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/15015_8W1A8473__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=854bcaa74a",
         "location": "1150 Wien",
@@ -1491,15 +1491,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-fuenfhaus-1150-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-c724018ac5e4e842": {
       "apartment_id": "arwag-c724018ac5e4e842",
       "data": {
         "description": "Miete, Erdbergstraße 216A",
-        "found_at": "2026-02-25T08:49:51.228780",
+        "found_at": "2026-02-25T09:25:32.440016",
         "id": "arwag-c724018ac5e4e842",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/03115_MG_8542__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=374e0e9c23",
         "location": "1030 Wien",
@@ -1514,15 +1514,15 @@
         "url": "https://www.arwag.at/projekte/in-erdberg-daham-1030-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-c900d70d8b9b2f85": {
       "apartment_id": "arwag-c900d70d8b9b2f85",
       "data": {
         "description": "Miete, Hütteldorfer Straße 219",
-        "found_at": "2026-02-25T08:49:51.241725",
+        "found_at": "2026-02-25T09:25:32.452162",
         "id": "arwag-c900d70d8b9b2f85",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/14055_8W1A0433__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=abc3d82266",
         "location": "1140 Wien",
@@ -1537,15 +1537,15 @@
         "url": "https://www.arwag.at/projekte/wohnhaus-huetteldorferstrasse-1140-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-cac404eee51f81b4": {
       "apartment_id": "arwag-cac404eee51f81b4",
       "data": {
         "description": "Miete, Degengasse 70",
-        "found_at": "2026-02-25T08:49:51.246993",
+        "found_at": "2026-02-25T09:25:32.457327",
         "id": "arwag-cac404eee51f81b4",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/16015_MG_7534___FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=eaed231011",
         "location": "1160 Wien",
@@ -1560,15 +1560,15 @@
         "url": "https://www.arwag.at/projekte/wp-sandleiten-1160-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-cc1b581826093edd": {
       "apartment_id": "arwag-cc1b581826093edd",
       "data": {
         "description": "Miete, Rudolf",
-        "found_at": "2026-02-25T08:49:51.261453",
+        "found_at": "2026-02-25T09:25:32.470748",
         "id": "arwag-cc1b581826093edd",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22015_wpnd__FocusFillWzUxMCw1MTAsIngiLDg1XQ.jpg?s=ef376994de",
         "location": "1220 Wien",
@@ -1583,15 +1583,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-neue-donau-stiege-9-13-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-cf5fc2f0dfa3958d": {
       "apartment_id": "arwag-cf5fc2f0dfa3958d",
       "data": {
         "description": "Miete, Lavaterstraße 6",
-        "found_at": "2026-02-25T08:49:51.276637",
+        "found_at": "2026-02-25T09:25:32.485220",
         "id": "arwag-cf5fc2f0dfa3958d",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22855_RIA-Lavaterstrasse_6-8_2__FocusFillWzUwMCw1MDAsIngiLDE0MF0.jpg?s=057ed678a7",
         "location": "1220 Wien",
@@ -1606,15 +1606,15 @@
         "url": "https://www.arwag.at/projekte/lavaterstrasse-6-8-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-d0889615198bf08a": {
       "apartment_id": "arwag-d0889615198bf08a",
       "data": {
         "description": "Miete, Ruth",
-        "found_at": "2026-02-25T08:49:51.260839",
+        "found_at": "2026-02-25T09:25:32.470155",
         "id": "arwag-d0889615198bf08a",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21815_Titelbild__FocusFillWzk2MCw5NjAsIngiLDE2MF0.jpg?s=2539bdbaa5",
         "location": "1210 Wien",
@@ -1629,15 +1629,15 @@
         "url": "https://www.arwag.at/projekte/ruth-brinkmann-gasse-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-d290e5ea780df805": {
       "apartment_id": "arwag-d290e5ea780df805",
       "data": {
         "description": "Miete, Gumpendorfer Straße 141",
-        "found_at": "2026-02-25T08:49:51.231212",
+        "found_at": "2026-02-25T09:25:32.442336",
         "id": "arwag-d290e5ea780df805",
         "image_url": null,
         "location": "1060 Wien",
@@ -1652,15 +1652,15 @@
         "url": "https://www.arwag.at/projekte/gumpendorfer-strasse-141-1060-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-d6409cde6cba81b1": {
       "apartment_id": "arwag-d6409cde6cba81b1",
       "data": {
         "description": "Miete, Markhofgasse 11",
-        "found_at": "2026-02-25T08:49:51.226054",
+        "found_at": "2026-02-25T09:25:32.437485",
         "id": "arwag-d6409cde6cba81b1",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/03015_8W1A8364__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=9d51ab4222",
         "location": "1030 Wien",
@@ -1675,15 +1675,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-markhofgasse-1030-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-dc8a9f7d337778c7": {
       "apartment_id": "arwag-dc8a9f7d337778c7",
       "data": {
         "description": "Miete, Breitenfurter Straße 372",
-        "found_at": "2026-02-25T08:49:51.278627",
+        "found_at": "2026-02-25T09:25:32.487101",
         "id": "arwag-dc8a9f7d337778c7",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/23055_IMG_8672__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=07a4af27a2",
         "location": "1230 Wien",
@@ -1698,15 +1698,15 @@
         "url": "https://www.arwag.at/projekte/brauerei-liesing-1230-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-e2c63cdcbd3016b3": {
       "apartment_id": "arwag-e2c63cdcbd3016b3",
       "data": {
         "description": "Miete, Barbara",
-        "found_at": "2026-02-25T08:49:51.276028",
+        "found_at": "2026-02-25T09:25:32.484642",
         "id": "arwag-e2c63cdcbd3016b3",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22755_Barbaraprammerallee_web-1_Retusche__FocusFillWzk2MCw5NjAsIngiLDIzOV0.jpg?s=f734809301",
         "location": "1220 Wien",
@@ -1721,15 +1721,15 @@
         "url": "https://www.arwag.at/projekte/quartier-am-seebogen-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-e2ea29723f00bf2b": {
       "apartment_id": "arwag-e2ea29723f00bf2b",
       "data": {
         "description": "Miete, Trillergasse 2",
-        "found_at": "2026-02-25T08:49:51.252260",
+        "found_at": "2026-02-25T09:25:32.462123",
         "id": "arwag-e2ea29723f00bf2b",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21025_TP-II-Bild1__FocusFillWzUxMCw1MTAsIngiLDg1XQ.jpg?s=3a18e06e8c",
         "location": "1210 Wien",
@@ -1744,15 +1744,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-trillergasse-bauteil-2-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-e643c3ad4a7d81bd": {
       "apartment_id": "arwag-e643c3ad4a7d81bd",
       "data": {
         "description": "Miete, Pelargonienweg 27",
-        "found_at": "2026-02-25T08:49:51.271533",
+        "found_at": "2026-02-25T09:25:32.480411",
         "id": "arwag-e643c3ad4a7d81bd",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22185_8W1A4578_1__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=29c3a2d05b",
         "location": "1220 Wien",
@@ -1767,15 +1767,15 @@
         "url": "https://www.arwag.at/projekte/pelargonienweg-1220-wien-miete-2/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-e864025c34ea9406": {
       "apartment_id": "arwag-e864025c34ea9406",
       "data": {
         "description": "Miete, Simmelgasse 1",
-        "found_at": "2026-02-25T08:49:51.259411",
+        "found_at": "2026-02-25T09:25:32.468845",
         "id": "arwag-e864025c34ea9406",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21195_8W1A2035__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=b53c16554f",
         "location": "1210 Wien",
@@ -1790,15 +1790,15 @@
         "url": "https://www.arwag.at/projekte/blickpunkt-21-leopoldine-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-e89965fc1d13a47a": {
       "apartment_id": "arwag-e89965fc1d13a47a",
       "data": {
         "description": "Miete, Am langen Felde  47",
-        "found_at": "2026-02-25T08:49:51.272766",
+        "found_at": "2026-02-25T09:25:32.481550",
         "id": "arwag-e89965fc1d13a47a",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22255_ARWAG_bild2_final1_1__FocusFillWzk2MCw5NjAsIngiLDI4OF0.jpg?s=d5a531cdd5",
         "location": "1220 Wien",
@@ -1813,15 +1813,15 @@
         "url": "https://www.arwag.at/projekte/leben-in-der-kagraner-flur-bpl-a1-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-ec012a4ac841a3a3": {
       "apartment_id": "arwag-ec012a4ac841a3a3",
       "data": {
         "description": "Miete, Landstraßer Hauptstraße 146",
-        "found_at": "2026-02-25T08:49:51.226728",
+        "found_at": "2026-02-25T09:25:32.438099",
         "id": "arwag-ec012a4ac841a3a3",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/03035_8W1A8179__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=c116caf56b",
         "location": "1030 Wien",
@@ -1836,15 +1836,15 @@
         "url": "https://www.arwag.at/projekte/wohnpark-rennweg-1030-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-ed268f8b79da23e0": {
       "apartment_id": "arwag-ed268f8b79da23e0",
       "data": {
         "description": "Miete, Breitenleer Straße 14",
-        "found_at": "2026-02-25T08:49:51.273370",
+        "found_at": "2026-02-25T09:25:32.482128",
         "id": "arwag-ed268f8b79da23e0",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22255_ARWAG_bild2_final1_1__FocusFillWzk2MCw5NjAsIngiLDI4OF0.jpg?s=d5a531cdd5",
         "location": "1220 Wien",
@@ -1859,15 +1859,15 @@
         "url": "https://www.arwag.at/projekte/leben-in-der-kagraner-flur-bpl-a2-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-f162eafdbb0b12cf": {
       "apartment_id": "arwag-f162eafdbb0b12cf",
       "data": {
         "description": "Miete, Wagramer Straße 4",
-        "found_at": "2026-02-25T08:49:51.263375",
+        "found_at": "2026-02-25T09:25:32.472631",
         "id": "arwag-f162eafdbb0b12cf",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/22025_HHND1__FocusFillWzk2MCw5NjAsIngiLDEyNV0.jpg?s=529176a01f",
         "location": "1220 Wien",
@@ -1882,15 +1882,15 @@
         "url": "https://www.arwag.at/projekte/hochhaus-neue-donau-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-f3ed90cdf9036c64": {
       "apartment_id": "arwag-f3ed90cdf9036c64",
       "data": {
         "description": "Miete, Töllergasse 13",
-        "found_at": "2026-02-25T08:49:51.256140",
+        "found_at": "2026-02-25T09:25:32.465788",
         "id": "arwag-f3ed90cdf9036c64",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21135_MG_95081__FocusFillWzk2MCw5NjAsIngiLDEzMl0.jpg?s=7cc6c406c0",
         "location": "1210 Wien",
@@ -1905,15 +1905,15 @@
         "url": "https://www.arwag.at/projekte/toellergasse-13-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-f81722eca1d004cf": {
       "apartment_id": "arwag-f81722eca1d004cf",
       "data": {
         "description": "Miete, Malfattigasse 45",
-        "found_at": "2026-02-25T08:49:51.238396",
+        "found_at": "2026-02-25T09:25:32.448981",
         "id": "arwag-f81722eca1d004cf",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/12035_IMG_8607__FocusFillWzk2MCw5NjAsIngiLDI0MF0.JPG?s=772c18fa8c",
         "location": "1120 Wien",
@@ -1928,15 +1928,15 @@
         "url": "https://www.arwag.at/projekte/malfattigasse-45-1120-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-fbf1bbbdc86fc9f8": {
       "apartment_id": "arwag-fbf1bbbdc86fc9f8",
       "data": {
         "description": "Miete, Simone",
-        "found_at": "2026-02-25T08:49:51.254877",
+        "found_at": "2026-02-25T09:25:32.464594",
         "id": "arwag-fbf1bbbdc86fc9f8",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/21105_20210825_AnderSchanze_KORR3_F0_crop__FocusFillWzk2MCw5NjAsIngiLDM1MV0.jpg?s=d3f69d9bb2",
         "location": "1210 Wien",
@@ -1951,15 +1951,15 @@
         "url": "https://www.arwag.at/projekte/wohnwildnis1210-1210-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     },
     "arwag-fc83683fdd897331": {
       "apartment_id": "arwag-fc83683fdd897331",
       "data": {
         "description": "Miete, Krakauer Straße 12",
-        "found_at": "2026-02-25T08:49:51.225378",
+        "found_at": "2026-02-25T09:25:32.436865",
         "id": "arwag-fc83683fdd897331",
         "image_url": "https://www.arwag.at/assets/immobilien/objekte/02725_8W1A0591__FocusFillWzk2MCw5NjAsIngiLDI0MF0.jpg?s=0e6936efe2",
         "location": "1020 Wien",
@@ -1974,11 +1974,11 @@
         "url": "https://www.arwag.at/projekte/wohnhaus-krakauer-strasse-1020-wien-miete/"
       },
       "first_seen": "2026-02-23T21:45:36.457135",
-      "last_seen": "2026-02-25T08:51:48.855814",
-      "last_updated": "2026-02-25T08:51:48.855814",
+      "last_seen": "2026-02-25T09:27:29.288784",
+      "last_updated": "2026-02-25T09:27:29.288784",
       "status": "active"
     }
   },
-  "last_scrape": "2026-02-25T08:51:48.855814",
+  "last_scrape": "2026-02-25T09:27:29.288784",
   "site": "arwag"
 }
