@@ -32,11 +32,6 @@ class NordwestbahnhofScraper(BaseScraper):
         """Expect at least 3 projects (Entwicklungsstufe I has 3 subsidized projects)."""
         return 3
 
-    @property
-    def email_recipients(self) -> list[str]:
-        """This scraper sends notifications only to d.zhou@posteo.at."""
-        return ["d.zhou@posteo.at"]
-
     def scrape(self) -> list[Flat]:
         """Scrape Nordwestbahnhof construction project assignments.
 

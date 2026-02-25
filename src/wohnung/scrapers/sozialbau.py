@@ -34,11 +34,6 @@ class SozialbauScraper(BaseScraper):
         """Base URL for scraping."""
         return "https://angebote.sozialbau.at/sobitvX/htmlprospect/home.xhtml"
 
-    @property
-    def email_recipients(self) -> list[str]:
-        """Send notifications to dana.kreuz."""
-        return ["dana.kreuz@posteo.at"]
-
     def scrape(self) -> list[Flat]:
         """Scrape flats from Sozialbau projects page.
 
