@@ -4,7 +4,7 @@
       "apartment_id": "familienwohnbau-066ab2b8d5a76299",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355411",
+        "found_at": "2026-02-25T04:21:15.799962",
         "id": "familienwohnbau-066ab2b8d5a76299",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/0cc3a679b40d1e3b70bee0f1d6d78201_lg.webp",
         "location": "1110 Wien, Simmeringer Hauptstraße 153-155",
@@ -19,15 +19,15 @@
         "url": "https://familienwohnbau.at/de/objekt/1110-wien-simmeringer-hauptstrasse-153-155-80310196"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-2082055367742d4c": {
       "apartment_id": "familienwohnbau-2082055367742d4c",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.354891",
+        "found_at": "2026-02-25T04:21:15.799395",
         "id": "familienwohnbau-2082055367742d4c",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/5f63353ce531293ad75cd53e320478f3_lg.webp",
         "location": "1210 Wien, Mizzi-Günther-Weg 1",
@@ -42,15 +42,15 @@
         "url": "https://familienwohnbau.at/de/objekt/1210-wien-mizzi-guenther-weg-1-wohngemeinschaft-469d4087"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-3f0818b84494276c": {
       "apartment_id": "familienwohnbau-3f0818b84494276c",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355313",
+        "found_at": "2026-02-25T04:21:15.799860",
         "id": "familienwohnbau-3f0818b84494276c",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/153cc2d9cfd835dc830ae08c3dc4920f_lg.webp",
         "location": "2326 Lanzendorf, Untere Hauptstraße 11",
@@ -66,15 +66,15 @@
         "url": "https://familienwohnbau.at/de/objekt/2326-lanzendorf-untere-hauptstrasse-11-miete-6b0933b1"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-42c66489ba675306": {
       "apartment_id": "familienwohnbau-42c66489ba675306",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355459",
+        "found_at": "2026-02-25T04:21:15.800012",
         "id": "familienwohnbau-42c66489ba675306",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/d24f5bb353aeb82be3013d7e433f246d_lg.webp",
         "location": "1140 Wien, Schleusenstraße 1A / Bahnstraße 2F",
@@ -89,15 +89,15 @@
         "url": "https://familienwohnbau.at/de/objekt/1140-wien-schleusenstrasse-1a-bahnstrasse-2f-c1b3da52"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-45d8617915c77d04": {
       "apartment_id": "familienwohnbau-45d8617915c77d04",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355162",
+        "found_at": "2026-02-25T04:21:15.799654",
         "id": "familienwohnbau-45d8617915c77d04",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/f9cfb8868e4a248843be588b2ce80255_lg.webp",
         "location": "Verkauf gebrauchter Wohnungen",
@@ -113,15 +113,15 @@
         "url": "https://familienwohnbau.at/de/objekt/verkauf-gebrauchter-wohnungen-8caf59de"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-47d3cd182f258fb5": {
       "apartment_id": "familienwohnbau-47d3cd182f258fb5",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355552",
+        "found_at": "2026-02-25T04:21:15.800110",
         "id": "familienwohnbau-47d3cd182f258fb5",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/bce4578cc46ec575958bf64baed3fe2b_lg.webp",
         "location": "2326 Lanzendorf, Untere Hauptstraße 11",
@@ -136,15 +136,15 @@
         "url": "https://familienwohnbau.at/de/objekt/2326-lanzendorf-untere-hauptstrasse-11-26d67df0"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-4ef7e090b5a78ab5": {
       "apartment_id": "familienwohnbau-4ef7e090b5a78ab5",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355361",
+        "found_at": "2026-02-25T04:21:15.799913",
         "id": "familienwohnbau-4ef7e090b5a78ab5",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/94f74813dd84635699693cd858c83006_lg.webp",
         "location": "1140 Wien, Linzer Straße 286-288",
@@ -160,15 +160,15 @@
         "url": "https://familienwohnbau.at/de/objekt/1140-wien-linzer-strasse-286-288-miete-3101eb25"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-4f5a8a68882a4de1": {
       "apartment_id": "familienwohnbau-4f5a8a68882a4de1",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355004",
+        "found_at": "2026-02-25T04:21:15.799510",
         "id": "familienwohnbau-4f5a8a68882a4de1",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/97107d82a13983cca3ead337a6d8338b_lg.webp",
         "location": "freie Gewerbeflächen",
@@ -183,15 +183,15 @@
         "url": "https://familienwohnbau.at/de/objekt/freie-gewerbeflaechen-6f1ac398"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-57a647b76fa310ee": {
       "apartment_id": "familienwohnbau-57a647b76fa310ee",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355643",
+        "found_at": "2026-02-25T04:21:15.800200",
         "id": "familienwohnbau-57a647b76fa310ee",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/98a28d275c1733c046a8d07949446d3d_lg.webp",
         "location": "1140 Wien, Linzer Straße 286-288",
@@ -206,15 +206,15 @@
         "url": "https://familienwohnbau.at/de/objekt/1140-wien-linzer-strasse-286-288-34237d64"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-7b78f15e6e6764a6": {
       "apartment_id": "familienwohnbau-7b78f15e6e6764a6",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355506",
+        "found_at": "2026-02-25T04:21:15.800063",
         "id": "familienwohnbau-7b78f15e6e6764a6",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/86b92ba97f57d6d23d95f184ed523208_lg.webp",
         "location": "2326 Lanzendorf, Ing. Karl Strycek-Straße 2",
@@ -229,15 +229,15 @@
         "url": "https://familienwohnbau.at/de/objekt/2326-lanzendorf-ing-karl-strycek-strasse-2-41b1e898"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-7f258a1285e4c5d6": {
       "apartment_id": "familienwohnbau-7f258a1285e4c5d6",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355694",
+        "found_at": "2026-02-25T04:21:15.800251",
         "id": "familienwohnbau-7f258a1285e4c5d6",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/81965ba8a79a4c80cf9c97c16d0f9a5f_lg.webp",
         "location": "4400 Steyr, Blumauergasse 26 - Studentenwohnheim",
@@ -252,15 +252,15 @@
         "url": "https://familienwohnbau.at/de/objekt/4400-steyr-blumauergasse-26-studentenwohnheim-64259709"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-8033d4334dd54e3e": {
       "apartment_id": "familienwohnbau-8033d4334dd54e3e",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355111",
+        "found_at": "2026-02-25T04:21:15.799604",
         "id": "familienwohnbau-8033d4334dd54e3e",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/0f152088998fc8723e654196d6dd91ee_lg.webp",
         "location": "aktuelle Wiedervermietungen",
@@ -275,15 +275,15 @@
         "url": "https://familienwohnbau.at/de/objekt/aktuelle-wiedervermietungen-063f7095"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-876ddf7d9a379fe5": {
       "apartment_id": "familienwohnbau-876ddf7d9a379fe5",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355212",
+        "found_at": "2026-02-25T04:21:15.799738",
         "id": "familienwohnbau-876ddf7d9a379fe5",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/9ef7c5351496f35da1ddc5dd4dc5e476_lg.webp",
         "location": "1140 Wien, Schleusenstraße 1A / Bahnstraße 2F",
@@ -299,15 +299,15 @@
         "url": "https://familienwohnbau.at/de/objekt/1140-wien-schleusenstrasse-1a-bahnstrasse-2f-miete-7a2911a0"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-8d3c648b451dc03d": {
       "apartment_id": "familienwohnbau-8d3c648b451dc03d",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355259",
+        "found_at": "2026-02-25T04:21:15.799794",
         "id": "familienwohnbau-8d3c648b451dc03d",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/27fcd7c4683cabcc6522a7762f0e1767_lg.webp",
         "location": "2326 Lanzendorf, Ing. Karl Strycek-Straße 2",
@@ -323,15 +323,15 @@
         "url": "https://familienwohnbau.at/de/objekt/2326-lanzendorf-ing-karl-strycek-strasse-2-miete-3dc1d471"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     },
     "familienwohnbau-da1fbb2d15abf002": {
       "apartment_id": "familienwohnbau-da1fbb2d15abf002",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T03:11:07.355597",
+        "found_at": "2026-02-25T04:21:15.800154",
         "id": "familienwohnbau-da1fbb2d15abf002",
         "image_url": "https://fify-dynamo-assets.sos-at-vie-1.exo.io/4c94ee3a28267f8fb69d8202f4200950_lg.webp",
         "location": "1170 Wien, Bergsteiggasse 3",
@@ -346,11 +346,11 @@
         "url": "https://familienwohnbau.at/de/objekt/1170-wien-bergsteiggasse-3-cef6c63d"
       },
       "first_seen": "2026-02-23T23:07:58.207800",
-      "last_seen": "2026-02-25T03:12:39.602719",
-      "last_updated": "2026-02-25T03:12:39.602719",
+      "last_seen": "2026-02-25T04:22:10.929117",
+      "last_updated": "2026-02-25T04:22:10.929117",
       "status": "active"
     }
   },
-  "last_scrape": "2026-02-25T03:12:39.602719",
+  "last_scrape": "2026-02-25T04:22:10.929117",
   "site": "familienwohnbau"
 }
