@@ -38,9 +38,12 @@ jobs:
 
       - name: Run scraper
         env:
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          # Multiple account mode
+          EMAIL_TO_1: ${{ secrets.EMAIL_TO_1 }}
+          RESEND_API_KEY_1: ${{ secrets.RESEND_API_KEY_1 }}
+          EMAIL_TO_2: ${{ secrets.EMAIL_TO_2 }}
+          RESEND_API_KEY_2: ${{ secrets.RESEND_API_KEY_2 }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
           uv run wohnung-scrape
 

@@ -4,7 +4,7 @@
       "apartment_id": "nhg-285ebc5ddade092d",
       "data": {
         "description": null,
-        "found_at": "2026-02-24T00:17:42.322348",
+        "found_at": "2026-02-25T19:56:20.130684",
         "id": "nhg-285ebc5ddade092d",
         "image_url": "https://www.nhg.at/Handlers/FileHandler.ashx?h=9D6DD95F7BD24E53BA2B7761040D451B615E68D495F74A6CB15D7A1821256DC8&width=400&height=400",
         "location": "1210 Wien, An der Schanze, Simone-Veil-Gasse 11",
@@ -21,15 +21,15 @@
         "url": "https://www.nhg.at/Projekte/Details/?id=2&offerId=1068"
       },
       "first_seen": "2026-02-23T22:58:53.895486",
-      "last_seen": "2026-02-24T00:18:02.591386",
-      "last_updated": "2026-02-24T00:18:02.591386",
+      "last_seen": "2026-02-25T19:56:58.715442",
+      "last_updated": "2026-02-25T19:56:58.715442",
       "status": "active"
     },
     "nhg-448dfa675d174357": {
       "apartment_id": "nhg-448dfa675d174357",
       "data": {
         "description": null,
-        "found_at": "2026-02-24T00:17:42.322531",
+        "found_at": "2026-02-25T19:56:20.131245",
         "id": "nhg-448dfa675d174357",
         "image_url": "https://www.nhg.at/Handlers/FileHandler.ashx?h=0BFBADD4A5844FAC93566A2C3E4E858F602313ED0F5F4AEEA65116F729C98E55&width=400&height=400",
         "location": "1190 Wien, Muthgasse 109B",
@@ -46,15 +46,15 @@
         "url": "https://www.nhg.at/Projekte/Details/?id=2&offerId=1122"
       },
       "first_seen": "2026-02-23T22:58:53.895486",
-      "last_seen": "2026-02-24T00:18:02.591386",
-      "last_updated": "2026-02-24T00:18:02.591386",
+      "last_seen": "2026-02-25T19:56:58.715442",
+      "last_updated": "2026-02-25T19:56:58.715442",
       "status": "active"
     },
     "nhg-ae642664c881a151": {
       "apartment_id": "nhg-ae642664c881a151",
       "data": {
         "description": null,
-        "found_at": "2026-02-24T00:17:42.322453",
+        "found_at": "2026-02-25T19:56:20.130924",
         "id": "nhg-ae642664c881a151",
         "image_url": "https://www.nhg.at/Handlers/FileHandler.ashx?h=6B06060F2E3D41DFA4F2A02798A1DE82441028AEA1534C4D870ADC49B8AE5FD1&width=400&height=400",
         "location": "1230 Wien, Brunner Straße 34",
@@ -71,15 +71,15 @@
         "url": "https://www.nhg.at/Projekte/Details/?id=2&offerId=1107"
       },
       "first_seen": "2026-02-23T22:58:53.895486",
-      "last_seen": "2026-02-24T00:18:02.591386",
-      "last_updated": "2026-02-24T00:18:02.591386",
+      "last_seen": "2026-02-25T19:56:58.715442",
+      "last_updated": "2026-02-25T19:56:58.715442",
       "status": "active"
     },
     "nhg-eaf3c848a75d7c98": {
       "apartment_id": "nhg-eaf3c848a75d7c98",
       "data": {
         "description": null,
-        "found_at": "2026-02-24T00:17:42.041048",
+        "found_at": "2026-02-25T19:56:19.964444",
         "id": "nhg-eaf3c848a75d7c98",
         "image_url": "https://www.nhg.at/Handlers/FileHandler.ashx?h=3D61FCD8C59E4E0EB54D817F69446DD17D92D16F96B2412CB2CB7791F1C51B7E&width=400&height=400",
         "location": "1100 Wien, Kurbadstraße 10",
@@ -96,15 +96,15 @@
         "url": "https://www.nhg.at/Projekte/Details/?id=1&offerId=1123"
       },
       "first_seen": "2026-02-23T22:58:53.895486",
-      "last_seen": "2026-02-24T00:18:02.591386",
-      "last_updated": "2026-02-24T00:18:02.591386",
+      "last_seen": "2026-02-25T19:56:58.715442",
+      "last_updated": "2026-02-25T19:56:58.715442",
       "status": "active"
     },
     "nhg-ee5b2a0b4e9bc684": {
       "apartment_id": "nhg-ee5b2a0b4e9bc684",
       "data": {
         "description": null,
-        "found_at": "2026-02-24T00:17:42.322248",
+        "found_at": "2026-02-25T19:56:20.130226",
         "id": "nhg-ee5b2a0b4e9bc684",
         "image_url": "https://www.nhg.at/Handlers/FileHandler.ashx?h=0952E723A8324526A897CAA6176ED22B1EAE9BBBA8B94AF088C79A0079532907&width=400&height=400",
         "location": "2320 Schwechat, Himberger Straße 13",
@@ -121,11 +121,11 @@
         "url": "https://www.nhg.at/Projekte/Details/?id=2&offerId=756"
       },
       "first_seen": "2026-02-23T22:58:53.895486",
-      "last_seen": "2026-02-24T00:18:02.591386",
-      "last_updated": "2026-02-24T00:18:02.591386",
+      "last_seen": "2026-02-25T19:56:58.715442",
+      "last_updated": "2026-02-25T19:56:58.715442",
       "status": "active"
     }
   },
-  "last_scrape": "2026-02-24T00:18:02.591386",
+  "last_scrape": "2026-02-25T19:56:58.715442",
   "site": "nhg"
 }
