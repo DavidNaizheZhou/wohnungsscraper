@@ -4,7 +4,7 @@
       "apartment_id": "oevw-32384ff3aeed6dca",
       "data": {
         "description": "Miete",
-        "found_at": "2026-02-25T17:28:57.765654",
+        "found_at": "2026-02-25T17:56:01.670231",
         "id": "oevw-32384ff3aeed6dca",
         "image_url": "https://www.oevw.at/assets/thumb/360x240/project000170-251106-142a4b7c.webp",
         "location": "3500 Krems",
@@ -19,15 +19,15 @@
         "url": "https://www.oevw.at/projekte/ihr-geschaeftslokal-am-platz"
       },
       "first_seen": "2026-02-23T20:02:41.588007",
-      "last_seen": "2026-02-25T17:31:15.739656",
-      "last_updated": "2026-02-25T17:31:15.739656",
+      "last_seen": "2026-02-25T17:58:04.497922",
+      "last_updated": "2026-02-25T17:58:04.497922",
       "status": "active"
     },
     "oevw-4b0c4086a2ba49de": {
       "apartment_id": "oevw-4b0c4086a2ba49de",
       "data": {
         "description": "Miete",
-        "found_at": "2026-02-25T17:28:57.765677",
+        "found_at": "2026-02-25T17:56:01.670256",
         "id": "oevw-4b0c4086a2ba49de",
         "image_url": "https://www.oevw.at/assets/thumb/360x240/project000145-240710-42342469.webp",
         "location": "1020 Wien",
@@ -42,15 +42,15 @@
         "url": "https://www.oevw.at/projekte/willkommen-im-nordbahnviertel"
       },
       "first_seen": "2026-02-23T20:02:41.588007",
-      "last_seen": "2026-02-25T17:31:15.739656",
-      "last_updated": "2026-02-25T17:31:15.739656",
+      "last_seen": "2026-02-25T17:58:04.497922",
+      "last_updated": "2026-02-25T17:58:04.497922",
       "status": "active"
     },
     "oevw-5cd1e2fc4430352f": {
       "apartment_id": "oevw-5cd1e2fc4430352f",
       "data": {
         "description": null,
-        "found_at": "2026-02-25T17:28:57.765692",
+        "found_at": "2026-02-25T17:56:01.670273",
         "id": "oevw-5cd1e2fc4430352f",
         "image_url": "https://www.oevw.at/assets/thumb/360x240/project000013-251031-d426bb7b.webp",
         "location": "1020 Wien",
@@ -65,15 +65,15 @@
         "url": "https://www.oevw.at/projekte/urbanes-wohnen-mit-weitblick-unser-hochhaus-am-nordbahnhof"
       },
       "first_seen": "2026-02-23T20:02:41.588007",
-      "last_seen": "2026-02-25T17:31:15.739656",
-      "last_updated": "2026-02-25T17:31:15.739656",
+      "last_seen": "2026-02-25T17:58:04.497922",
+      "last_updated": "2026-02-25T17:58:04.497922",
       "status": "active"
     },
     "oevw-78aeb70e20a89afe": {
       "apartment_id": "oevw-78aeb70e20a89afe",
       "data": {
         "description": "Miete, Eigentum",
-        "found_at": "2026-02-25T17:28:57.765667",
+        "found_at": "2026-02-25T17:56:01.670245",
         "id": "oevw-78aeb70e20a89afe",
         "image_url": "https://www.oevw.at/assets/thumb/360x240/project000165-250429-2e4821cf.webp",
         "location": "2442 Unterwaltersdorf",
@@ -88,15 +88,15 @@
         "url": "https://www.oevw.at/projekte/willkommen-daheim-in-unterwaltersdorf"
       },
       "first_seen": "2026-02-23T20:02:41.588007",
-      "last_seen": "2026-02-25T17:31:15.739656",
-      "last_updated": "2026-02-25T17:31:15.739656",
+      "last_seen": "2026-02-25T17:58:04.497922",
+      "last_updated": "2026-02-25T17:58:04.497922",
       "status": "active"
     },
     "oevw-80d632af2c051f01": {
       "apartment_id": "oevw-80d632af2c051f01",
       "data": {
         "description": "Miete",
-        "found_at": "2026-02-25T17:28:57.765642",
+        "found_at": "2026-02-25T17:56:01.670219",
         "id": "oevw-80d632af2c051f01",
         "image_url": "https://www.oevw.at/assets/thumb/360x240/project000164-260205-e6fc2fd1.webp",
         "location": "3500 Krems",
@@ -111,15 +111,15 @@
         "url": "https://www.oevw.at/projekte/ihr-neues-zuhause-in-krems"
       },
       "first_seen": "2026-02-23T20:02:41.588007",
-      "last_seen": "2026-02-25T17:31:15.739656",
-      "last_updated": "2026-02-25T17:31:15.739656",
+      "last_seen": "2026-02-25T17:58:04.497922",
+      "last_updated": "2026-02-25T17:58:04.497922",
       "status": "active"
     },
     "oevw-b4ba9a11b6ee2a42": {
       "apartment_id": "oevw-b4ba9a11b6ee2a42",
       "data": {
         "description": "Miete",
-        "found_at": "2026-02-25T17:28:57.765552",
+        "found_at": "2026-02-25T17:56:01.670114",
         "id": "oevw-b4ba9a11b6ee2a42",
         "image_url": "https://www.oevw.at/assets/thumb/360x240/project000169-251023-7d875e1c.webp",
         "location": "1220 Wien",
@@ -134,15 +134,15 @@
         "url": "https://www.oevw.at/projekte/ihr-geschaeftslokal-inmitten-eines-lebendigen-wohnviertels"
       },
       "first_seen": "2026-02-23T20:02:41.588007",
-      "last_seen": "2026-02-25T17:31:15.739656",
-      "last_updated": "2026-02-25T17:31:15.739656",
+      "last_seen": "2026-02-25T17:58:04.497922",
+      "last_updated": "2026-02-25T17:58:04.497922",
       "status": "active"
     },
     "oevw-b643ca8c36129786": {
       "apartment_id": "oevw-b643ca8c36129786",
       "data": {
         "description": "Eigentum",
-        "found_at": "2026-02-25T17:28:57.765617",
+        "found_at": "2026-02-25T17:56:01.670192",
         "id": "oevw-b643ca8c36129786",
         "image_url": "https://www.oevw.at/assets/thumb/360x240/project000163-260218-6d4d3b04.webp",
         "location": "1220 Wien",
@@ -157,15 +157,15 @@
         "url": "https://www.oevw.at/projekte/im-zentrum-eines-aufbluehenden-stadtteils-eigentumswohnungen"
       },
       "first_seen": "2026-02-23T20:02:41.588007",
-      "last_seen": "2026-02-25T17:31:15.739656",
-      "last_updated": "2026-02-25T17:31:15.739656",
+      "last_seen": "2026-02-25T17:58:04.497922",
+      "last_updated": "2026-02-25T17:58:04.497922",
       "status": "active"
     },
     "oevw-ba170cc2e5f55c54": {
       "apartment_id": "oevw-ba170cc2e5f55c54",
       "data": {
         "description": "Miete, Eigentum",
-        "found_at": "2026-02-25T17:28:57.765703",
+        "found_at": "2026-02-25T17:56:01.670284",
         "id": "oevw-ba170cc2e5f55c54",
         "image_url": "https://www.oevw.at/assets/thumb/360x240/project0107-221012-5b8c6efe.webp",
         "location": "1220 Wien",
@@ -180,15 +180,15 @@
         "url": "https://www.oevw.at/projekte/das-seestaedter"
       },
       "first_seen": "2026-02-23T20:02:41.588007",
-      "last_seen": "2026-02-25T17:31:15.739656",
-      "last_updated": "2026-02-25T17:31:15.739656",
+      "last_seen": "2026-02-25T17:58:04.497922",
+      "last_updated": "2026-02-25T17:58:04.497922",
       "status": "active"
     },
     "oevw-db1183cdee59d1c5": {
       "apartment_id": "oevw-db1183cdee59d1c5",
       "data": {
         "description": "Miete",
-        "found_at": "2026-02-25T17:28:57.765631",
+        "found_at": "2026-02-25T17:56:01.670207",
         "id": "oevw-db1183cdee59d1c5",
         "image_url": "https://www.oevw.at/assets/thumb/360x240/project000168-260218-e2144d36.webp",
         "location": "1220 Wien",
@@ -203,11 +203,11 @@
         "url": "https://www.oevw.at/projekte/im-zentrum-eines-aufbluehenden-stadtteils-gefoerderte-mietwohnungen"
       },
       "first_seen": "2026-02-23T20:02:41.588007",
-      "last_seen": "2026-02-25T17:31:15.739656",
-      "last_updated": "2026-02-25T17:31:15.739656",
+      "last_seen": "2026-02-25T17:58:04.497922",
+      "last_updated": "2026-02-25T17:58:04.497922",
       "status": "active"
     }
   },
-  "last_scrape": "2026-02-25T17:31:15.739656",
+  "last_scrape": "2026-02-25T17:58:04.497922",
   "site": "oevw"
 }
