@@ -33,6 +33,10 @@ class Settings(BaseSettings):
         default=Path("data"),
         description="Directory to store scraped data",
     )
+    log_dir: Path = Field(
+        default=Path("logs"),
+        description="Directory to store per-scraper run logs",
+    )
 
     # Scraper settings
     request_timeout: int = Field(default=30, description="HTTP request timeout in seconds")
@@ -49,10 +53,10 @@ class Settings(BaseSettings):
             raise ValueError("email_to cannot be empty")
         return v
 
-    @field_validator("data_dir", mode="before")
+    @field_validator("data_dir", "log_dir", mode="before")
     @classmethod
-    def create_data_dir(cls, v: str | Path) -> Path:
-        """Ensure data directory exists."""
+    def create_dir(cls, v: str | Path) -> Path:
+        """Ensure directory exists."""
         path = Path(v)
         path.mkdir(parents=True, exist_ok=True)
         return path

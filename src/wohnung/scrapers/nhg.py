@@ -9,6 +9,11 @@ from wohnung.scrapers.base import BaseScraper
 class NhgScraper(BaseScraper):
     """Scraper for Neue Heimat projects."""
 
+    def __init__(self) -> None:
+        """Initialize NHG scraper with error tracking."""
+        super().__init__()
+        self._scrape_errors: list[str] = []
+
     @property
     def name(self) -> str:
         """Return the scraper name."""
@@ -19,6 +24,15 @@ class NhgScraper(BaseScraper):
         """Return the base URL for this scraper."""
         return "https://www.nhg.at"
 
+    def check_health(self, results: list[Flat]) -> tuple[str, list[str]]:
+        """Override health check to include any scraping errors."""
+        status, warnings = super().check_health(results)
+        if self._scrape_errors:
+            warnings = list(warnings) + self._scrape_errors
+            if status == "healthy":
+                status = "unhealthy"
+        return status, warnings
+
     def scrape(self) -> list[Flat]:
         """Scrape flats from NHG project pages.
 
@@ -27,6 +41,7 @@ class NhgScraper(BaseScraper):
         """
         flats = []
         seen_urls = set()
+        self._scrape_errors = []
 
         # Scrape both planning and construction phases
         pages = [("projekte-in-planung", "in_planning"), ("projekte-in-bau", "neubau")]
@@ -83,7 +98,9 @@ class NhgScraper(BaseScraper):
                         flats.append(flat)
 
             except Exception as e:
-                self.logger.error(f"Error scraping {page_slug}: {e}")
+                error_msg = f"Failed to scrape {page_slug}: {e}"
+                self.logger.error(error_msg)
+                self._scrape_errors.append(error_msg)
                 continue
 
         return flats

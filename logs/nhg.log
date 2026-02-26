@@ -1,0 +1,17 @@
+scraper:    nhg
+started:    2026-02-26 18:45:55
+finished:   2026-02-26 18:45:56 (0.9s)
+status:     HEALTHY
+results:    5 Wohnungen gefunden
+
+flats:
+  [nhg-eaf3c848a75d7c98] "Kurbadstraße" - BAG 1 / Bauplatz 1B | 1100 Wien, Kurbadstraße 10
+    https://www.nhg.at/Projekte/Details/?id=1&offerId=1123
+  [nhg-ee5b2a0b4e9bc684] Himberger Straße 13 | 2320 Schwechat, Himberger Straße 13
+    https://www.nhg.at/Projekte/Details/?id=2&offerId=756
+  [nhg-285ebc5ddade092d] Fünf Freunde - Stadtquartier "An der Schanze" | 1210 Wien, An der Schanze, Simone-Veil-Gasse 11
+    https://www.nhg.at/Projekte/Details/?id=2&offerId=1068
+  [nhg-ae642664c881a151] Batschegasse 8 und 10 | 1230 Wien, Brunner Straße 34
+    https://www.nhg.at/Projekte/Details/?id=2&offerId=1107
+  [nhg-448dfa675d174357] Muthgasse 109B | 1190 Wien, Muthgasse 109B
+    https://www.nhg.at/Projekte/Details/?id=2&offerId=1122

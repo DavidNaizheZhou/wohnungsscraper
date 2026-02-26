@@ -1,5 +1,9 @@
 """Scraper orchestration and management."""
 
+import traceback
+from datetime import datetime
+from pathlib import Path
+
 from wohnung.models import Flat, ScraperResult
 from wohnung.scrapers.arwag import ArwagScraper
 from wohnung.scrapers.athome import AthomeScraper
@@ -34,7 +38,7 @@ SCRAPERS: list[type[BaseScraper]] = [
     OeswScraper,
     EbgScraper,
     NordwestbahnhofScraper,
-    SozialbauScraper,
+    # SozialbauScraper,  # Disabled: scraper not working properly
     # Add more scrapers as you implement them
 ]
 
@@ -49,6 +53,53 @@ def get_scrapers() -> list[BaseScraper]:
     return [scraper_class() for scraper_class in SCRAPERS]
 
 
+def _write_scraper_log(
+    log_dir: Path,
+    name: str,
+    started_at: datetime,
+    flats: list[Flat],
+    health_status: str,
+    warnings: list[str],
+    errors: list[str],
+) -> None:
+    """Write/overwrite a per-scraper log file."""
+    log_dir.mkdir(parents=True, exist_ok=True)
+    finished_at = datetime.now()
+    duration = (finished_at - started_at).total_seconds()
+
+    lines: list[str] = [
+        f"scraper:    {name}",
+        f"started:    {started_at.strftime('%Y-%m-%d %H:%M:%S')}",
+        f"finished:   {finished_at.strftime('%Y-%m-%d %H:%M:%S')} ({duration:.1f}s)",
+        f"status:     {health_status.upper()}",
+        f"results:    {len(flats)} Wohnungen gefunden",
+    ]
+
+    if warnings:
+        lines.append("")
+        lines.append("warnings:")
+        for w in warnings:
+            lines.append(f"  - {w}")
+
+    if errors:
+        lines.append("")
+        lines.append("errors:")
+        for e in errors:
+            lines.append(f"  - {e}")
+
+    if flats:
+        lines.append("")
+        lines.append("flats:")
+        for flat in flats:
+            location = f" | {flat.location}" if flat.location else ""
+            price = f" | {flat.price}" if flat.price else ""
+            lines.append(f"  [{flat.id}] {flat.title}{location}{price}")
+            lines.append(f"    {flat.url}")
+
+    log_file = log_dir / f"{name}.log"
+    log_file.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def run_all_scrapers() -> list[ScraperResult]:
     """
     Run all registered scrapers and collect results.
@@ -56,10 +107,13 @@ def run_all_scrapers() -> list[ScraperResult]:
     Returns:
         List of ScraperResult objects with health status
     """
+    from wohnung.config import settings
+
     results: list[ScraperResult] = []
 
     for scraper in get_scrapers():
         print(f"🔍 Running scraper: {scraper.name}")
+        started_at = datetime.now()
 
         try:
             with scraper:
@@ -78,6 +132,16 @@ def run_all_scrapers() -> list[ScraperResult]:
                 else:
                     print(f"❌ Scraper {scraper.name} failed")
 
+                _write_scraper_log(
+                    log_dir=settings.log_dir,
+                    name=scraper.name,
+                    started_at=started_at,
+                    flats=flats,
+                    health_status=health_status,
+                    warnings=warnings,
+                    errors=[],
+                )
+
                 results.append(
                     ScraperResult(
                         flats=flats,
@@ -88,7 +152,19 @@ def run_all_scrapers() -> list[ScraperResult]:
                 )
         except Exception as e:
             error_msg = f"Error running {scraper.name}: {e!s}"
+            tb = traceback.format_exc()
             print(f"❌ {error_msg}")
+
+            _write_scraper_log(
+                log_dir=settings.log_dir,
+                name=scraper.name,
+                started_at=started_at,
+                flats=[],
+                health_status="failed",
+                warnings=[],
+                errors=[error_msg, tb],
+            )
+
             results.append(
                 ScraperResult(
                     flats=[],
