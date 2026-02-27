@@ -4,7 +4,7 @@
       "apartment_id": "nordwestbahnhof-62565bb3f0042947",
       "data": {
         "description": "Entwicklungsstufe I: Bauplatz 4 wurde an Familienwohnbau vergeben. Baufeld: 12 Planung: Dietrich Untertrifaller, YEWO LANDSCAPES, art:phalanx Bauplatz 5: (Baufeld 12) Bauträger: ARWAG Holding–Aktiengesellschaft Planung: querkraft, Green4Cities GmbH, Caritas Österreich Stadtteilarbeit Bau",
-        "found_at": "2026-02-27T07:51:32.866838",
+        "found_at": "2026-02-27T08:22:51.087645",
         "id": "nordwestbahnhof-62565bb3f0042947",
         "image_url": null,
         "location": "Wien - Nordwestbahnhof",
@@ -23,15 +23,15 @@
         "url": "https://www.gbstern.at/themen-projekte/stadtteilmanagement-in-neubaugebieten/stadtteilmanagement-nordwestbahnhof/bauprojekte/"
       },
       "first_seen": "2026-02-24T00:18:02.605231",
-      "last_seen": "2026-02-27T07:51:32.896805",
-      "last_updated": "2026-02-27T07:51:32.896805",
+      "last_seen": "2026-02-27T08:22:51.119935",
+      "last_updated": "2026-02-27T08:22:51.119935",
       "status": "active"
     },
     "nordwestbahnhof-8c008fa76366a94e": {
       "apartment_id": "nordwestbahnhof-8c008fa76366a94e",
       "data": {
         "description": "Entwicklungsstufe I: Bauplatz 10 wurde an EGW-Schönere Zukunft vergeben. Baufeld: 14 Planung: einszueins architektur, ZT GMBH-feld 72, EGKK / Collective Wisdom-Caritas Österreich Stadtteilarbeit Gemeinsam mit den Bauträgern und Planenden entsteht auf Bauplatz 10 eine Baugruppe. Gemeindebau neu",
-        "found_at": "2026-02-27T07:51:32.867295",
+        "found_at": "2026-02-27T08:22:51.088088",
         "id": "nordwestbahnhof-8c008fa76366a94e",
         "image_url": null,
         "location": "Wien - Nordwestbahnhof",
@@ -50,15 +50,15 @@
         "url": "https://www.gbstern.at/themen-projekte/stadtteilmanagement-in-neubaugebieten/stadtteilmanagement-nordwestbahnhof/bauprojekte/"
       },
       "first_seen": "2026-02-24T00:18:02.605231",
-      "last_seen": "2026-02-27T07:51:32.896805",
-      "last_updated": "2026-02-27T07:51:32.896805",
+      "last_seen": "2026-02-27T08:22:51.119935",
+      "last_updated": "2026-02-27T08:22:51.119935",
       "status": "active"
     },
     "nordwestbahnhof-ea369eb5cdfc5699": {
       "apartment_id": "nordwestbahnhof-ea369eb5cdfc5699",
       "data": {
         "description": "Entwicklungsstufe I: Bauplatz 5 wurde an ARWAG Holding–Aktiengesellschaft vergeben. Baufeld: 12 Planung: querkraft, Green4Cities GmbH, Caritas Österreich Stadtteilarbeit Bauplatz 10 (Baufeld 14) Bauträger: EGW-Schönere Zukunft Planung: einszueins architektur, ZT GMBH-feld 72, EGKK / Collective Wisdom-Car",
-        "found_at": "2026-02-27T07:51:32.867072",
+        "found_at": "2026-02-27T08:22:51.087873",
         "id": "nordwestbahnhof-ea369eb5cdfc5699",
         "image_url": null,
         "location": "Wien - Nordwestbahnhof",
@@ -77,11 +77,11 @@
         "url": "https://www.gbstern.at/themen-projekte/stadtteilmanagement-in-neubaugebieten/stadtteilmanagement-nordwestbahnhof/bauprojekte/"
       },
       "first_seen": "2026-02-24T00:18:02.605231",
-      "last_seen": "2026-02-27T07:51:32.896805",
-      "last_updated": "2026-02-27T07:51:32.896805",
+      "last_seen": "2026-02-27T08:22:51.119935",
+      "last_updated": "2026-02-27T08:22:51.119935",
       "status": "active"
     }
   },
-  "last_scrape": "2026-02-27T07:51:32.896805",
+  "last_scrape": "2026-02-27T08:22:51.119935",
   "site": "nordwestbahnhof"
 }
