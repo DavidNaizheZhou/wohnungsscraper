@@ -4,13 +4,13 @@
       "apartment_id": "mischek-4345c5268e2e0bfe",
       "data": {
         "description": null,
-        "found_at": "2026-02-27T11:44:59.133149",
+        "found_at": "2026-02-27T12:20:56.929994",
         "id": "mischek-4345c5268e2e0bfe",
         "image_url": null,
         "location": "Am-Albert-Schultz-Park, 1220 Wien",
         "markers": [
-          "neubau",
-          "for_sale"
+          "for_sale",
+          "neubau"
         ],
         "price": 230.0,
         "rooms": 3.5,
@@ -20,21 +20,21 @@
         "url": "https://www.mischek.at/de/projekte/hof-am-park"
       },
       "first_seen": "2026-02-23T22:51:36.482296",
-      "last_seen": "2026-02-27T11:46:50.163188",
-      "last_updated": "2026-02-27T11:46:50.163188",
+      "last_seen": "2026-02-27T12:22:43.394850",
+      "last_updated": "2026-02-27T12:22:43.394850",
       "status": "active"
     },
     "mischek-510cba7e1983742a": {
       "apartment_id": "mischek-510cba7e1983742a",
       "data": {
         "description": null,
-        "found_at": "2026-02-27T11:44:59.133247",
+        "found_at": "2026-02-27T12:20:56.930093",
         "id": "mischek-510cba7e1983742a",
         "image_url": null,
         "location": "Czeikestraße, 1100 Wien",
         "markers": [
-          "neubau",
-          "for_sale"
+          "for_sale",
+          "neubau"
         ],
         "price": null,
         "rooms": 3.0,
@@ -44,22 +44,22 @@
         "url": "https://www.mischek.at/de/projekte/laa-viola"
       },
       "first_seen": "2026-02-23T22:51:36.482296",
-      "last_seen": "2026-02-27T11:46:50.163188",
-      "last_updated": "2026-02-27T11:46:50.163188",
+      "last_seen": "2026-02-27T12:22:43.394850",
+      "last_updated": "2026-02-27T12:22:43.394850",
       "status": "active"
     },
     "mischek-648a287c6a3cdb38": {
       "apartment_id": "mischek-648a287c6a3cdb38",
       "data": {
         "description": null,
-        "found_at": "2026-02-27T11:44:59.133166",
+        "found_at": "2026-02-27T12:20:56.930010",
         "id": "mischek-648a287c6a3cdb38",
         "image_url": null,
         "location": "Christine-Lavant-Gasse, 1220 Wien",
         "markers": [
-          "neubau",
+          "for_sale",
           "subsidized",
-          "for_sale"
+          "neubau"
         ],
         "price": 223.895,
         "rooms": 3.0,
@@ -69,21 +69,21 @@
         "url": "https://www.mischek.at/de/projekte/hellblauer-hof"
       },
       "first_seen": "2026-02-23T22:51:36.482296",
-      "last_seen": "2026-02-27T11:46:50.163188",
-      "last_updated": "2026-02-27T11:46:50.163188",
+      "last_seen": "2026-02-27T12:22:43.394850",
+      "last_updated": "2026-02-27T12:22:43.394850",
       "status": "active"
     },
     "mischek-79202bcdcba5bc4a": {
       "apartment_id": "mischek-79202bcdcba5bc4a",
       "data": {
         "description": null,
-        "found_at": "2026-02-27T11:44:59.133060",
+        "found_at": "2026-02-27T12:20:56.929928",
         "id": "mischek-79202bcdcba5bc4a",
         "image_url": null,
         "location": "Thürnlhofstraße, 1110 Wien",
         "markers": [
-          "neubau",
-          "for_sale"
+          "for_sale",
+          "neubau"
         ],
         "price": 255.5,
         "rooms": 3.0,
@@ -93,15 +93,15 @@
         "url": "https://www.mischek.at/de/projekte/thuernlhofstrasse"
       },
       "first_seen": "2026-02-23T22:51:36.482296",
-      "last_seen": "2026-02-27T11:46:50.163188",
-      "last_updated": "2026-02-27T11:46:50.163188",
+      "last_seen": "2026-02-27T12:22:43.394850",
+      "last_updated": "2026-02-27T12:22:43.394850",
       "status": "active"
     },
     "mischek-81de4265cc774ea7": {
       "apartment_id": "mischek-81de4265cc774ea7",
       "data": {
         "description": null,
-        "found_at": "2026-02-27T11:44:59.133102",
+        "found_at": "2026-02-27T12:20:56.929949",
         "id": "mischek-81de4265cc774ea7",
         "image_url": null,
         "location": "Podhagskygasse, 1220 Wien",
@@ -116,21 +116,21 @@
         "url": "https://www.mischek.at/de/projekte/campo-breitenlee"
       },
       "first_seen": "2026-02-23T22:51:36.482296",
-      "last_seen": "2026-02-27T11:46:50.163188",
-      "last_updated": "2026-02-27T11:46:50.163188",
+      "last_seen": "2026-02-27T12:22:43.394850",
+      "last_updated": "2026-02-27T12:22:43.394850",
       "status": "active"
     },
     "mischek-88fb02689e54ca8e": {
       "apartment_id": "mischek-88fb02689e54ca8e",
       "data": {
         "description": null,
-        "found_at": "2026-02-27T11:44:59.133021",
+        "found_at": "2026-02-27T12:20:56.929891",
         "id": "mischek-88fb02689e54ca8e",
         "image_url": null,
         "location": "Hutterplatz, 1210 Wien",
         "markers": [
-          "neubau",
-          "for_sale"
+          "for_sale",
+          "neubau"
         ],
         "price": 224.0,
         "rooms": 2.5,
@@ -140,21 +140,21 @@
         "url": "https://www.mischek.at/de/projekte/nordglueck"
       },
       "first_seen": "2026-02-23T22:51:36.482296",
-      "last_seen": "2026-02-27T11:46:50.163188",
-      "last_updated": "2026-02-27T11:46:50.163188",
+      "last_seen": "2026-02-27T12:22:43.394850",
+      "last_updated": "2026-02-27T12:22:43.394850",
       "status": "active"
     },
     "mischek-9e051949e1b2e206": {
       "apartment_id": "mischek-9e051949e1b2e206",
       "data": {
         "description": null,
-        "found_at": "2026-02-27T11:44:59.133261",
+        "found_at": "2026-02-27T12:20:56.930108",
         "id": "mischek-9e051949e1b2e206",
         "image_url": null,
         "location": "Essling, 1220 Wien",
         "markers": [
-          "neubau",
-          "for_sale"
+          "for_sale",
+          "neubau"
         ],
         "price": null,
         "rooms": 3.0,
@@ -164,21 +164,21 @@
         "url": "https://www.mischek.at/de/projekte/stadt-rand-oase"
       },
       "first_seen": "2026-02-23T22:51:36.482296",
-      "last_seen": "2026-02-27T11:46:50.163188",
-      "last_updated": "2026-02-27T11:46:50.163188",
+      "last_seen": "2026-02-27T12:22:43.394850",
+      "last_updated": "2026-02-27T12:22:43.394850",
       "status": "active"
     },
     "mischek-ba44acc7c149f725": {
       "apartment_id": "mischek-ba44acc7c149f725",
       "data": {
         "description": null,
-        "found_at": "2026-02-27T11:44:59.133276",
+        "found_at": "2026-02-27T12:20:56.930121",
         "id": "mischek-ba44acc7c149f725",
         "image_url": null,
         "location": "Anton-Freunschlag-Gasse, 1230 Wien",
         "markers": [
-          "neubau",
-          "for_sale"
+          "for_sale",
+          "neubau"
         ],
         "price": null,
         "rooms": 3.0,
@@ -188,22 +188,22 @@
         "url": "https://www.mischek.at/de/projekte/toni23"
       },
       "first_seen": "2026-02-23T22:51:36.482296",
-      "last_seen": "2026-02-27T11:46:50.163188",
-      "last_updated": "2026-02-27T11:46:50.163188",
+      "last_seen": "2026-02-27T12:22:43.394850",
+      "last_updated": "2026-02-27T12:22:43.394850",
       "status": "active"
     },
     "mischek-d4b056c27edea795": {
       "apartment_id": "mischek-d4b056c27edea795",
       "data": {
         "description": null,
-        "found_at": "2026-02-27T11:44:59.133344",
+        "found_at": "2026-02-27T12:20:56.930186",
         "id": "mischek-d4b056c27edea795",
         "image_url": null,
         "location": "Josepha-Auernhammer-Gasse, 1220 Wien",
         "markers": [
-          "neubau",
+          "for_sale",
           "subsidized",
-          "for_sale"
+          "neubau"
         ],
         "price": 211.23,
         "rooms": 3.0,
@@ -213,11 +213,11 @@
         "url": "https://www.mischek.at/de/projekte/gelber-hof"
       },
       "first_seen": "2026-02-23T22:51:36.482296",
-      "last_seen": "2026-02-27T11:46:50.163188",
-      "last_updated": "2026-02-27T11:46:50.163188",
+      "last_seen": "2026-02-27T12:22:43.394850",
+      "last_updated": "2026-02-27T12:22:43.394850",
       "status": "active"
     }
   },
-  "last_scrape": "2026-02-27T11:46:50.163188",
+  "last_scrape": "2026-02-27T12:22:43.394850",
   "site": "mischek"
 }
