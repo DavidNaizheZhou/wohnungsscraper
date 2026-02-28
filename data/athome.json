@@ -4,7 +4,7 @@
       "apartment_id": "ackergasse-12",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.033218",
+        "found_at": "2026-02-28T10:41:49.790914",
         "id": "ackergasse-12",
         "image_url": "https://athome.at/wp-content/uploads/2024/02/03-Vario-Ackergasse_Exterior_Design03_2024_02_28-1024x614.jpg",
         "location": "2700 Wiener Neustadt, Ackergasse 12",
@@ -22,15 +22,15 @@
         "url": "https://athome.at/projekt/ackergasse-12/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "alt-wien-ganz-neu": {
       "apartment_id": "alt-wien-ganz-neu",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.033933",
+        "found_at": "2026-02-28T10:41:49.791605",
         "id": "alt-wien-ganz-neu",
         "image_url": "https://athome.at/wp-content/uploads/2022/10/2019_10_05_021_print_small-769x1024.jpg",
         "location": "Bäckerstraße 9, 1010 Wien",
@@ -45,15 +45,15 @@
         "url": "https://athome.at/projekt/alt-wien-ganz-neu/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "apartments-de-la-salle": {
       "apartment_id": "apartments-de-la-salle",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.033392",
+        "found_at": "2026-02-28T10:41:49.791092",
         "id": "apartments-de-la-salle",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/DeLaSalle_850x680px8.jpg",
         "location": "Johannes-de-la-Salle-Gasse 12, 1210 Wien",
@@ -68,15 +68,15 @@
         "url": "https://athome.at/projekt/apartments-de-la-salle/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "denkmalschutz-trifft-neubau": {
       "apartment_id": "denkmalschutz-trifft-neubau",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.033624",
+        "found_at": "2026-02-28T10:41:49.791314",
         "id": "denkmalschutz-trifft-neubau",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/Storchengasse-153_2_1_small-1-683x1024.jpg",
         "location": "Storchengasse 21, 1150 Wien",
@@ -91,15 +91,15 @@
         "url": "https://athome.at/projekt/denkmalschutz-trifft-neubau/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "der-traum-vom-reihenhaus-in-guntramsdorf": {
       "apartment_id": "der-traum-vom-reihenhaus-in-guntramsdorf",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.033305",
+        "found_at": "2026-02-28T10:41:49.791011",
         "id": "der-traum-vom-reihenhaus-in-guntramsdorf",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/850x680px2-819x1024.jpg",
         "location": "Großschopfstraße 1, 2353 Guntramsdorf",
@@ -114,15 +114,15 @@
         "url": "https://athome.at/projekt/der-traum-vom-reihenhaus-in-guntramsdorf/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "familienfreundlich-wohnen-im-herzen-simmeringshallergasse-4": {
       "apartment_id": "familienfreundlich-wohnen-im-herzen-simmeringshallergasse-4",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.033779",
+        "found_at": "2026-02-28T10:41:49.791461",
         "id": "familienfreundlich-wohnen-im-herzen-simmeringshallergasse-4",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/181010_Hal_InH-2-1-903x1024.jpg",
         "location": "Hallergasse 4-6, 1110 Wien",
@@ -137,15 +137,15 @@
         "url": "https://athome.at/projekt/familienfreundlich-wohnen-im-herzen-simmeringshallergasse-4/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "floriani-das-quartier-am-tullnerfeld": {
       "apartment_id": "floriani-das-quartier-am-tullnerfeld",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.032882",
+        "found_at": "2026-02-28T10:41:49.790615",
         "id": "floriani-das-quartier-am-tullnerfeld",
         "image_url": "https://athome.at/wp-content/uploads/2024/06/Cam_1_Judenau_Copyright-1024x683.jpg",
         "location": "3441 Judenau, Florianipark 2",
@@ -161,15 +161,15 @@
         "url": "https://athome.at/projekt/floriani-das-quartier-am-tullnerfeld/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "geq-das-gesundheitsquartier": {
       "apartment_id": "geq-das-gesundheitsquartier",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.033857",
+        "found_at": "2026-02-28T10:41:49.791533",
         "id": "geq-das-gesundheitsquartier",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/Gesundheitsquartier850x680px5.jpg",
         "location": "Maria-Lassnig-Straße 36, 1100 Wien",
@@ -184,15 +184,15 @@
         "url": "https://athome.at/projekt/geq-das-gesundheitsquartier/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "good-muth": {
       "apartment_id": "good-muth",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.032778",
+        "found_at": "2026-02-28T10:41:49.790512",
         "id": "good-muth",
         "image_url": "https://athome.at/wp-content/uploads/2025/12/GoodMuth_P2_fin-1-1024x819.jpg",
         "location": "1190 Wien, Muthgasse 109B",
@@ -208,15 +208,15 @@
         "url": "https://athome.at/projekt/good-muth/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "hochwertige-eigentumswohnungen-im-stilaltbau": {
       "apartment_id": "hochwertige-eigentumswohnungen-im-stilaltbau",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.034496",
+        "found_at": "2026-02-28T10:41:49.792127",
         "id": "hochwertige-eigentumswohnungen-im-stilaltbau",
         "image_url": "https://athome.at/wp-content/uploads/2022/10/Keinergasse_850x680px.jpg",
         "location": "Keinergasse 20, 1030 Wien",
@@ -231,15 +231,15 @@
         "url": "https://athome.at/projekt/hochwertige-eigentumswohnungen-im-stilaltbau/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "liebevoll-sanierter-altbau-beim-naschmarkt": {
       "apartment_id": "liebevoll-sanierter-altbau-beim-naschmarkt",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.034340",
+        "found_at": "2026-02-28T10:41:49.791980",
         "id": "liebevoll-sanierter-altbau-beim-naschmarkt",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/850x680px3-819x1024.jpg",
         "location": "Schönbrunner Straße 4, 1040 Wien",
@@ -254,15 +254,15 @@
         "url": "https://athome.at/projekt/liebevoll-sanierter-altbau-beim-naschmarkt/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "lobmeyrhof": {
       "apartment_id": "lobmeyrhof",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.034087",
+        "found_at": "2026-02-28T10:41:49.791749",
         "id": "lobmeyrhof",
         "image_url": "https://athome.at/wp-content/uploads/2023/01/Lobmeyrhof-819x1024.jpg",
         "location": "1160 Wien, Lorenz Mandl Gasse 10-16",
@@ -277,15 +277,15 @@
         "url": "https://athome.at/projekt/lobmeyrhof/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "mira-laa": {
       "apartment_id": "mira-laa",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.033118",
+        "found_at": "2026-02-28T10:41:49.790833",
         "id": "mira-laa",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/Allgemein_2_39-1-1024x683.jpg",
         "location": "1100 Wien, Laaer-Berg-Straße 100-104",
@@ -301,15 +301,15 @@
         "url": "https://athome.at/projekt/mira-laa/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "slow-home": {
       "apartment_id": "slow-home",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.032968",
+        "found_at": "2026-02-28T10:41:49.790696",
         "id": "slow-home",
         "image_url": "https://athome.at/wp-content/uploads/2024/07/Vorabzug_Piment_FFG_Aerial_01072024-1-1024x576.jpg",
         "location": "1220 Wien, Franziska Fast Gasse 11",
@@ -325,15 +325,15 @@
         "url": "https://athome.at/projekt/slow-home/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "spannung-zwischen-alt-und-neu-in-1070": {
       "apartment_id": "spannung-zwischen-alt-und-neu-in-1070",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.034572",
+        "found_at": "2026-02-28T10:41:49.792201",
         "id": "spannung-zwischen-alt-und-neu-in-1070",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/HH01608exp.jpg",
         "location": "Kaiserstrasse 89, 1070 Wien",
@@ -348,15 +348,15 @@
         "url": "https://athome.at/projekt/spannung-zwischen-alt-und-neu-in-1070/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "stadt-natur-eigentum-in-1220": {
       "apartment_id": "stadt-natur-eigentum-in-1220",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.033702",
+        "found_at": "2026-02-28T10:41:49.791387",
         "id": "stadt-natur-eigentum-in-1220",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/190422_StadlBr_Vorn_w-1024x704.jpg",
         "location": "Stadlbreiten 11, 1220 Wien",
@@ -371,15 +371,15 @@
         "url": "https://athome.at/projekt/stadt-natur-eigentum-in-1220/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "urban-wohnen-in-altmannsdorf": {
       "apartment_id": "urban-wohnen-in-altmannsdorf",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.033472",
+        "found_at": "2026-02-28T10:41:49.791167",
         "id": "urban-wohnen-in-altmannsdorf",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/2021_04_05_001_screen-1024x765.jpg",
         "location": "Breitenfurter Straße 73-77, 1120 Wien",
@@ -394,15 +394,15 @@
         "url": "https://athome.at/projekt/urban-wohnen-in-altmannsdorf/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "werkbundsiedlung": {
       "apartment_id": "werkbundsiedlung",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.034263",
+        "found_at": "2026-02-28T10:41:49.791891",
         "id": "werkbundsiedlung",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/Werksiedlung-819x1024.jpg",
         "location": "Veitingergasse, 1130 Wien",
@@ -417,15 +417,15 @@
         "url": "https://athome.at/projekt/werkbundsiedlung/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "wohnen-im-herzen-der-inneren-stadt": {
       "apartment_id": "wohnen-im-herzen-der-inneren-stadt",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.034169",
+        "found_at": "2026-02-28T10:41:49.791820",
         "id": "wohnen-im-herzen-der-inneren-stadt",
         "image_url": "https://athome.at/wp-content/uploads/2022/10/2019_10_05_002_print_small-745x1024.jpg",
         "location": "Sonnenfelsgasse 15, 1010 Wien",
@@ -440,15 +440,15 @@
         "url": "https://athome.at/projekt/wohnen-im-herzen-der-inneren-stadt/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "wohnen-in-nahe-des-tullner-aubads": {
       "apartment_id": "wohnen-in-nahe-des-tullner-aubads",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.033550",
+        "found_at": "2026-02-28T10:41:49.791242",
         "id": "wohnen-in-nahe-des-tullner-aubads",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/850x680px-820x1024.jpg",
         "location": "Langenlebarner Straße 94-96, 3430 Tulln",
@@ -463,15 +463,15 @@
         "url": "https://athome.at/projekt/wohnen-in-nahe-des-tullner-aubads/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "wunderschone-mietwohnungen-direkt-am-brunnenmarkt": {
       "apartment_id": "wunderschone-mietwohnungen-direkt-am-brunnenmarkt",
       "data": {
         "description": null,
-        "found_at": "2026-02-28T10:09:45.034417",
+        "found_at": "2026-02-28T10:41:49.792055",
         "id": "wunderschone-mietwohnungen-direkt-am-brunnenmarkt",
         "image_url": "https://athome.at/wp-content/uploads/2022/09/wollnerhof-016-copy.png",
         "location": "Brunnengasse 61-63, 1160 Wien",
@@ -486,8 +486,8 @@
         "url": "https://athome.at/projekt/wunderschone-mietwohnungen-direkt-am-brunnenmarkt/"
       },
       "first_seen": "2026-02-23T22:36:17.087951",
-      "last_seen": "2026-02-28T10:12:11.052726",
-      "last_updated": "2026-02-28T10:12:11.052726",
+      "last_seen": "2026-02-28T10:44:33.066062",
+      "last_updated": "2026-02-28T10:44:33.066062",
       "status": "active"
     },
     "zeitgemase-eigentumswohnungen-in-liesing": {
@@ -514,6 +514,6 @@
       "status": "removed"
     }
   },
-  "last_scrape": "2026-02-28T10:12:11.052726",
+  "last_scrape": "2026-02-28T10:44:33.066062",
   "site": "athome"
 }
