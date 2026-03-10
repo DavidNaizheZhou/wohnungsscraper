@@ -4,7 +4,7 @@
       "apartment_id": "projekte-bad-voeslau-3x0-0-kammgarnhof-2a-und-2b",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.088999",
+        "found_at": "2026-03-10T20:46:30.087361",
         "id": "projekte-bad-voeslau-3x0-0-kammgarnhof-2a-und-2b",
         "image_url": null,
         "location": "2540 Bad Vöslau",
@@ -19,15 +19,15 @@
         "url": "https://www.egw.at/projekte/bad-voeslau-3x0-0-kammgarnhof-2a-und-2b"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-bad-voeslau-hofwirtschaft": {
       "apartment_id": "projekte-bad-voeslau-hofwirtschaft",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.088987",
+        "found_at": "2026-03-10T20:46:30.087351",
         "id": "projekte-bad-voeslau-hofwirtschaft",
         "image_url": null,
         "location": "2540 Bad Vöslau",
@@ -42,15 +42,15 @@
         "url": "https://www.egw.at/projekte/bad-voeslau-hofwirtschaft"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-bad-voeslau-kammgarnhof-1": {
       "apartment_id": "projekte-bad-voeslau-kammgarnhof-1",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.088993",
+        "found_at": "2026-03-10T20:46:30.087356",
         "id": "projekte-bad-voeslau-kammgarnhof-1",
         "image_url": null,
         "location": "2540 Bad Vöslau",
@@ -65,15 +65,15 @@
         "url": "https://www.egw.at/projekte/bad-voeslau-kammgarnhof-1"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-bad-voeslau-kammgarnhof-3a-und-3b": {
       "apartment_id": "projekte-bad-voeslau-kammgarnhof-3a-und-3b",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.089007",
+        "found_at": "2026-03-10T20:46:30.087369",
         "id": "projekte-bad-voeslau-kammgarnhof-3a-und-3b",
         "image_url": null,
         "location": "2540 Bad Vöslau",
@@ -88,15 +88,15 @@
         "url": "https://www.egw.at/projekte/bad-voeslau-kammgarnhof-3a-und-3b"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-ein-viertel-gruen-baufeld-8-39-freifinanzierte-mietwohnung-mit-kaufoption": {
       "apartment_id": "projekte-ein-viertel-gruen-baufeld-8-39-freifinanzierte-mietwohnung-mit-kaufoption",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.088937",
+        "found_at": "2026-03-10T20:46:30.087304",
         "id": "projekte-ein-viertel-gruen-baufeld-8-39-freifinanzierte-mietwohnung-mit-kaufoption",
         "image_url": null,
         "location": "2700 Wiener Neustadt",
@@ -111,8 +111,8 @@
         "url": "https://www.egw.at/projekte/ein-viertel-gruen-baufeld-8-39-freifinanzierte-mietwohnung-mit-kaufoption"
       },
       "first_seen": "2026-03-05T06:27:39.473290",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-ein-viertel-gruen-baufeld-8-mit-39-freifinanzierte-mietwohnung-mit-kaufoption": {
@@ -188,7 +188,7 @@
       "apartment_id": "projekte-furth-bei-goettweig-wohnhausanlage",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.088964",
+        "found_at": "2026-03-10T20:46:30.087329",
         "id": "projekte-furth-bei-goettweig-wohnhausanlage",
         "image_url": null,
         "location": "3511 Furth bei Göttweig",
@@ -203,15 +203,15 @@
         "url": "https://www.egw.at/projekte/furth-bei-goettweig-wohnhausanlage"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-oberes-hausfeld": {
       "apartment_id": "projekte-oberes-hausfeld",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.089012",
+        "found_at": "2026-03-10T20:46:30.087375",
         "id": "projekte-oberes-hausfeld",
         "image_url": null,
         "location": "1220 Wien",
@@ -226,15 +226,15 @@
         "url": "https://www.egw.at/projekte/oberes-hausfeld"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-obritzberg-rust-10-reihenhaus-bloecke": {
       "apartment_id": "projekte-obritzberg-rust-10-reihenhaus-bloecke",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.088979",
+        "found_at": "2026-03-10T20:46:30.087343",
         "id": "projekte-obritzberg-rust-10-reihenhaus-bloecke",
         "image_url": null,
         "location": "3123 Obritzberg-Rust",
@@ -249,15 +249,15 @@
         "url": "https://www.egw.at/projekte/obritzberg-rust-10-reihenhaus-bloecke"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-strasshof-i-reihenhausanlage": {
       "apartment_id": "projekte-strasshof-i-reihenhausanlage",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.089017",
+        "found_at": "2026-03-10T20:46:30.087380",
         "id": "projekte-strasshof-i-reihenhausanlage",
         "image_url": null,
         "location": "2231 Strasshof an der Nordbahn",
@@ -272,15 +272,15 @@
         "url": "https://www.egw.at/projekte/strasshof-i-reihenhausanlage"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-strasshof-ii-wohnhausanlagen": {
       "apartment_id": "projekte-strasshof-ii-wohnhausanlagen",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.089022",
+        "found_at": "2026-03-10T20:46:30.087384",
         "id": "projekte-strasshof-ii-wohnhausanlagen",
         "image_url": null,
         "location": "2231 Strasshof an der Nordbahn",
@@ -295,15 +295,15 @@
         "url": "https://www.egw.at/projekte/strasshof-ii-wohnhausanlagen"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-unterwaltersdorf-gruenes-wohnerlebnis": {
       "apartment_id": "projekte-unterwaltersdorf-gruenes-wohnerlebnis",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.088974",
+        "found_at": "2026-03-10T20:46:30.087338",
         "id": "projekte-unterwaltersdorf-gruenes-wohnerlebnis",
         "image_url": null,
         "location": "2442 Unterwaltersdorf",
@@ -318,15 +318,15 @@
         "url": "https://www.egw.at/projekte/unterwaltersdorf-gruenes-wohnerlebnis"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-village-im-dritten-salon-inklusion": {
       "apartment_id": "projekte-village-im-dritten-salon-inklusion",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.088969",
+        "found_at": "2026-03-10T20:46:30.087333",
         "id": "projekte-village-im-dritten-salon-inklusion",
         "image_url": null,
         "location": "1030 Wien",
@@ -341,15 +341,15 @@
         "url": "https://www.egw.at/projekte/village-im-dritten-salon-inklusion"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-wohnbau-oberwagram-in-st-poelten": {
       "apartment_id": "projekte-wohnbau-oberwagram-in-st-poelten",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.088959",
+        "found_at": "2026-03-10T20:46:30.087324",
         "id": "projekte-wohnbau-oberwagram-in-st-poelten",
         "image_url": null,
         "location": "3100 St. Pölten",
@@ -364,15 +364,15 @@
         "url": "https://www.egw.at/projekte/wohnbau-oberwagram-in-st-poelten"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     },
     "projekte-wohnprojekt-ein-viertel-gruen-baufeld-2": {
       "apartment_id": "projekte-wohnprojekt-ein-viertel-gruen-baufeld-2",
       "data": {
         "description": null,
-        "found_at": "2026-03-10T20:14:33.088953",
+        "found_at": "2026-03-10T20:46:30.087318",
         "id": "projekte-wohnprojekt-ein-viertel-gruen-baufeld-2",
         "image_url": null,
         "location": "2700 Wiener Neustadt",
@@ -387,11 +387,11 @@
         "url": "https://www.egw.at/projekte/wohnprojekt-ein-viertel-gruen-baufeld-2"
       },
       "first_seen": "2026-02-23T22:14:57.237699",
-      "last_seen": "2026-03-10T20:16:24.656007",
-      "last_updated": "2026-03-10T20:16:24.656007",
+      "last_seen": "2026-03-10T20:48:21.624081",
+      "last_updated": "2026-03-10T20:48:21.624081",
       "status": "active"
     }
   },
-  "last_scrape": "2026-03-10T20:16:24.656007",
+  "last_scrape": "2026-03-10T20:48:21.624081",
   "site": "egw"
 }
