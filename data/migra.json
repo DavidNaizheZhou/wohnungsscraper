@@ -4,7 +4,7 @@
       "apartment_id": "migra-157a8edf1b0c32d5",
       "data": {
         "description": "Miete. gefördert. Smart-Superförderung., Attemsgasse  34",
-        "found_at": "2026-03-20T23:42:38.829870",
+        "found_at": "2026-03-21T00:43:11.079926",
         "id": "migra-157a8edf1b0c32d5",
         "image_url": "https://www.migra.at/assets/immobilien/objekte/22445_18_Schaubild_Bauplatz2_01__FocusFillWzEyMDAsODAwLCJ4IiwxMTFd.jpg?s=25daf5a520",
         "location": "1220 Wien",
@@ -21,15 +21,15 @@
         "url": "https://www.migra.at/neubauprojekte/wohnhausanlage-rote-emma-1220-wien-miete/"
       },
       "first_seen": "2026-02-23T21:26:29.707443",
-      "last_seen": "2026-03-20T23:44:33.247573",
-      "last_updated": "2026-03-20T23:44:33.247573",
+      "last_seen": "2026-03-21T00:45:10.462453",
+      "last_updated": "2026-03-21T00:45:10.462453",
       "status": "active"
     },
     "migra-c3fdffd7c502d21c": {
       "apartment_id": "migra-c3fdffd7c502d21c",
       "data": {
         "description": "Miete. gefördert. Smart-Superförderung., Meischlgasse",
-        "found_at": "2026-03-20T23:42:38.830442",
+        "found_at": "2026-03-21T00:43:11.080469",
         "id": "migra-c3fdffd7c502d21c",
         "image_url": "https://www.migra.at/assets/immobilien/objekte/23395_221020_WBW_Meichlgasse_008ps__FocusFillWzEyMDAsODAwLCJ5Iiw1M10.jpg?s=ddc543e4ed",
         "location": "1230 Wien",
@@ -46,11 +46,11 @@
         "url": "https://www.migra.at/neubauprojekte/in-der-wiesen-ost-1230-wien-miete/"
       },
       "first_seen": "2026-02-23T21:26:29.707443",
-      "last_seen": "2026-03-20T23:44:33.247573",
-      "last_updated": "2026-03-20T23:44:33.247573",
+      "last_seen": "2026-03-21T00:45:10.462453",
+      "last_updated": "2026-03-21T00:45:10.462453",
       "status": "active"
     }
   },
-  "last_scrape": "2026-03-20T23:44:33.247573",
+  "last_scrape": "2026-03-21T00:45:10.462453",
   "site": "migra"
 }
