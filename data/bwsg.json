@@ -388,7 +388,7 @@
       "apartment_id": "5889-1874017",
       "data": {
         "description": null,
-        "found_at": "2026-04-16T22:20:41.522037",
+        "found_at": "2026-04-16T22:48:31.882647",
         "id": "5889-1874017",
         "image_url": "https://storage.justimmo.at/thumb/55d8e0b966c55358473d90ce9fe67343/fc_h1080_w1920/3ePQGi6Utst75QpSRiEkJ2.jpg",
         "location": "5531 Eben im Pongau",
@@ -404,15 +404,15 @@
         "url": "https://www.bwsg.at/objekt/betreutes-wohnen-charmante-1-zimmer-wohnung-mit-sehr-grosser-terrasse/"
       },
       "first_seen": "2026-04-16T19:35:10.623426",
-      "last_seen": "2026-04-16T22:21:44.455843",
-      "last_updated": "2026-04-16T22:21:44.455843",
+      "last_seen": "2026-04-16T22:49:35.687710",
+      "last_updated": "2026-04-16T22:49:35.687710",
       "status": "active"
     },
     "5889-1874020": {
       "apartment_id": "5889-1874020",
       "data": {
         "description": null,
-        "found_at": "2026-04-16T22:20:41.521887",
+        "found_at": "2026-04-16T22:48:31.882496",
         "id": "5889-1874020",
         "image_url": "https://storage.justimmo.at/thumb/55d8e0b966c55358473d90ce9fe67343/fc_h1080_w1920/3ePQGi6Utst75QpSRiEkJ2.jpg",
         "location": "5531 Eben im Pongau",
@@ -428,15 +428,15 @@
         "url": "https://www.bwsg.at/objekt/betreutes-wohnen-charmante-1-zimmer-wohnung-mit-balkon-3/"
       },
       "first_seen": "2026-04-16T19:35:10.623426",
-      "last_seen": "2026-04-16T22:21:44.455843",
-      "last_updated": "2026-04-16T22:21:44.455843",
+      "last_seen": "2026-04-16T22:49:35.687710",
+      "last_updated": "2026-04-16T22:49:35.687710",
       "status": "active"
     },
     "5889-1874021": {
       "apartment_id": "5889-1874021",
       "data": {
         "description": null,
-        "found_at": "2026-04-16T22:20:41.521736",
+        "found_at": "2026-04-16T22:48:31.882321",
         "id": "5889-1874021",
         "image_url": "https://storage.justimmo.at/thumb/55d8e0b966c55358473d90ce9fe67343/fc_h1080_w1920/3ePQGi6Utst75QpSRiEkJ2.jpg",
         "location": "5531 Eben im Pongau",
@@ -452,15 +452,15 @@
         "url": "https://www.bwsg.at/objekt/betreutes-wohnen-charmante-1-zimmer-wohnung-mit-balkon-2/"
       },
       "first_seen": "2026-03-27T08:52:31.761524",
-      "last_seen": "2026-04-16T22:21:44.455843",
-      "last_updated": "2026-04-16T22:21:44.455843",
+      "last_seen": "2026-04-16T22:49:35.687710",
+      "last_updated": "2026-04-16T22:49:35.687710",
       "status": "active"
     },
     "5889-1874024": {
       "apartment_id": "5889-1874024",
       "data": {
         "description": null,
-        "found_at": "2026-04-16T22:20:41.521586",
+        "found_at": "2026-04-16T22:48:31.882169",
         "id": "5889-1874024",
         "image_url": "https://storage.justimmo.at/thumb/55d8e0b966c55358473d90ce9fe67343/fc_h1080_w1920/3ePQGi6Utst75QpSRiEkJ2.jpg",
         "location": "5531 Eben im Pongau",
@@ -476,15 +476,15 @@
         "url": "https://www.bwsg.at/objekt/betreutes-wohnen-charmante-1-zimmer-wohnung-mit-balkon/"
       },
       "first_seen": "2026-03-24T13:40:15.238681",
-      "last_seen": "2026-04-16T22:21:44.455843",
-      "last_updated": "2026-04-16T22:21:44.455843",
+      "last_seen": "2026-04-16T22:49:35.687710",
+      "last_updated": "2026-04-16T22:49:35.687710",
       "status": "active"
     },
     "5889-18761": {
       "apartment_id": "5889-18761",
       "data": {
         "description": null,
-        "found_at": "2026-04-16T22:20:41.521414",
+        "found_at": "2026-04-16T22:48:31.882000",
         "id": "5889-18761",
         "image_url": "https://storage.justimmo.at/thumb/9d1d65ab21d5bf6b9581af84bef60661/fc_h1080_w1920/5rF2cpnuzphuXtKI9AfAYZ.jpg",
         "location": "5301 Eugendorf",
@@ -500,8 +500,8 @@
         "url": "https://www.bwsg.at/objekt/silberlocke-wohnen-in-eugendorf-im-flachgau/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-04-16T22:21:44.455843",
-      "last_updated": "2026-04-16T22:21:44.455843",
+      "last_seen": "2026-04-16T22:49:35.687710",
+      "last_updated": "2026-04-16T22:49:35.687710",
       "status": "active"
     },
     "5889-191500071": {
@@ -721,6 +721,6 @@
       "status": "removed"
     }
   },
-  "last_scrape": "2026-04-16T22:21:44.455843",
+  "last_scrape": "2026-04-16T22:49:35.687710",
   "site": "bwsg"
 }
