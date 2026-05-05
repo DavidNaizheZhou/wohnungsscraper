@@ -23,13 +23,36 @@
       "first_seen": "2026-02-23T21:26:29.707443",
       "last_seen": "2026-05-05T11:54:15.110038",
       "last_updated": "2026-05-05T11:54:15.110038",
+      "status": "removed"
+    },
+    "migra-ad551568ce7ffbf3": {
+      "apartment_id": "migra-ad551568ce7ffbf3",
+      "data": {
+        "description": "Miete., Dr. Hübscher Gasse  33-35",
+        "found_at": "2026-05-05T12:37:56.807809",
+        "id": "migra-ad551568ce7ffbf3",
+        "image_url": "https://www.migra.at/assets/immobilien/objekte/24365_Maurer_WH_Unterradlberg_C004__FocusFillWzEyMDAsODAwLCJ4IiwxMTBd.jpg?s=23b6f94c23",
+        "location": "3105 St. Pölten-Radlberg",
+        "markers": [
+          "rental"
+        ],
+        "price": null,
+        "rooms": null,
+        "size": null,
+        "source": "migra",
+        "title": "Unterradlberg \"Hübscher Wohnen",
+        "url": "https://www.migra.at/neubauprojekte/unterradlberg-huebscher-wohnen-3105-st-poelten-radlberg-miete/"
+      },
+      "first_seen": "2026-05-05T12:38:54.711833",
+      "last_seen": "2026-05-05T12:38:54.711833",
+      "last_updated": "2026-05-05T12:38:54.711833",
       "status": "active"
     },
     "migra-c3fdffd7c502d21c": {
       "apartment_id": "migra-c3fdffd7c502d21c",
       "data": {
         "description": "Miete. gefördert. Smart-Superförderung., Meischlgasse",
-        "found_at": "2026-05-05T11:53:14.874921",
+        "found_at": "2026-05-05T12:37:56.807269",
         "id": "migra-c3fdffd7c502d21c",
         "image_url": "https://www.migra.at/assets/immobilien/objekte/23395_221020_WBW_Meichlgasse_008ps__FocusFillWzEyMDAsODAwLCJ5Iiw1M10.jpg?s=ddc543e4ed",
         "location": "1230 Wien",
@@ -46,11 +69,11 @@
         "url": "https://www.migra.at/neubauprojekte/in-der-wiesen-ost-1230-wien-miete/"
       },
       "first_seen": "2026-02-23T21:26:29.707443",
-      "last_seen": "2026-05-05T11:54:15.110038",
-      "last_updated": "2026-05-05T11:54:15.110038",
+      "last_seen": "2026-05-05T12:38:54.711833",
+      "last_updated": "2026-05-05T12:38:54.711833",
       "status": "active"
     }
   },
-  "last_scrape": "2026-05-05T11:54:15.110038",
+  "last_scrape": "2026-05-05T12:38:54.711833",
   "site": "migra"
 }
