@@ -29,7 +29,7 @@
       "apartment_id": "migra-6475ac23db1d5671",
       "data": {
         "description": "Miete. gefördert. Smart-Superförderung., Hausfeldstraße 1",
-        "found_at": "2026-05-24T09:02:38.257836",
+        "found_at": "2026-05-24T10:11:19.260607",
         "id": "migra-6475ac23db1d5671",
         "image_url": "https://www.migra.at/assets/immobilien/objekte/22365_13_Oberes_Hausfeld_C2_Schaubild_2__FocusFillWzEyMDAsODAwLGZhbHNlLDBd.jpg?s=dd50c7fba5",
         "location": "1220 Wien",
@@ -46,15 +46,15 @@
         "url": "https://www.migra.at/neubauprojekte/oberes-hausfeld-1220-wien-miete/"
       },
       "first_seen": "2026-05-07T11:17:37.641082",
-      "last_seen": "2026-05-24T09:03:36.124731",
-      "last_updated": "2026-05-24T09:03:36.124731",
+      "last_seen": "2026-05-24T10:12:11.458312",
+      "last_updated": "2026-05-24T10:12:11.458312",
       "status": "active"
     },
     "migra-ad551568ce7ffbf3": {
       "apartment_id": "migra-ad551568ce7ffbf3",
       "data": {
         "description": "Miete., Dr. Hübscher Gasse  33-35",
-        "found_at": "2026-05-24T09:02:38.258580",
+        "found_at": "2026-05-24T10:11:19.261634",
         "id": "migra-ad551568ce7ffbf3",
         "image_url": "https://www.migra.at/assets/immobilien/objekte/24365_Maurer_WH_Unterradlberg_C004__FocusFillWzEyMDAsODAwLCJ4IiwxMTBd.jpg?s=23b6f94c23",
         "location": "3105 St. Pölten-Radlberg",
@@ -69,15 +69,15 @@
         "url": "https://www.migra.at/neubauprojekte/unterradlberg-huebscher-wohnen-3105-st-poelten-radlberg-miete/"
       },
       "first_seen": "2026-05-05T12:38:54.711833",
-      "last_seen": "2026-05-24T09:03:36.124731",
-      "last_updated": "2026-05-24T09:03:36.124731",
+      "last_seen": "2026-05-24T10:12:11.458312",
+      "last_updated": "2026-05-24T10:12:11.458312",
       "status": "active"
     },
     "migra-c3fdffd7c502d21c": {
       "apartment_id": "migra-c3fdffd7c502d21c",
       "data": {
         "description": "Miete. gefördert. Smart-Superförderung., Meischlgasse",
-        "found_at": "2026-05-24T09:02:38.258257",
+        "found_at": "2026-05-24T10:11:19.261166",
         "id": "migra-c3fdffd7c502d21c",
         "image_url": "https://www.migra.at/assets/immobilien/objekte/23395_221020_WBW_Meichlgasse_008ps__FocusFillWzEyMDAsODAwLCJ5Iiw1M10.jpg?s=ddc543e4ed",
         "location": "1230 Wien",
@@ -94,11 +94,11 @@
         "url": "https://www.migra.at/neubauprojekte/in-der-wiesen-ost-1230-wien-miete/"
       },
       "first_seen": "2026-02-23T21:26:29.707443",
-      "last_seen": "2026-05-24T09:03:36.124731",
-      "last_updated": "2026-05-24T09:03:36.124731",
+      "last_seen": "2026-05-24T10:12:11.458312",
+      "last_updated": "2026-05-24T10:12:11.458312",
       "status": "active"
     }
   },
-  "last_scrape": "2026-05-24T09:03:36.124731",
+  "last_scrape": "2026-05-24T10:12:11.458312",
   "site": "migra"
 }
