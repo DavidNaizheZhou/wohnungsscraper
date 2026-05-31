@@ -1,5 +1,29 @@
 {
   "apartments": {
+    "5889-135600260": {
+      "apartment_id": "5889-135600260",
+      "data": {
+        "description": null,
+        "found_at": "2026-05-31T23:57:56.017386",
+        "id": "5889-135600260",
+        "image_url": "https://storage.justimmo.at/thumb/aeaf2d064a98ffc23be17ee40f777614/fc_h1080_w1920/3BkwhK1Wj2kUTC8msOLgSg.jpg",
+        "location": "1210 Wien",
+        "markers": [
+          "subsidized",
+          "rental"
+        ],
+        "price": 867.55,
+        "rooms": null,
+        "size": null,
+        "source": "bwsg",
+        "title": "Unbefristete 2-Zimmer Wohnung mit Terrasse!",
+        "url": "https://www.bwsg.at/objekt/unbefristete-2-zimmer-wohnung-mit-terrasse/"
+      },
+      "first_seen": "2026-05-31T23:58:51.363004",
+      "last_seen": "2026-05-31T23:58:51.363004",
+      "last_updated": "2026-05-31T23:58:51.363004",
+      "status": "active"
+    },
     "5889-145700030": {
       "apartment_id": "5889-145700030",
       "data": {
@@ -142,7 +166,7 @@
       "first_seen": "2026-02-23T22:30:00.786096",
       "last_seen": "2026-05-31T23:31:15.435406",
       "last_updated": "2026-05-31T23:31:15.435406",
-      "status": "active"
+      "status": "removed"
     },
     "5889-151400800": {
       "apartment_id": "5889-151400800",
@@ -190,7 +214,7 @@
       "first_seen": "2026-02-23T22:30:00.786096",
       "last_seen": "2026-05-31T23:31:15.435406",
       "last_updated": "2026-05-31T23:31:15.435406",
-      "status": "active"
+      "status": "removed"
     },
     "5889-153500110": {
       "apartment_id": "5889-153500110",
@@ -214,7 +238,7 @@
       "first_seen": "2026-03-31T23:47:10.246585",
       "last_seen": "2026-05-31T23:31:15.435406",
       "last_updated": "2026-05-31T23:31:15.435406",
-      "status": "active"
+      "status": "removed"
     },
     "5889-154000240": {
       "apartment_id": "5889-154000240",
@@ -310,7 +334,7 @@
       "first_seen": "2026-02-23T22:30:00.786096",
       "last_seen": "2026-05-31T23:31:15.435406",
       "last_updated": "2026-05-31T23:31:15.435406",
-      "status": "active"
+      "status": "removed"
     },
     "5889-161000590": {
       "apartment_id": "5889-161000590",
@@ -334,13 +358,13 @@
       "first_seen": "2026-03-31T23:47:10.246585",
       "last_seen": "2026-05-31T23:31:15.435406",
       "last_updated": "2026-05-31T23:31:15.435406",
-      "status": "active"
+      "status": "removed"
     },
     "5889-163400090": {
       "apartment_id": "5889-163400090",
       "data": {
         "description": null,
-        "found_at": "2026-05-31T23:30:12.485508",
+        "found_at": "2026-05-31T23:57:56.017162",
         "id": "5889-163400090",
         "image_url": "https://storage.justimmo.at/thumb/95a3ad6c76c36e7003c084b031a9b2a8/fc_h1080_w1920/2n836MgTNfbvg8QR5MQ3UY.jpg",
         "location": "8630 Mariazell",
@@ -356,8 +380,8 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-3-zimmer-wohnung-in-mariazell/"
       },
       "first_seen": "2026-03-10T14:26:40.275444",
-      "last_seen": "2026-05-31T23:31:15.435406",
-      "last_updated": "2026-05-31T23:31:15.435406",
+      "last_seen": "2026-05-31T23:58:51.363004",
+      "last_updated": "2026-05-31T23:58:51.363004",
       "status": "active"
     },
     "5889-187107": {
@@ -388,7 +412,7 @@
       "apartment_id": "5889-187113",
       "data": {
         "description": null,
-        "found_at": "2026-05-31T23:30:12.486019",
+        "found_at": "2026-05-31T23:57:56.017277",
         "id": "5889-187113",
         "image_url": "https://storage.justimmo.at/thumb/26691568bfeee8c02fedb8c613728ef9/fc_h1080_w1920/4gxjXTCwzcay3WbCowQh5R.jpg",
         "location": "5322 Hof bei Salzburg",
@@ -404,8 +428,8 @@
         "url": "https://www.bwsg.at/objekt/hof-bei-salzburg-1-zimmer-starterwohnung/"
       },
       "first_seen": "2026-05-28T15:20:16.098134",
-      "last_seen": "2026-05-31T23:31:15.435406",
-      "last_updated": "2026-05-31T23:31:15.435406",
+      "last_seen": "2026-05-31T23:58:51.363004",
+      "last_updated": "2026-05-31T23:58:51.363004",
       "status": "active"
     },
     "5889-1874017": {
@@ -508,7 +532,7 @@
       "apartment_id": "5889-18761",
       "data": {
         "description": null,
-        "found_at": "2026-05-31T23:30:12.484764",
+        "found_at": "2026-05-31T23:57:56.016886",
         "id": "5889-18761",
         "image_url": "https://storage.justimmo.at/thumb/9d1d65ab21d5bf6b9581af84bef60661/fc_h1080_w1920/5rF2cpnuzphuXtKI9AfAYZ.jpg",
         "location": "5301 Eugendorf",
@@ -524,8 +548,8 @@
         "url": "https://www.bwsg.at/objekt/silberlocke-wohnen-in-eugendorf-im-flachgau/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-05-31T23:31:15.435406",
-      "last_updated": "2026-05-31T23:31:15.435406",
+      "last_seen": "2026-05-31T23:58:51.363004",
+      "last_updated": "2026-05-31T23:58:51.363004",
       "status": "active"
     },
     "5889-190890430": {
@@ -574,7 +598,7 @@
       "first_seen": "2026-04-17T00:56:39.395679",
       "last_seen": "2026-05-31T23:31:15.435406",
       "last_updated": "2026-05-31T23:31:15.435406",
-      "status": "active"
+      "status": "removed"
     },
     "5889-191500071": {
       "apartment_id": "5889-191500071",
@@ -598,7 +622,7 @@
       "first_seen": "2026-03-05T00:48:08.845520",
       "last_seen": "2026-05-31T23:31:15.435406",
       "last_updated": "2026-05-31T23:31:15.435406",
-      "status": "active"
+      "status": "removed"
     },
     "5889-468100010": {
       "apartment_id": "5889-468100010",
@@ -694,7 +718,7 @@
       "first_seen": "2026-04-17T00:56:39.395679",
       "last_seen": "2026-05-31T23:31:15.435406",
       "last_updated": "2026-05-31T23:31:15.435406",
-      "status": "active"
+      "status": "removed"
     },
     "5889-660100180": {
       "apartment_id": "5889-660100180",
@@ -718,13 +742,13 @@
       "first_seen": "2026-03-12T23:44:28.191769",
       "last_seen": "2026-05-31T23:31:15.435406",
       "last_updated": "2026-05-31T23:31:15.435406",
-      "status": "active"
+      "status": "removed"
     },
     "5889-660800050": {
       "apartment_id": "5889-660800050",
       "data": {
         "description": null,
-        "found_at": "2026-05-31T23:30:12.485066",
+        "found_at": "2026-05-31T23:57:56.017040",
         "id": "5889-660800050",
         "image_url": "https://storage.justimmo.at/thumb/afdf4ea9f549661fcda946b524abcc14/fc_h1080_w1920/4xBZq5VJB9oolWmQKvIAzN.jpeg",
         "location": "8661 Wartberg im Mürztal",
@@ -740,8 +764,8 @@
         "url": "https://www.bwsg.at/objekt/2-zimmer-wohnung-in-wartberg-im-muerztal-sanierung-vor-bezug/"
       },
       "first_seen": "2026-03-31T23:47:10.246585",
-      "last_seen": "2026-05-31T23:31:15.435406",
-      "last_updated": "2026-05-31T23:31:15.435406",
+      "last_seen": "2026-05-31T23:58:51.363004",
+      "last_updated": "2026-05-31T23:58:51.363004",
       "status": "active"
     },
     "5889-662400140": {
@@ -766,7 +790,7 @@
       "first_seen": "2026-02-23T22:30:00.786096",
       "last_seen": "2026-05-31T23:31:15.435406",
       "last_updated": "2026-05-31T23:31:15.435406",
-      "status": "active"
+      "status": "removed"
     },
     "5889-662900200": {
       "apartment_id": "5889-662900200",
@@ -814,9 +838,9 @@
       "first_seen": "2026-02-23T22:30:00.786096",
       "last_seen": "2026-05-31T23:31:15.435406",
       "last_updated": "2026-05-31T23:31:15.435406",
-      "status": "active"
+      "status": "removed"
     }
   },
-  "last_scrape": "2026-05-31T23:31:15.435406",
+  "last_scrape": "2026-05-31T23:58:51.363004",
   "site": "bwsg"
 }
