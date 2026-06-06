@@ -436,7 +436,7 @@
       "apartment_id": "5889-187113",
       "data": {
         "description": null,
-        "found_at": "2026-06-06T19:36:09.481952",
+        "found_at": "2026-06-06T20:32:47.600574",
         "id": "5889-187113",
         "image_url": "https://storage.justimmo.at/thumb/26691568bfeee8c02fedb8c613728ef9/fc_h1080_w1920/4gxjXTCwzcay3WbCowQh5R.jpg",
         "location": "5322 Hof bei Salzburg",
@@ -452,8 +452,8 @@
         "url": "https://www.bwsg.at/objekt/hof-bei-salzburg-1-zimmer-starterwohnung/"
       },
       "first_seen": "2026-05-28T15:20:16.098134",
-      "last_seen": "2026-06-06T19:37:06.050073",
-      "last_updated": "2026-06-06T19:37:06.050073",
+      "last_seen": "2026-06-06T20:33:40.184199",
+      "last_updated": "2026-06-06T20:33:40.184199",
       "status": "active"
     },
     "5889-1874017": {
@@ -532,7 +532,7 @@
       "apartment_id": "5889-1874024",
       "data": {
         "description": null,
-        "found_at": "2026-06-06T19:36:09.482075",
+        "found_at": "2026-06-06T20:32:47.600689",
         "id": "5889-1874024",
         "image_url": "https://storage.justimmo.at/thumb/83e548daed470a35a65a8aa4e6ad2ac0/fc_h1080_w1920/6PK3eStDA88I4jVF29orQP.jpg",
         "location": "5531 Eben im Pongau",
@@ -548,15 +548,15 @@
         "url": "https://www.bwsg.at/objekt/betreutes-wohnen-charmante-1-zimmer-wohnung-mit-balkon/"
       },
       "first_seen": "2026-03-24T13:40:15.238681",
-      "last_seen": "2026-06-06T19:37:06.050073",
-      "last_updated": "2026-06-06T19:37:06.050073",
+      "last_seen": "2026-06-06T20:33:40.184199",
+      "last_updated": "2026-06-06T20:33:40.184199",
       "status": "active"
     },
     "5889-18761": {
       "apartment_id": "5889-18761",
       "data": {
         "description": null,
-        "found_at": "2026-06-06T19:36:09.481786",
+        "found_at": "2026-06-06T20:32:47.600428",
         "id": "5889-18761",
         "image_url": "https://storage.justimmo.at/thumb/9d1d65ab21d5bf6b9581af84bef60661/fc_h1080_w1920/5rF2cpnuzphuXtKI9AfAYZ.jpg",
         "location": "5301 Eugendorf",
@@ -572,8 +572,8 @@
         "url": "https://www.bwsg.at/objekt/silberlocke-wohnen-in-eugendorf-im-flachgau/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-06-06T19:37:06.050073",
-      "last_updated": "2026-06-06T19:37:06.050073",
+      "last_seen": "2026-06-06T20:33:40.184199",
+      "last_updated": "2026-06-06T20:33:40.184199",
       "status": "active"
     },
     "5889-190890430": {
@@ -865,6 +865,6 @@
       "status": "removed"
     }
   },
-  "last_scrape": "2026-06-06T19:37:06.050073",
+  "last_scrape": "2026-06-06T20:33:40.184199",
   "site": "bwsg"
 }
