@@ -220,7 +220,7 @@
       "apartment_id": "5889-153500110",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.957104",
+        "found_at": "2026-06-10T22:16:30.590143",
         "id": "5889-153500110",
         "image_url": "https://storage.justimmo.at/thumb/754f2e2cc4f71d388e93bd7e6028b612/fc_h1080_w1920/5i7cVRrIaSZy4u1u4qJGlv.jpg",
         "location": "3340 Waidhofen an der Ybbs",
@@ -236,8 +236,8 @@
         "url": "https://www.bwsg.at/objekt/unbefristete-2-zimmerwohnung/"
       },
       "first_seen": "2026-03-31T23:47:10.246585",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-154000240": {
@@ -316,7 +316,7 @@
       "apartment_id": "5889-160500280",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.956973",
+        "found_at": "2026-06-10T22:16:30.590008",
         "id": "5889-160500280",
         "image_url": "https://storage.justimmo.at/thumb/6bc5b444b3e4e4bf3650735a1abae0f1/fc_h1080_w1920/jKm6V8Kt1LP4qxCioq1oZ.jpg",
         "location": "8020 Graz",
@@ -332,15 +332,15 @@
         "url": "https://www.bwsg.at/objekt/3-zimmer-wohnung-in-graz-2/"
       },
       "first_seen": "2026-06-02T13:34:23.294734",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-161000490": {
       "apartment_id": "5889-161000490",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.956731",
+        "found_at": "2026-06-10T22:16:30.589715",
         "id": "5889-161000490",
         "image_url": "https://storage.justimmo.at/thumb/4418e3c093fcbe034025b07cf7dd10ee/fc_h1080_w1920/2EHmtQ4VPiPtdLNcjZkOfo.jpg",
         "location": "8020 Graz",
@@ -356,15 +356,15 @@
         "url": "https://www.bwsg.at/objekt/charmante-3-zimmer-wohnung-mit-balkon-in-graz/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-161000590": {
       "apartment_id": "5889-161000590",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.956853",
+        "found_at": "2026-06-10T22:16:30.589870",
         "id": "5889-161000590",
         "image_url": "https://storage.justimmo.at/thumb/b1c5132eabfaf86148422ad7aed75b40/fc_h1080_w1920/5QMslTa8F0Ee91qXQPlnth.jpg",
         "location": "8020 Graz",
@@ -380,15 +380,15 @@
         "url": "https://www.bwsg.at/objekt/4-zimmer-wohnung-im-1-dg-in-8020-graz/"
       },
       "first_seen": "2026-03-31T23:47:10.246585",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-163400090": {
       "apartment_id": "5889-163400090",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.956612",
+        "found_at": "2026-06-10T22:16:30.589584",
         "id": "5889-163400090",
         "image_url": "https://storage.justimmo.at/thumb/95a3ad6c76c36e7003c084b031a9b2a8/fc_h1080_w1920/2n836MgTNfbvg8QR5MQ3UY.jpg",
         "location": "8630 Mariazell",
@@ -404,8 +404,8 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-3-zimmer-wohnung-in-mariazell/"
       },
       "first_seen": "2026-03-10T14:26:40.275444",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-187107": {
@@ -436,7 +436,7 @@
       "apartment_id": "5889-187113",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.955465",
+        "found_at": "2026-06-10T22:16:30.588283",
         "id": "5889-187113",
         "image_url": "https://storage.justimmo.at/thumb/26691568bfeee8c02fedb8c613728ef9/fc_h1080_w1920/4gxjXTCwzcay3WbCowQh5R.jpg",
         "location": "5322 Hof bei Salzburg",
@@ -452,8 +452,8 @@
         "url": "https://www.bwsg.at/objekt/hof-bei-salzburg-1-zimmer-starterwohnung/"
       },
       "first_seen": "2026-05-28T15:20:16.098134",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-1874017": {
@@ -556,7 +556,7 @@
       "apartment_id": "5889-18761",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.955314",
+        "found_at": "2026-06-10T22:16:30.588116",
         "id": "5889-18761",
         "image_url": "https://storage.justimmo.at/thumb/9d1d65ab21d5bf6b9581af84bef60661/fc_h1080_w1920/5rF2cpnuzphuXtKI9AfAYZ.jpg",
         "location": "5301 Eugendorf",
@@ -572,15 +572,15 @@
         "url": "https://www.bwsg.at/objekt/silberlocke-wohnen-in-eugendorf-im-flachgau/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-190700100": {
       "apartment_id": "5889-190700100",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.956493",
+        "found_at": "2026-06-10T22:16:30.589449",
         "id": "5889-190700100",
         "image_url": "https://storage.justimmo.at/thumb/e6d9771bc301f1d7f8b5703e9563450f/fc_h1080_w1920/4cXEiKUjsqCedZlENHEJpI.jpg",
         "location": "7100 Neusiedl am See",
@@ -596,8 +596,8 @@
         "url": "https://www.bwsg.at/objekt/unbefristete-3-zimmer-wohnung-mit-terrasse-in-neusiedl-am-see/"
       },
       "first_seen": "2026-06-06T23:58:57.552937",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-190890430": {
@@ -628,7 +628,7 @@
       "apartment_id": "5889-191500030",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.956370",
+        "found_at": "2026-06-10T22:16:30.589314",
         "id": "5889-191500030",
         "image_url": "https://storage.justimmo.at/thumb/5b9239560766e008f4f1d9aff5c0e646/fc_h1080_w1920/72cervu72KMXU5YLIMp884.jpg",
         "location": "7410 Loipersdorf-Kitzladen",
@@ -644,15 +644,15 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-3-zimmer-wohnung-mit-loggia/"
       },
       "first_seen": "2026-04-17T00:56:39.395679",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-191500071": {
       "apartment_id": "5889-191500071",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.956244",
+        "found_at": "2026-06-10T22:16:30.589179",
         "id": "5889-191500071",
         "image_url": "https://storage.justimmo.at/thumb/5c5115318809b6b0d7b62d0c513176d4/fc_h1080_w1920/HcFyglRb3V6SyuWRjo32x.jpg",
         "location": "7410 Loipersdorf-Kitzladen",
@@ -668,8 +668,8 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-3-zimmer-wohnung-in-loipersdorf-kitzladen-mit-loggia-ihr-neues-zuhause/"
       },
       "first_seen": "2026-03-05T00:48:08.845520",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-468100010": {
@@ -748,7 +748,7 @@
       "apartment_id": "5889-660100100",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.955970",
+        "found_at": "2026-06-10T22:16:30.588888",
         "id": "5889-660100100",
         "image_url": "https://storage.justimmo.at/thumb/400b8ede8da4dfb3356b46397ab2dce0/fc_h1080_w1920/6ni50iXHE8tEineL0NAHc7.jpg",
         "location": "8600 Bruck an der Mur",
@@ -764,15 +764,15 @@
         "url": "https://www.bwsg.at/objekt/unbefristet-nette-25-zimmer-wohnung/"
       },
       "first_seen": "2026-04-17T00:56:39.395679",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-660100180": {
       "apartment_id": "5889-660100180",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.956106",
+        "found_at": "2026-06-10T22:16:30.589030",
         "id": "5889-660100180",
         "image_url": "https://storage.justimmo.at/thumb/b17823d0583218a40056ade1c07a5df0/fc_h1080_w1920/2AMPKG4KFZyJtRb53jL3Km.jpg",
         "location": "8600 Bruck an der Mur",
@@ -788,15 +788,15 @@
         "url": "https://www.bwsg.at/objekt/2-zimmer-wohnung-in-bruck-an-der-mur-40-m%c2%b2/"
       },
       "first_seen": "2026-03-12T23:44:28.191769",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-660800050": {
       "apartment_id": "5889-660800050",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.955847",
+        "found_at": "2026-06-10T22:16:30.588720",
         "id": "5889-660800050",
         "image_url": "https://storage.justimmo.at/thumb/afdf4ea9f549661fcda946b524abcc14/fc_h1080_w1920/4xBZq5VJB9oolWmQKvIAzN.jpeg",
         "location": "8661 Wartberg im Mürztal",
@@ -812,15 +812,15 @@
         "url": "https://www.bwsg.at/objekt/2-zimmer-wohnung-in-wartberg-im-muerztal-sanierung-vor-bezug/"
       },
       "first_seen": "2026-03-31T23:47:10.246585",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-662400140": {
       "apartment_id": "5889-662400140",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.955722",
+        "found_at": "2026-06-10T22:16:30.588584",
         "id": "5889-662400140",
         "image_url": "https://storage.justimmo.at/thumb/3cb4ef8735ba349ded949d87d79de232/fc_h1080_w1920/2cq7RG6zylmMIEgeXQRsK9.jpg",
         "location": "8600 Bruck an der Mur",
@@ -836,8 +836,8 @@
         "url": "https://www.bwsg.at/objekt/nur-jetzt-3-monate-mietfrei-gemuetliche-und-unbefristete-3-zimmer-wohnung-mit-schoener-terrasse/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     },
     "5889-662900200": {
@@ -868,7 +868,7 @@
       "apartment_id": "5889-663000260",
       "data": {
         "description": null,
-        "found_at": "2026-06-10T20:20:40.955595",
+        "found_at": "2026-06-10T22:16:30.588436",
         "id": "5889-663000260",
         "image_url": "https://storage.justimmo.at/thumb/587e4c7278ddb07c1381c0d4cf70e0e5/fc_h1080_w1920/3P60MjP0vTI8PS0NQHLNHG.jpg",
         "location": "8010 Graz",
@@ -884,11 +884,11 @@
         "url": "https://www.bwsg.at/objekt/froehlichgasse-81-14/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-06-10T20:22:05.402076",
-      "last_updated": "2026-06-10T20:22:05.402076",
+      "last_seen": "2026-06-10T22:17:20.122950",
+      "last_updated": "2026-06-10T22:17:20.122950",
       "status": "active"
     }
   },
-  "last_scrape": "2026-06-10T20:22:05.402076",
+  "last_scrape": "2026-06-10T22:17:20.122950",
   "site": "bwsg"
 }
