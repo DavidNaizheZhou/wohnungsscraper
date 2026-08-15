@@ -52,7 +52,7 @@
       "apartment_id": "5889-138690",
       "data": {
         "description": null,
-        "found_at": "2026-08-15T05:41:13.062514",
+        "found_at": "2026-08-15T06:11:31.508039",
         "id": "5889-138690",
         "image_url": "https://storage.justimmo.at/thumb/c6f20b36cb5e2c099a37061a9913f51e/fc_h1080_w1920/MxXmobjvAX2QaHGz4jW29F.jpg",
         "location": "5660 Taxenbach",
@@ -68,8 +68,8 @@
         "url": "https://www.bwsg.at/objekt/sonnseitblick-wohnen-mit-panorama-bergblick/"
       },
       "first_seen": "2026-07-31T23:26:10.477096",
-      "last_seen": "2026-08-15T05:43:28.160289",
-      "last_updated": "2026-08-15T05:43:28.160289",
+      "last_seen": "2026-08-15T06:13:29.773192",
+      "last_updated": "2026-08-15T06:13:29.773192",
       "status": "active"
     },
     "5889-145700030": {
@@ -844,7 +844,7 @@
       "apartment_id": "5889-18761",
       "data": {
         "description": null,
-        "found_at": "2026-08-15T05:41:13.062348",
+        "found_at": "2026-08-15T06:11:31.507864",
         "id": "5889-18761",
         "image_url": "https://storage.justimmo.at/thumb/9d1d65ab21d5bf6b9581af84bef60661/fc_h1080_w1920/5rF2cpnuzphuXtKI9AfAYZ.jpg",
         "location": "5301 Eugendorf",
@@ -860,8 +860,8 @@
         "url": "https://www.bwsg.at/objekt/silberlocke-wohnen-in-eugendorf-im-flachgau/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-08-15T05:43:28.160289",
-      "last_updated": "2026-08-15T05:43:28.160289",
+      "last_seen": "2026-08-15T06:13:29.773192",
+      "last_updated": "2026-08-15T06:13:29.773192",
       "status": "active"
     },
     "5889-190700100": {
@@ -1012,7 +1012,7 @@
       "apartment_id": "5889-238691",
       "data": {
         "description": null,
-        "found_at": "2026-08-15T05:41:13.062689",
+        "found_at": "2026-08-15T06:11:31.508188",
         "id": "5889-238691",
         "image_url": "https://storage.justimmo.at/thumb/c6f20b36cb5e2c099a37061a9913f51e/fc_h1080_w1920/MxXmobjvAX2QaHGz4jW29F.jpg",
         "location": "5660 Taxenbach",
@@ -1028,8 +1028,8 @@
         "url": "https://www.bwsg.at/objekt/sonnseitblick-wohnen-mit-panorama-bergblick-2/"
       },
       "first_seen": "2026-07-31T23:26:10.477096",
-      "last_seen": "2026-08-15T05:43:28.160289",
-      "last_updated": "2026-08-15T05:43:28.160289",
+      "last_seen": "2026-08-15T06:13:29.773192",
+      "last_updated": "2026-08-15T06:13:29.773192",
       "status": "active"
     },
     "5889-460400390": {
@@ -1180,7 +1180,7 @@
       "apartment_id": "5889-6011000134138690",
       "data": {
         "description": null,
-        "found_at": "2026-08-15T05:41:13.062828",
+        "found_at": "2026-08-15T06:11:31.508327",
         "id": "5889-6011000134138690",
         "image_url": "https://storage.justimmo.at/thumb/c6f20b36cb5e2c099a37061a9913f51e/fc_h1080_w1920/MxXmobjvAX2QaHGz4jW29F.jpg",
         "location": "5660 Taxenbach",
@@ -1196,8 +1196,8 @@
         "url": "https://www.bwsg.at/objekt/sonnseitblick-wohnen-mit-panorama-bergblick-3/"
       },
       "first_seen": "2026-07-31T23:26:10.477096",
-      "last_seen": "2026-08-15T05:43:28.160289",
-      "last_updated": "2026-08-15T05:43:28.160289",
+      "last_seen": "2026-08-15T06:13:29.773192",
+      "last_updated": "2026-08-15T06:13:29.773192",
       "status": "active"
     },
     "5889-65271002": {
@@ -1369,6 +1369,6 @@
       "status": "removed"
     }
   },
-  "last_scrape": "2026-08-15T05:43:28.160289",
+  "last_scrape": "2026-08-15T06:13:29.773192",
   "site": "bwsg"
 }
