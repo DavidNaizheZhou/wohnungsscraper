@@ -4,7 +4,7 @@
       "apartment_id": "5889-116210660",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.746205",
+        "found_at": "2026-08-19T22:41:19.989626",
         "id": "5889-116210660",
         "image_url": "https://storage.justimmo.at/thumb/34e3f68aea30fb05740ea0e93da8e9a6/fc_h1080_w1920/Z1Ne5JShKqmAcZAvN1P5WL.jpg",
         "location": "1110 Wien",
@@ -20,8 +20,8 @@
         "url": "https://www.bwsg.at/objekt/helle-4-zimmer-wohnung-mit-loggia/"
       },
       "first_seen": "2026-07-31T11:48:04.339412",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-135600260": {
@@ -52,7 +52,7 @@
       "apartment_id": "5889-138690",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.745885",
+        "found_at": "2026-08-19T22:41:19.989252",
         "id": "5889-138690",
         "image_url": "https://storage.justimmo.at/thumb/c6f20b36cb5e2c099a37061a9913f51e/fc_h1080_w1920/MxXmobjvAX2QaHGz4jW29F.jpg",
         "location": "5660 Taxenbach",
@@ -68,15 +68,15 @@
         "url": "https://www.bwsg.at/objekt/sonnseitblick-wohnen-mit-panorama-bergblick/"
       },
       "first_seen": "2026-07-31T23:26:10.477096",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-144900290": {
       "apartment_id": "5889-144900290",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.746322",
+        "found_at": "2026-08-19T22:41:19.989737",
         "id": "5889-144900290",
         "image_url": "https://storage.justimmo.at/thumb/f5454aea0257e7644665b97c1bb3b82e/fc_h1080_w1920/1GXAd1fVa5U06ID2PjhM36.jpg",
         "location": "2301 Groß-Enzersdorf",
@@ -92,15 +92,15 @@
         "url": "https://www.bwsg.at/objekt/unbefristete-4-zimmer-wohnung-mit-balkon-und-terrasse/"
       },
       "first_seen": "2026-08-15T12:10:41.085167",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-145102050": {
       "apartment_id": "5889-145102050",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.746422",
+        "found_at": "2026-08-19T22:41:19.989841",
         "id": "5889-145102050",
         "image_url": "https://storage.justimmo.at/thumb/6abfb67750cd9071267d16ebfdb15f29/fc_h1080_w1920/4AzUrW9jja4XLajQKFbTAx.jpg",
         "location": "3462 Absdorf",
@@ -116,8 +116,8 @@
         "url": "https://www.bwsg.at/objekt/3-zimmerwohnung-mit-loggia/"
       },
       "first_seen": "2026-08-15T12:10:41.085167",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-145700030": {
@@ -220,7 +220,7 @@
       "apartment_id": "5889-149000040",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.746533",
+        "found_at": "2026-08-19T22:41:19.989957",
         "id": "5889-149000040",
         "image_url": "https://storage.justimmo.at/thumb/8167c0046c629d35da516b57a9b3eb09/fc_h1080_w1920/e3EGyZGeXkcUPNqnd7CCZF.jpg",
         "location": "3500 Krems an der Donau",
@@ -236,8 +236,8 @@
         "url": "https://www.bwsg.at/objekt/3-zimmer-wohnung-mit-terrasse-loggia-in-krems/"
       },
       "first_seen": "2026-08-15T12:10:41.085167",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-150200070": {
@@ -364,7 +364,7 @@
       "apartment_id": "5889-153500060",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.746630",
+        "found_at": "2026-08-19T22:41:19.990064",
         "id": "5889-153500060",
         "image_url": "https://storage.justimmo.at/thumb/754f2e2cc4f71d388e93bd7e6028b612/fc_h1080_w1920/5i7cVRrIaSZy4u1u4qJGlv.jpg",
         "location": "3340 Waidhofen an der Ybbs",
@@ -380,15 +380,15 @@
         "url": "https://www.bwsg.at/objekt/charmante-2-zimmer-wohnung-in-waidhofen-an-der-ybbs/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-153500110": {
       "apartment_id": "5889-153500110",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.746732",
+        "found_at": "2026-08-19T22:41:19.990171",
         "id": "5889-153500110",
         "image_url": "https://storage.justimmo.at/thumb/754f2e2cc4f71d388e93bd7e6028b612/fc_h1080_w1920/5i7cVRrIaSZy4u1u4qJGlv.jpg",
         "location": "3340 Waidhofen an der Ybbs",
@@ -404,15 +404,15 @@
         "url": "https://www.bwsg.at/objekt/unbefristete-2-zimmerwohnung/"
       },
       "first_seen": "2026-03-31T23:47:10.246585",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-153500200": {
       "apartment_id": "5889-153500200",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.746827",
+        "found_at": "2026-08-19T22:41:19.990273",
         "id": "5889-153500200",
         "image_url": "https://storage.justimmo.at/thumb/345450cb60bd2a0a9fe9c46bcc688a6a/fc_h1080_w1920/2YwfynK0O2XfB0F45i4saB.jpg",
         "location": "3340 Waidhofen an der Ybbs",
@@ -428,15 +428,15 @@
         "url": "https://www.bwsg.at/objekt/sanierte-2-zimmerwohnung/"
       },
       "first_seen": "2026-07-31T11:48:04.339412",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-154000220": {
       "apartment_id": "5889-154000220",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.746923",
+        "found_at": "2026-08-19T22:41:19.990388",
         "id": "5889-154000220",
         "image_url": "https://storage.justimmo.at/thumb/e326d73ca382622111ae7c10984523b5/fc_h1080_w1920/18eChmlrroIYtetUSasumq.jpg",
         "location": "3150 Wilhelmsburg",
@@ -452,8 +452,8 @@
         "url": "https://www.bwsg.at/objekt/3-zimmer-wohnung-mit-loggia-in-wilhelmsburg/"
       },
       "first_seen": "2026-08-15T12:10:41.085167",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-154000240": {
@@ -580,7 +580,7 @@
       "apartment_id": "5889-160200020",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.747020",
+        "found_at": "2026-08-19T22:41:19.990489",
         "id": "5889-160200020",
         "image_url": "https://storage.justimmo.at/thumb/ec6efaa31c336e3d0a6f4103c0532000/fc_h1080_w1920/2qzVyuyNzvLaIa434h0KYI.jpg",
         "location": "8020 Graz",
@@ -596,8 +596,8 @@
         "url": "https://www.bwsg.at/objekt/2-zimmer-wohnung-in-8020-graz/"
       },
       "first_seen": "2026-07-31T11:48:04.339412",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-160200040": {
@@ -652,7 +652,7 @@
       "apartment_id": "5889-160800310",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.747121",
+        "found_at": "2026-08-19T22:41:19.990588",
         "id": "5889-160800310",
         "image_url": "https://storage.justimmo.at/thumb/839175f5d811e76b091a478afd3d7d89/fc_h1080_w1920/GL4bZfOA0ShH2rymJsGh7.jpg",
         "location": "8605 Kapfenberg",
@@ -668,8 +668,8 @@
         "url": "https://www.bwsg.at/objekt/2-zimmer-wohnung-in-kapfenberg/"
       },
       "first_seen": "2026-06-25T15:31:32.233184",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-160800330": {
@@ -796,7 +796,7 @@
       "apartment_id": "5889-163400110",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.747220",
+        "found_at": "2026-08-19T22:41:19.990694",
         "id": "5889-163400110",
         "image_url": "https://storage.justimmo.at/thumb/95a3ad6c76c36e7003c084b031a9b2a8/fc_h1080_w1920/2n836MgTNfbvg8QR5MQ3UY.jpg",
         "location": "8630 Mariazell",
@@ -812,8 +812,8 @@
         "url": "https://www.bwsg.at/objekt/charmante-2-zimmer-wohnung-in-mariazell/"
       },
       "first_seen": "2026-07-21T15:15:11.118176",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-187107": {
@@ -964,7 +964,7 @@
       "apartment_id": "5889-18761",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.745749",
+        "found_at": "2026-08-19T22:41:19.989104",
         "id": "5889-18761",
         "image_url": "https://storage.justimmo.at/thumb/9d1d65ab21d5bf6b9581af84bef60661/fc_h1080_w1920/5rF2cpnuzphuXtKI9AfAYZ.jpg",
         "location": "5301 Eugendorf",
@@ -980,8 +980,8 @@
         "url": "https://www.bwsg.at/objekt/silberlocke-wohnen-in-eugendorf-im-flachgau/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-190700100": {
@@ -1132,7 +1132,7 @@
       "apartment_id": "5889-238691",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.745994",
+        "found_at": "2026-08-19T22:41:19.989399",
         "id": "5889-238691",
         "image_url": "https://storage.justimmo.at/thumb/c6f20b36cb5e2c099a37061a9913f51e/fc_h1080_w1920/MxXmobjvAX2QaHGz4jW29F.jpg",
         "location": "5660 Taxenbach",
@@ -1148,8 +1148,8 @@
         "url": "https://www.bwsg.at/objekt/sonnseitblick-wohnen-mit-panorama-bergblick-2/"
       },
       "first_seen": "2026-07-31T23:26:10.477096",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-460400390": {
@@ -1300,7 +1300,7 @@
       "apartment_id": "5889-6011000134138690",
       "data": {
         "description": null,
-        "found_at": "2026-08-19T22:08:29.746100",
+        "found_at": "2026-08-19T22:41:19.989514",
         "id": "5889-6011000134138690",
         "image_url": "https://storage.justimmo.at/thumb/c6f20b36cb5e2c099a37061a9913f51e/fc_h1080_w1920/MxXmobjvAX2QaHGz4jW29F.jpg",
         "location": "5660 Taxenbach",
@@ -1316,8 +1316,8 @@
         "url": "https://www.bwsg.at/objekt/sonnseitblick-wohnen-mit-panorama-bergblick-3/"
       },
       "first_seen": "2026-07-31T23:26:10.477096",
-      "last_seen": "2026-08-19T22:09:24.380902",
-      "last_updated": "2026-08-19T22:09:24.380902",
+      "last_seen": "2026-08-19T22:42:17.757019",
+      "last_updated": "2026-08-19T22:42:17.757019",
       "status": "active"
     },
     "5889-65271002": {
@@ -1489,6 +1489,6 @@
       "status": "removed"
     }
   },
-  "last_scrape": "2026-08-19T22:09:24.380902",
+  "last_scrape": "2026-08-19T22:42:17.757019",
   "site": "bwsg"
 }
