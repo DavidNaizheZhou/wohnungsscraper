@@ -220,7 +220,7 @@
       "apartment_id": "5889-149000040",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.220204",
+        "found_at": "2026-09-18T12:47:05.014085",
         "id": "5889-149000040",
         "image_url": "https://storage.justimmo.at/thumb/8167c0046c629d35da516b57a9b3eb09/fc_h1080_w1920/e3EGyZGeXkcUPNqnd7CCZF.jpg",
         "location": "3500 Krems an der Donau",
@@ -236,15 +236,15 @@
         "url": "https://www.bwsg.at/objekt/3-zimmer-wohnung-mit-terrasse-loggia-in-krems/"
       },
       "first_seen": "2026-08-15T12:10:41.085167",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-149000150": {
       "apartment_id": "5889-149000150",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.220351",
+        "found_at": "2026-09-18T12:47:05.014250",
         "id": "5889-149000150",
         "image_url": "https://storage.justimmo.at/thumb/11f9e3f6f0f28cfbe6ae4375860c0742/fc_h1080_w1920/f4Qkp6UNvm3UfeAGv1uhYB.jpg",
         "location": "3500 Krems an der Donau",
@@ -260,8 +260,8 @@
         "url": "https://www.bwsg.at/objekt/3-zimmer-wohnung-mit-balkon-loggia-in-krems/"
       },
       "first_seen": "2026-08-31T00:55:49.996680",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-150200070": {
@@ -340,7 +340,7 @@
       "apartment_id": "5889-151400260",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.220473",
+        "found_at": "2026-09-18T12:47:05.014394",
         "id": "5889-151400260",
         "image_url": "https://storage.justimmo.at/thumb/5e431fd3e54d6192f9d276e8c493023f/fc_h1080_w1920/vBsgBqLuLPp50MyMod7Rh.jpg",
         "location": "3100 St. Pölten",
@@ -356,8 +356,8 @@
         "url": "https://www.bwsg.at/objekt/2-zimmer-wohnung-mit-loggia-und-aufzug-in-st-poelten/"
       },
       "first_seen": "2026-08-31T00:55:49.996680",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-151400790": {
@@ -412,7 +412,7 @@
       "apartment_id": "5889-153500060",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.220587",
+        "found_at": "2026-09-18T12:47:05.014530",
         "id": "5889-153500060",
         "image_url": "https://storage.justimmo.at/thumb/754f2e2cc4f71d388e93bd7e6028b612/fc_h1080_w1920/5i7cVRrIaSZy4u1u4qJGlv.jpg",
         "location": "3340 Waidhofen an der Ybbs",
@@ -428,15 +428,15 @@
         "url": "https://www.bwsg.at/objekt/charmante-2-zimmer-wohnung-in-waidhofen-an-der-ybbs/"
       },
       "first_seen": "2026-02-23T22:30:00.786096",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-153500110": {
       "apartment_id": "5889-153500110",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.220699",
+        "found_at": "2026-09-18T12:47:05.014668",
         "id": "5889-153500110",
         "image_url": "https://storage.justimmo.at/thumb/754f2e2cc4f71d388e93bd7e6028b612/fc_h1080_w1920/5i7cVRrIaSZy4u1u4qJGlv.jpg",
         "location": "3340 Waidhofen an der Ybbs",
@@ -452,15 +452,15 @@
         "url": "https://www.bwsg.at/objekt/unbefristete-2-zimmerwohnung/"
       },
       "first_seen": "2026-03-31T23:47:10.246585",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-153500200": {
       "apartment_id": "5889-153500200",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.220805",
+        "found_at": "2026-09-18T12:47:05.014799",
         "id": "5889-153500200",
         "image_url": "https://storage.justimmo.at/thumb/345450cb60bd2a0a9fe9c46bcc688a6a/fc_h1080_w1920/2YwfynK0O2XfB0F45i4saB.jpg",
         "location": "3340 Waidhofen an der Ybbs",
@@ -476,15 +476,15 @@
         "url": "https://www.bwsg.at/objekt/sanierte-2-zimmerwohnung/"
       },
       "first_seen": "2026-07-31T11:48:04.339412",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-154000220": {
       "apartment_id": "5889-154000220",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.220908",
+        "found_at": "2026-09-18T12:47:05.014985",
         "id": "5889-154000220",
         "image_url": "https://storage.justimmo.at/thumb/e326d73ca382622111ae7c10984523b5/fc_h1080_w1920/18eChmlrroIYtetUSasumq.jpg",
         "location": "3150 Wilhelmsburg",
@@ -500,8 +500,8 @@
         "url": "https://www.bwsg.at/objekt/3-zimmer-wohnung-mit-loggia-in-wilhelmsburg/"
       },
       "first_seen": "2026-08-15T12:10:41.085167",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-154000240": {
@@ -556,7 +556,7 @@
       "apartment_id": "5889-154000280",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.221026",
+        "found_at": "2026-09-18T12:47:05.015154",
         "id": "5889-154000280",
         "image_url": "https://storage.justimmo.at/thumb/d4703dd1de9a9fd99c583f5e3b6c028a/fc_h1080_w1920/4FFzxzkhUPhMLVrryguAK.jpg",
         "location": "3150 Wilhelmsburg",
@@ -572,15 +572,15 @@
         "url": "https://www.bwsg.at/objekt/unbefristete-2-zimmer-wohnung-in-ruhiger-lage/"
       },
       "first_seen": "2026-08-31T00:55:49.996680",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-154300120": {
       "apartment_id": "5889-154300120",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.221147",
+        "found_at": "2026-09-18T12:47:05.015292",
         "id": "5889-154300120",
         "image_url": "https://storage.justimmo.at/thumb/99a55cb32ba38da0191730c91086797e/fc_h1080_w1920/4cEIiUruJ0UxiUcy11926h.jpg",
         "location": "3150 Wilhelmsburg",
@@ -596,8 +596,8 @@
         "url": "https://www.bwsg.at/objekt/3-zimmer-wohnung-mit-balkon-loggia-in-wilhelmsburg/"
       },
       "first_seen": "2026-08-31T00:55:49.996680",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-155200230": {
@@ -748,7 +748,7 @@
       "apartment_id": "5889-160800310",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.221364",
+        "found_at": "2026-09-18T12:47:05.015560",
         "id": "5889-160800310",
         "image_url": "https://storage.justimmo.at/thumb/839175f5d811e76b091a478afd3d7d89/fc_h1080_w1920/GL4bZfOA0ShH2rymJsGh7.jpg",
         "location": "8605 Kapfenberg",
@@ -764,15 +764,15 @@
         "url": "https://www.bwsg.at/objekt/2-zimmer-wohnung-in-kapfenberg/"
       },
       "first_seen": "2026-06-25T15:31:32.233184",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-160800330": {
       "apartment_id": "5889-160800330",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.221260",
+        "found_at": "2026-09-18T12:47:05.015431",
         "id": "5889-160800330",
         "image_url": "https://storage.justimmo.at/thumb/839175f5d811e76b091a478afd3d7d89/fc_h1080_w1920/GL4bZfOA0ShH2rymJsGh7.jpg",
         "location": "8605 Kapfenberg",
@@ -788,8 +788,8 @@
         "url": "https://www.bwsg.at/objekt/unbefristete-2-zimmerwohnung-in-kapfenberg/"
       },
       "first_seen": "2026-07-31T23:26:10.477096",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-161000480": {
@@ -892,7 +892,7 @@
       "apartment_id": "5889-163400110",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.221468",
+        "found_at": "2026-09-18T12:47:05.015688",
         "id": "5889-163400110",
         "image_url": "https://storage.justimmo.at/thumb/95a3ad6c76c36e7003c084b031a9b2a8/fc_h1080_w1920/2n836MgTNfbvg8QR5MQ3UY.jpg",
         "location": "8630 Mariazell",
@@ -908,8 +908,8 @@
         "url": "https://www.bwsg.at/objekt/charmante-2-zimmer-wohnung-in-mariazell/"
       },
       "first_seen": "2026-07-21T15:15:11.118176",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-187107": {
@@ -1180,7 +1180,7 @@
       "apartment_id": "5889-191500030",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.221572",
+        "found_at": "2026-09-18T12:47:05.015817",
         "id": "5889-191500030",
         "image_url": "https://storage.justimmo.at/thumb/5b9239560766e008f4f1d9aff5c0e646/fc_h1080_w1920/72cervu72KMXU5YLIMp884.jpg",
         "location": "7410 Loipersdorf-Kitzladen",
@@ -1196,15 +1196,15 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-3-zimmer-wohnung-mit-loggia/"
       },
       "first_seen": "2026-04-17T00:56:39.395679",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-191500071": {
       "apartment_id": "5889-191500071",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.221674",
+        "found_at": "2026-09-18T12:47:05.015970",
         "id": "5889-191500071",
         "image_url": "https://storage.justimmo.at/thumb/5c5115318809b6b0d7b62d0c513176d4/fc_h1080_w1920/HcFyglRb3V6SyuWRjo32x.jpg",
         "location": "7410 Loipersdorf-Kitzladen",
@@ -1220,8 +1220,8 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-3-zimmer-wohnung-in-loipersdorf-kitzladen-mit-loggia-ihr-neues-zuhause/"
       },
       "first_seen": "2026-03-05T00:48:08.845520",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-238691": {
@@ -1300,7 +1300,7 @@
       "apartment_id": "5889-464400140",
       "data": {
         "description": null,
-        "found_at": "2026-09-18T12:26:22.221776",
+        "found_at": "2026-09-18T12:47:05.016098",
         "id": "5889-464400140",
         "image_url": "https://storage.justimmo.at/thumb/6b0e32c88717c52565686e7968ddddf4/fc_h1080_w1920/rA9SRoviAGGehado13t8o3.jpg",
         "location": "8301 Hönigtal",
@@ -1316,8 +1316,8 @@
         "url": "https://www.bwsg.at/objekt/8301-kainbach-hoenigtal-schulstrasse-26-28-30-32/"
       },
       "first_seen": "2026-08-10T14:31:19.181508",
-      "last_seen": "2026-09-18T12:27:16.945212",
-      "last_updated": "2026-09-18T12:27:16.945212",
+      "last_seen": "2026-09-18T12:47:55.128505",
+      "last_updated": "2026-09-18T12:47:55.128505",
       "status": "active"
     },
     "5889-468100010": {
@@ -1657,6 +1657,6 @@
       "status": "removed"
     }
   },
-  "last_scrape": "2026-09-18T12:27:16.945212",
+  "last_scrape": "2026-09-18T12:47:55.128505",
   "site": "bwsg"
 }
