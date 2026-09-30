@@ -238,7 +238,7 @@
       "first_seen": "2026-08-15T12:10:41.085167",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-149000150": {
       "apartment_id": "5889-149000150",
@@ -262,7 +262,7 @@
       "first_seen": "2026-08-31T00:55:49.996680",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-150200070": {
       "apartment_id": "5889-150200070",
@@ -358,7 +358,7 @@
       "first_seen": "2026-08-31T00:55:49.996680",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-151400790": {
       "apartment_id": "5889-151400790",
@@ -430,7 +430,7 @@
       "first_seen": "2026-02-23T22:30:00.786096",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-153500110": {
       "apartment_id": "5889-153500110",
@@ -454,7 +454,7 @@
       "first_seen": "2026-03-31T23:47:10.246585",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-153500200": {
       "apartment_id": "5889-153500200",
@@ -478,7 +478,7 @@
       "first_seen": "2026-07-31T11:48:04.339412",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-154000220": {
       "apartment_id": "5889-154000220",
@@ -502,7 +502,7 @@
       "first_seen": "2026-08-15T12:10:41.085167",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-154000240": {
       "apartment_id": "5889-154000240",
@@ -598,7 +598,7 @@
       "first_seen": "2026-08-31T00:55:49.996680",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-155200230": {
       "apartment_id": "5889-155200230",
@@ -790,7 +790,7 @@
       "first_seen": "2026-07-31T23:26:10.477096",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-161000480": {
       "apartment_id": "5889-161000480",
@@ -910,7 +910,7 @@
       "first_seen": "2026-07-21T15:15:11.118176",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-187107": {
       "apartment_id": "5889-187107",
@@ -1198,7 +1198,7 @@
       "first_seen": "2026-04-17T00:56:39.395679",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-191500071": {
       "apartment_id": "5889-191500071",
@@ -1222,7 +1222,7 @@
       "first_seen": "2026-03-05T00:48:08.845520",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-238691": {
       "apartment_id": "5889-238691",
@@ -1318,7 +1318,7 @@
       "first_seen": "2026-08-10T14:31:19.181508",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-468100010": {
       "apartment_id": "5889-468100010",
@@ -1390,7 +1390,7 @@
       "first_seen": "2026-08-31T23:16:15.431491",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-468200010": {
       "apartment_id": "5889-468200010",
@@ -1486,7 +1486,7 @@
       "first_seen": "2026-07-31T23:26:10.477096",
       "last_seen": "2026-09-30T22:42:42.825068",
       "last_updated": "2026-09-30T22:42:42.825068",
-      "status": "active"
+      "status": "removed"
     },
     "5889-660100100": {
       "apartment_id": "5889-660100100",
@@ -1612,7 +1612,7 @@
       "apartment_id": "5889-663000230",
       "data": {
         "description": null,
-        "found_at": "2026-08-31T23:15:19.747373",
+        "found_at": "2026-09-30T23:17:26.624732",
         "id": "5889-663000230",
         "image_url": "https://storage.justimmo.at/thumb/7b16fea1c1d37320210d682320c7050e/fc_h1080_w1920/1d6gzj13NeZ0QnxE1QpsiO.jpg",
         "location": "8010 Graz",
@@ -1628,9 +1628,9 @@
         "url": "https://www.bwsg.at/objekt/unbefristete-3-zimmer-wohnung-in-8010-graz/"
       },
       "first_seen": "2026-08-31T23:16:15.431491",
-      "last_seen": "2026-08-31T23:16:15.431491",
-      "last_updated": "2026-08-31T23:16:15.431491",
-      "status": "removed"
+      "last_seen": "2026-09-30T23:18:21.841506",
+      "last_updated": "2026-09-30T23:18:21.841506",
+      "status": "active"
     },
     "5889-663000260": {
       "apartment_id": "5889-663000260",
@@ -1657,6 +1657,6 @@
       "status": "removed"
     }
   },
-  "last_scrape": "2026-09-30T22:42:42.825068",
+  "last_scrape": "2026-09-30T23:18:21.841506",
   "site": "bwsg"
 }
