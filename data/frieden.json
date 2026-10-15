@@ -29,7 +29,7 @@
       "apartment_id": "frieden-0c7e06f461f11cc5",
       "data": {
         "description": "Miete ohne Kaufoption",
-        "found_at": "2026-10-15T16:19:15.195977",
+        "found_at": "2026-10-15T16:43:28.893076",
         "id": "frieden-0c7e06f461f11cc5",
         "image_url": null,
         "location": "2020 Hollabrunn Sparkassegasse",
@@ -46,8 +46,8 @@
         "url": "https://www.frieden.at/projekte/Living-City-in-Hollabrunns-Fussgangerzone"
       },
       "first_seen": "2026-02-23T23:17:30.655537",
-      "last_seen": "2026-10-15T16:19:57.511195",
-      "last_updated": "2026-10-15T16:19:57.511195",
+      "last_seen": "2026-10-15T16:44:16.535008",
+      "last_updated": "2026-10-15T16:44:16.535008",
       "status": "active"
     },
     "frieden-45c91ee0f69bbc36": {
@@ -79,7 +79,7 @@
       "apartment_id": "frieden-4e6ceee763fc61c1",
       "data": {
         "description": "Kauf",
-        "found_at": "2026-10-15T16:19:15.196103",
+        "found_at": "2026-10-15T16:43:28.893159",
         "id": "frieden-4e6ceee763fc61c1",
         "image_url": null,
         "location": "2103 Langenzersdorf Weißes",
@@ -96,15 +96,15 @@
         "url": "https://www.frieden.at/projekte/Stressfrei-Parken-in-Langenzersdorf"
       },
       "first_seen": "2026-02-23T23:17:30.655537",
-      "last_seen": "2026-10-15T16:19:57.511195",
-      "last_updated": "2026-10-15T16:19:57.511195",
+      "last_seen": "2026-10-15T16:44:16.535008",
+      "last_updated": "2026-10-15T16:44:16.535008",
       "status": "active"
     },
     "frieden-5c9efdc8602efdc2": {
       "apartment_id": "frieden-5c9efdc8602efdc2",
       "data": {
         "description": "Kauf",
-        "found_at": "2026-10-15T16:19:15.196204",
+        "found_at": "2026-10-15T16:43:28.893221",
         "id": "frieden-5c9efdc8602efdc2",
         "image_url": null,
         "location": "2620 Natschbach-Loipersbach Steingasse",
@@ -121,15 +121,15 @@
         "url": "https://www.frieden.at/projekte/Gefordertes-Eigenheim-im-Grunen"
       },
       "first_seen": "2026-02-23T23:17:30.655537",
-      "last_seen": "2026-10-15T16:19:57.511195",
-      "last_updated": "2026-10-15T16:19:57.511195",
+      "last_seen": "2026-10-15T16:44:16.535008",
+      "last_updated": "2026-10-15T16:44:16.535008",
       "status": "active"
     },
     "frieden-5ecb533effa83509": {
       "apartment_id": "frieden-5ecb533effa83509",
       "data": {
         "description": "Miete mit gesetzlicher Kaufoption",
-        "found_at": "2026-10-15T16:19:15.196393",
+        "found_at": "2026-10-15T16:43:28.893342",
         "id": "frieden-5ecb533effa83509",
         "image_url": null,
         "location": "2700 Wiener Neustadt",
@@ -147,8 +147,8 @@
         "url": "https://www.frieden.at/projekte/Familienwohnen-am-Platz"
       },
       "first_seen": "2026-02-23T23:17:30.655537",
-      "last_seen": "2026-10-15T16:19:57.511195",
-      "last_updated": "2026-10-15T16:19:57.511195",
+      "last_seen": "2026-10-15T16:44:16.535008",
+      "last_updated": "2026-10-15T16:44:16.535008",
       "status": "active"
     },
     "frieden-6fb86a831a4fe8da": {
@@ -180,7 +180,7 @@
       "apartment_id": "frieden-891b60643fdf6938",
       "data": {
         "description": "Miete ohne Kaufoption",
-        "found_at": "2026-10-15T16:19:15.196854",
+        "found_at": "2026-10-15T16:43:28.893639",
         "id": "frieden-891b60643fdf6938",
         "image_url": null,
         "location": "6385 Schwendt Dorfstraße",
@@ -197,8 +197,8 @@
         "url": "https://www.frieden.at/projekte/2064"
       },
       "first_seen": "2026-10-15T13:19:27.712141",
-      "last_seen": "2026-10-15T16:19:57.511195",
-      "last_updated": "2026-10-15T16:19:57.511195",
+      "last_seen": "2026-10-15T16:44:16.535008",
+      "last_updated": "2026-10-15T16:44:16.535008",
       "status": "active"
     },
     "frieden-893a4e03ae37dcb0": {
@@ -230,7 +230,7 @@
       "apartment_id": "frieden-8a33c3945047f327",
       "data": {
         "description": "Miete ohne Kaufoption",
-        "found_at": "2026-10-15T16:19:15.196578",
+        "found_at": "2026-10-15T16:43:28.893517",
         "id": "frieden-8a33c3945047f327",
         "image_url": null,
         "location": "3300 Amstetten Haabergstraße",
@@ -247,15 +247,15 @@
         "url": "https://www.frieden.at/projekte/Paradiesgartl"
       },
       "first_seen": "2026-09-01T07:41:59.671649",
-      "last_seen": "2026-10-15T16:19:57.511195",
-      "last_updated": "2026-10-15T16:19:57.511195",
+      "last_seen": "2026-10-15T16:44:16.535008",
+      "last_updated": "2026-10-15T16:44:16.535008",
       "status": "active"
     },
     "frieden-97b9102ffce6c43e": {
       "apartment_id": "frieden-97b9102ffce6c43e",
       "data": {
         "description": "Kauf",
-        "found_at": "2026-10-15T16:19:15.196674",
+        "found_at": "2026-10-15T16:43:28.893581",
         "id": "frieden-97b9102ffce6c43e",
         "image_url": null,
         "location": "6352 Ellmau",
@@ -272,8 +272,8 @@
         "url": "https://www.frieden.at/projekte/Personalwohnhaus-Ellmau-Steinerner-Tisch"
       },
       "first_seen": "2026-10-15T13:19:27.712141",
-      "last_seen": "2026-10-15T16:19:57.511195",
-      "last_updated": "2026-10-15T16:19:57.511195",
+      "last_seen": "2026-10-15T16:44:16.535008",
+      "last_updated": "2026-10-15T16:44:16.535008",
       "status": "active"
     },
     "frieden-b0bfe73e975b6302": {
@@ -305,7 +305,7 @@
       "apartment_id": "frieden-c38264a9cfa7d66a",
       "data": {
         "description": "Miete ohne Kaufoption",
-        "found_at": "2026-10-15T16:19:15.196487",
+        "found_at": "2026-10-15T16:43:28.893410",
         "id": "frieden-c38264a9cfa7d66a",
         "image_url": null,
         "location": "2700 Wiener Neustadt",
@@ -322,15 +322,15 @@
         "url": "https://www.frieden.at/projekte/FAMILIENFREUNDLICHES-WOHNEN-IN-WR-NEUSTADT"
       },
       "first_seen": "2026-02-23T23:17:30.655537",
-      "last_seen": "2026-10-15T16:19:57.511195",
-      "last_updated": "2026-10-15T16:19:57.511195",
+      "last_seen": "2026-10-15T16:44:16.535008",
+      "last_updated": "2026-10-15T16:44:16.535008",
       "status": "active"
     },
     "frieden-ceff664728cee6f8": {
       "apartment_id": "frieden-ceff664728cee6f8",
       "data": {
         "description": "Miete mit gesetzlicher Kaufoption",
-        "found_at": "2026-10-15T16:19:15.196297",
+        "found_at": "2026-10-15T16:43:28.893281",
         "id": "frieden-ceff664728cee6f8",
         "image_url": null,
         "location": "2620 Neunkirchen Panoramagasse",
@@ -348,11 +348,11 @@
         "url": "https://www.frieden.at/projekte/Wohnen-in-der-Bezirkshauptstadt"
       },
       "first_seen": "2026-02-23T23:17:30.655537",
-      "last_seen": "2026-10-15T16:19:57.511195",
-      "last_updated": "2026-10-15T16:19:57.511195",
+      "last_seen": "2026-10-15T16:44:16.535008",
+      "last_updated": "2026-10-15T16:44:16.535008",
       "status": "active"
     }
   },
-  "last_scrape": "2026-10-15T16:19:57.511195",
+  "last_scrape": "2026-10-15T16:44:16.535008",
   "site": "frieden"
 }
