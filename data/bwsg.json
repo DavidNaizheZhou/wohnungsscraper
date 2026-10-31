@@ -382,7 +382,7 @@
       "first_seen": "2026-08-31T00:55:49.996680",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-151400790": {
       "apartment_id": "5889-151400790",
@@ -502,7 +502,7 @@
       "first_seen": "2026-07-31T11:48:04.339412",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-154000220": {
       "apartment_id": "5889-154000220",
@@ -622,7 +622,7 @@
       "first_seen": "2026-08-31T00:55:49.996680",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-154730288": {
       "apartment_id": "5889-154730288",
@@ -646,7 +646,7 @@
       "first_seen": "2026-10-31T23:10:26.364645",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-155200230": {
       "apartment_id": "5889-155200230",
@@ -814,7 +814,7 @@
       "first_seen": "2026-10-31T23:10:26.364645",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-160800310": {
       "apartment_id": "5889-160800310",
@@ -862,7 +862,7 @@
       "first_seen": "2026-07-31T23:26:10.477096",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-161000480": {
       "apartment_id": "5889-161000480",
@@ -982,7 +982,7 @@
       "first_seen": "2026-07-21T15:15:11.118176",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-187107": {
       "apartment_id": "5889-187107",
@@ -1252,7 +1252,7 @@
       "apartment_id": "5889-191500030",
       "data": {
         "description": null,
-        "found_at": "2026-10-31T23:09:26.543148",
+        "found_at": "2026-10-31T23:35:07.335893",
         "id": "5889-191500030",
         "image_url": "https://storage.justimmo.at/thumb/5b9239560766e008f4f1d9aff5c0e646/fc_h1080_w1920/72cervu72KMXU5YLIMp884.jpg",
         "location": "7410 Loipersdorf-Kitzladen",
@@ -1268,15 +1268,15 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-3-zimmer-wohnung-mit-loggia/"
       },
       "first_seen": "2026-04-17T00:56:39.395679",
-      "last_seen": "2026-10-31T23:10:26.364645",
-      "last_updated": "2026-10-31T23:10:26.364645",
+      "last_seen": "2026-10-31T23:36:00.825809",
+      "last_updated": "2026-10-31T23:36:00.825809",
       "status": "active"
     },
     "5889-191500071": {
       "apartment_id": "5889-191500071",
       "data": {
         "description": null,
-        "found_at": "2026-10-31T23:09:26.543280",
+        "found_at": "2026-10-31T23:35:07.336059",
         "id": "5889-191500071",
         "image_url": "https://storage.justimmo.at/thumb/5c5115318809b6b0d7b62d0c513176d4/fc_h1080_w1920/HcFyglRb3V6SyuWRjo32x.jpg",
         "location": "7410 Loipersdorf-Kitzladen",
@@ -1292,8 +1292,8 @@
         "url": "https://www.bwsg.at/objekt/gemuetliche-3-zimmer-wohnung-in-loipersdorf-kitzladen-mit-loggia-ihr-neues-zuhause/"
       },
       "first_seen": "2026-03-05T00:48:08.845520",
-      "last_seen": "2026-10-31T23:10:26.364645",
-      "last_updated": "2026-10-31T23:10:26.364645",
+      "last_seen": "2026-10-31T23:36:00.825809",
+      "last_updated": "2026-10-31T23:36:00.825809",
       "status": "active"
     },
     "5889-238691": {
@@ -1372,7 +1372,7 @@
       "apartment_id": "5889-464400140",
       "data": {
         "description": null,
-        "found_at": "2026-10-31T23:09:26.543424",
+        "found_at": "2026-10-31T23:35:07.336230",
         "id": "5889-464400140",
         "image_url": "https://storage.justimmo.at/thumb/6b0e32c88717c52565686e7968ddddf4/fc_h1080_w1920/rA9SRoviAGGehado13t8o3.jpg",
         "location": "8301 Hönigtal",
@@ -1388,8 +1388,8 @@
         "url": "https://www.bwsg.at/objekt/8301-kainbach-hoenigtal-schulstrasse-26-28-30-32/"
       },
       "first_seen": "2026-08-10T14:31:19.181508",
-      "last_seen": "2026-10-31T23:10:26.364645",
-      "last_updated": "2026-10-31T23:10:26.364645",
+      "last_seen": "2026-10-31T23:36:00.825809",
+      "last_updated": "2026-10-31T23:36:00.825809",
       "status": "active"
     },
     "5889-468100010": {
@@ -1462,7 +1462,7 @@
       "first_seen": "2026-08-31T23:16:15.431491",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-468200010": {
       "apartment_id": "5889-468200010",
@@ -1558,7 +1558,7 @@
       "first_seen": "2026-07-31T23:26:10.477096",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-660100100": {
       "apartment_id": "5889-660100100",
@@ -1582,7 +1582,7 @@
       "first_seen": "2026-04-17T00:56:39.395679",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-660100180": {
       "apartment_id": "5889-660100180",
@@ -1606,7 +1606,7 @@
       "first_seen": "2026-03-12T23:44:28.191769",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-660800050": {
       "apartment_id": "5889-660800050",
@@ -1702,7 +1702,7 @@
       "first_seen": "2026-08-31T23:16:15.431491",
       "last_seen": "2026-10-31T23:10:26.364645",
       "last_updated": "2026-10-31T23:10:26.364645",
-      "status": "active"
+      "status": "removed"
     },
     "5889-663000260": {
       "apartment_id": "5889-663000260",
@@ -1729,6 +1729,6 @@
       "status": "removed"
     }
   },
-  "last_scrape": "2026-10-31T23:10:26.364645",
+  "last_scrape": "2026-10-31T23:36:00.825809",
   "site": "bwsg"
 }
